@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AMR-PLM
 
 # Experimental Environments
