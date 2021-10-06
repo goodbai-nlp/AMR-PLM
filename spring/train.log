@@ -1,0 +1,860 @@
+nohup: ignoring input
+/opt/conda/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.6) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+wandb: WARNING W&B installed but not logged in.  Run `wandb login` or set the WANDB_API_KEY env variable.
+ignoring epigraph data for duplicate triple: ('b', ':mod', 'h')
+ignoring epigraph data for duplicate triple: ('e', ':polarity', '-')
+ignoring epigraph data for duplicate triple: ('c', ':ARG1', 'g')
+ignoring epigraph data for duplicate triple: ('w', ':polarity', '-')
+cannot deinvert attribute: ('p2', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p2', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p2', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p2', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p2', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p4', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p4', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p4', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p4', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p4', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p5', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p5', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p5', ':ARG0-of', 'r')
+cannot deinvert attribute: ('p5', ':ARG0-of', 'r')
+cannot deinvert attribute: ('c', ':ARG1-of', 't2')
+cannot deinvert attribute: ('c', ':ARG1-of', 't2')
+cannot deinvert attribute: ('p2', ':part-of', 'b')
+cannot deinvert attribute: ('p2', ':part-of', 'b')
+cannot deinvert attribute: ('p2', ':part-of', 'b')
+cannot deinvert attribute: ('p2', ':part-of', 'b')
+cannot deinvert attribute: ('p2', ':part-of', 'b')
+cannot deinvert attribute: ('p3', ':ARG0-of', 'c')
+cannot deinvert attribute: ('p3', ':ARG0-of', 'c')
+cannot deinvert attribute: ('p3', ':ARG0-of', 'c')
+cannot deinvert attribute: ('p3', ':ARG0-of', 'c')
+cannot deinvert attribute: ('s3', ':part-of', 's2')
+cannot deinvert attribute: ('s3', ':part-of', 's2')
+cannot deinvert attribute: ('p2', ':subevent-of', 'm')
+cannot deinvert attribute: ('p2', ':subevent-of', 'm')
+cannot deinvert attribute: ('p2', ':subevent-of', 'm')
+cannot deinvert attribute: ('p2', ':subevent-of', 'm')
+cannot deinvert attribute: ('p2', ':subevent-of', 'm')
+cannot deinvert attribute: ('s', ':ARG1-of', 'w')
+cannot deinvert attribute: ('s', ':ARG1-of', 'w')
+ignoring epigraph data for duplicate triple: ('e', ':polarity', '-')
+ignoring epigraph data for duplicate triple: ('e', ':polarity', '-')
+cannot deinvert attribute: ('b', ':topic-of', 'd')
+cannot deinvert attribute: ('b', ':topic-of', 'd')
+cannot deinvert attribute: ('b', ':topic-of', 'd')
+cannot deinvert attribute: ('b', ':topic-of', 'd')
+cannot deinvert attribute: ('m', ':part-of', 'k')
+cannot deinvert attribute: ('m', ':part-of', 'o2')
+cannot deinvert attribute: ('m3', ':quant-of', 's')
+cannot deinvert attribute: ('c3', ':ARG1-of', 'c2')
+cannot deinvert attribute: ('c3', ':ARG1-of', 'c2')
+cannot deinvert attribute: ('c3', ':ARG1-of', 'c2')
+cannot deinvert attribute: ('c3', ':ARG1-of', 'c2')
+ignoring epigraph data for duplicate triple: ('w', ':polarity', '-')
+ignoring epigraph data for duplicate triple: ('w', ':polarity', '-')
+cannot deinvert attribute: ('h', ':part-of', 'e')
+cannot deinvert attribute: ('h', ':part-of', 'e')
+cannot deinvert attribute: ('h', ':part-of', 'e')
+cannot deinvert attribute: ('g', ':ARG1-of', 'p')
+cannot deinvert attribute: ('l', ':ARG2-of', 'p')
+ignoring secondary node contexts for 'h'
+ignoring secondary node contexts for 'g'
+ignoring epigraph data for duplicate triple: ('m2', ':ARG2', 'c6')
+/nfs/Desktop/AMRparsing/spring/spring_amr/optim.py:62: UserWarning: This overload of addcmul_ is deprecated:
+	addcmul_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+	addcmul_(Tensor tensor1, Tensor tensor2, *, Number value) (Triggered internally at  /opt/conda/conda-bld/pytorch_1595629416375/work/torch/csrc/utils/python_arg_parser.cpp:766.)
+  exp_avg_sq.mul_(beta2).addcmul_(1 - beta2, grad, grad)
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<01:56, 11.49it/s]  3%|▎         | 36/1368 [00:05<03:12,  6.91it/s]  3%|▎         | 45/1368 [00:09<05:24,  4.08it/s]  5%|▍         | 68/1368 [00:12<04:24,  4.91it/s]  6%|▋         | 86/1368 [00:14<03:57,  5.40it/s]  7%|▋         | 100/1368 [00:17<03:51,  5.48it/s]  8%|▊         | 112/1368 [00:19<03:50,  5.45it/s]  9%|▉         | 127/1368 [00:21<03:30,  5.88it/s] 12%|█▏        | 163/1368 [00:23<02:42,  7.42it/s] 14%|█▍        | 194/1368 [00:25<02:10,  9.02it/s] 16%|█▌        | 216/1368 [00:26<01:56,  9.93it/s] 17%|█▋        | 238/1368 [00:29<01:53,  9.93it/s] 19%|█▉        | 260/1368 [00:31<01:52,  9.88it/s] 21%|██▏       | 294/1368 [00:32<01:31, 11.69it/s] 24%|██▍       | 327/1368 [00:34<01:16, 13.61it/s] 26%|██▌       | 355/1368 [00:36<01:18, 12.97it/s] 27%|██▋       | 375/1368 [00:38<01:20, 12.26it/s] 29%|██▉       | 395/1368 [00:41<01:34, 10.34it/s] 30%|███       | 412/1368 [00:43<01:47,  8.86it/s] 32%|███▏      | 431/1368 [00:46<01:58,  7.89it/s] 33%|███▎      | 448/1368 [00:49<02:05,  7.33it/s] 34%|███▍      | 466/1368 [00:52<02:02,  7.34it/s] 36%|███▌      | 493/1368 [00:54<01:45,  8.31it/s] 38%|███▊      | 520/1368 [00:56<01:32,  9.21it/s] 40%|███▉      | 544/1368 [00:58<01:27,  9.47it/s] 41%|████▏     | 566/1368 [01:01<01:29,  8.95it/s] 43%|████▎     | 589/1368 [01:04<01:25,  9.10it/s] 45%|████▌     | 617/1368 [01:06<01:14, 10.01it/s] 47%|████▋     | 637/1368 [01:08<01:13,  9.88it/s] 49%|████▊     | 665/1368 [01:10<01:03, 11.10it/s] 50%|█████     | 687/1368 [01:12<01:03, 10.72it/s] 52%|█████▏    | 710/1368 [01:14<01:01, 10.69it/s] 54%|█████▍    | 736/1368 [01:17<01:02, 10.16it/s] 56%|█████▌    | 762/1368 [01:19<00:54, 11.12it/s] 58%|█████▊    | 787/1368 [01:21<00:51, 11.24it/s] 59%|█████▊    | 802/1368 [01:24<01:10,  8.01it/s] 60%|██████    | 823/1368 [01:27<01:07,  8.06it/s] 62%|██████▏   | 844/1368 [01:29<01:01,  8.54it/s] 63%|██████▎   | 864/1368 [01:31<00:59,  8.47it/s] 65%|██████▍   | 884/1368 [01:34<01:01,  7.91it/s] 66%|██████▌   | 899/1368 [01:36<01:03,  7.36it/s] 67%|██████▋   | 917/1368 [01:39<01:01,  7.32it/s] 69%|██████▉   | 941/1368 [01:41<00:51,  8.21it/s] 71%|███████   | 968/1368 [01:43<00:43,  9.21it/s] 72%|███████▏  | 989/1368 [01:46<00:43,  8.77it/s] 74%|███████▍  | 1009/1368 [01:48<00:42,  8.41it/s] 75%|███████▌  | 1032/1368 [01:50<00:37,  8.95it/s] 78%|███████▊  | 1065/1368 [01:53<00:29, 10.31it/s] 80%|████████  | 1095/1368 [01:55<00:24, 11.28it/s] 82%|████████▏ | 1123/1368 [01:57<00:21, 11.60it/s] 84%|████████▍ | 1152/1368 [01:59<00:17, 12.49it/s] 86%|████████▌ | 1179/1368 [02:01<00:14, 12.76it/s] 88%|████████▊ | 1201/1368 [02:03<00:14, 11.44it/s] 90%|████████▉ | 1231/1368 [02:06<00:12, 11.37it/s] 92%|█████████▏| 1258/1368 [02:08<00:09, 11.58it/s] 93%|█████████▎| 1274/1368 [02:10<00:09,  9.63it/s] 94%|█████████▍| 1287/1368 [02:13<00:11,  6.97it/s] 95%|█████████▌| 1304/1368 [02:16<00:09,  6.51it/s] 97%|█████████▋| 1323/1368 [02:19<00:06,  6.81it/s] 98%|█████████▊| 1341/1368 [02:22<00:04,  6.72it/s] 99%|█████████▉| 1360/1368 [02:24<00:01,  6.99it/s]100%|██████████| 1368/1368 [02:27<00:00,  5.35it/s]100%|██████████| 1368/1368 [02:27<00:00,  9.31it/s]
+Missing concept: ( z0 / give-01 :ARG0 ( z1 / history ) :ARG1 ( z2 / lesson :quant ( z3 / too ) ) :quant ( z4 / ) ) 
+ignoring epigraph data for duplicate triple: ('z5', ':ARG0', 'z3')
+ignoring epigraph data for duplicate triple: ('z5', ':ARG0', 'z3')
+ignoring secondary node contexts for 'z5'
+ignoring epigraph data for duplicate triple: ('z4', ':day', '11')
+ignoring epigraph data for duplicate triple: ('z4', ':day', '11')
+ignoring epigraph data for duplicate triple: ('z9', ':day', '15')
+ignoring epigraph data for duplicate triple: ('z9', ':day', '15')
+ignoring epigraph data for duplicate triple: ('z7', ':day', '9')
+ignoring epigraph data for duplicate triple: ('z7', ':day', '9')
+ignoring epigraph data for duplicate triple: ('z7', ':day', '9')
+ignoring epigraph data for duplicate triple: ('z7', ':day', '9')
+ignoring epigraph data for duplicate triple: ('z10', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z10', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z10', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z10', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z10', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z10', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z10', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z10', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z8', ':day', '8')
+ignoring epigraph data for duplicate triple: ('z8', ':day', '8')
+ignoring epigraph data for duplicate triple: ('z10', ':op3', '"in"')
+ignoring epigraph data for duplicate triple: ('z10', ':op3', '"in"')
+ignoring epigraph data for duplicate triple: ('z7', ':op3', '"and"')
+ignoring epigraph data for duplicate triple: ('z7', ':op3', '"and"')
+ignoring epigraph data for duplicate triple: ('z9', ':day', '9')
+ignoring epigraph data for duplicate triple: ('z9', ':day', '9')
+ignoring epigraph data for duplicate triple: ('z12', ':day', '9')
+ignoring epigraph data for duplicate triple: ('z12', ':day', '9')
+ignoring epigraph data for duplicate triple: ('z12', ':day', '9')
+ignoring epigraph data for duplicate triple: ('z12', ':day', '9')
+ignoring epigraph data for duplicate triple: ('z4', ':day', '14')
+ignoring epigraph data for duplicate triple: ('z4', ':day', '14')
+ignoring epigraph data for duplicate triple: ('z9', ':op3', '"in"')
+ignoring epigraph data for duplicate triple: ('z9', ':op3', '"in"')
+ignoring epigraph data for duplicate triple: ('z3', ':op3', '"in"')
+ignoring epigraph data for duplicate triple: ('z3', ':op3', '"in"')
+Missing concept: ( z0 / believe-01 :ARG0 ( z1 / person :wiki "Javier_Alvarez" :name ( z2 / name :op1 "Alvarez" ) ) :ARG1 ( z3 / own-01 :ARG0 ( z4 / club :wiki "Mapaches_Football_Club" :name ( z5 / name :op1 "Mapaches" :op2 "Football" ) :location ( z6 / state :wiki "Michoacan" :name ( z7 / name :op1 "Michoacan" ) ) :ARG1-of ( z8 / ) ) ) ) 
+ignoring epigraph data for duplicate triple: ('z6', ':op2', '"for"')
+ignoring epigraph data for duplicate triple: ('z6', ':op2', '"for"')
+ignoring epigraph data for duplicate triple: ('z2', ':op2', '"Company"')
+ignoring epigraph data for duplicate triple: ('z2', ':op2', '"Company"')
+ignoring epigraph data for duplicate triple: ('z17', ':day', '4')
+ignoring epigraph data for duplicate triple: ('z17', ':day', '4')
+ignoring epigraph data for duplicate triple: ('z13', ':day', '8')
+ignoring epigraph data for duplicate triple: ('z13', ':day', '8')
+ignoring epigraph data for duplicate triple: ('z11', ':day', '8')
+ignoring epigraph data for duplicate triple: ('z11', ':day', '8')
+ignoring epigraph data for duplicate triple: ('z5', ':op2', '"of"')
+ignoring epigraph data for duplicate triple: ('z5', ':op2', '"of"')
+ignoring epigraph data for duplicate triple: ('z4', ':op2', '"of"')
+ignoring epigraph data for duplicate triple: ('z4', ':op2', '"of"')
+ignoring epigraph data for duplicate triple: ('z4', ':day', '2')
+ignoring epigraph data for duplicate triple: ('z4', ':day', '2')
+ignoring epigraph data for duplicate triple: ('z9', ':day', '7')
+ignoring epigraph data for duplicate triple: ('z9', ':day', '7')
+ignoring epigraph data for duplicate triple: ('z9', ':day', '7')
+ignoring epigraph data for duplicate triple: ('z9', ':day', '7')
+ignoring epigraph data for duplicate triple: ('z9', ':day', '7')
+ignoring epigraph data for duplicate triple: ('z9', ':day', '7')
+ignoring epigraph data for duplicate triple: ('z10', ':day', '8')
+ignoring epigraph data for duplicate triple: ('z10', ':day', '8')
+ignoring epigraph data for duplicate triple: ('z10', ':day', '4')
+ignoring epigraph data for duplicate triple: ('z10', ':day', '4')
+ignoring epigraph data for duplicate triple: ('z2', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z2', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z2', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z2', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z2', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z2', ':op3', '"of"')
+ignoring epigraph data for duplicate triple: ('z2', ':op4', '"of"')
+ignoring epigraph data for duplicate triple: ('z2', ':op4', '"of"')
+ignoring epigraph data for duplicate triple: ('z2', ':quant', '4')
+ignoring epigraph data for duplicate triple: ('z2', ':quant', '4')
+ignoring epigraph data for duplicate triple: ('z6', ':month', '1')
+ignoring epigraph data for duplicate triple: ('z6', ':month', '1')
+Missing concept: ( z0 / Imports :ARG1-of ( z1 / monetary-quantity :quant "50.38" :unit ( z2 / dollar ) ) :ARG1-of ( z3 / ) ) 
+ignoring secondary node contexts for 'z5'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:06, 10.64it/s]  3%|▎         | 36/1368 [00:06<03:51,  5.74it/s]  3%|▎         | 45/1368 [00:13<07:37,  2.89it/s]  5%|▍         | 68/1368 [00:15<05:59,  3.62it/s]  6%|▋         | 86/1368 [00:19<05:20,  4.01it/s]  7%|▋         | 100/1368 [00:22<05:07,  4.13it/s]  8%|▊         | 112/1368 [00:26<05:32,  3.78it/s]  9%|▉         | 127/1368 [00:29<05:16,  3.92it/s] 12%|█▏        | 163/1368 [00:31<03:53,  5.16it/s] 14%|█▍        | 194/1368 [00:34<03:08,  6.24it/s] 16%|█▌        | 216/1368 [00:36<02:51,  6.71it/s] 17%|█▋        | 238/1368 [00:39<02:38,  7.13it/s] 19%|█▉        | 260/1368 [00:42<02:38,  7.00it/s] 21%|██▏       | 294/1368 [00:45<02:09,  8.27it/s] 24%|██▍       | 327/1368 [00:46<01:45,  9.88it/s] 26%|██▌       | 355/1368 [00:49<01:37, 10.42it/s] 27%|██▋       | 375/1368 [00:51<01:43,  9.57it/s] 29%|██▉       | 395/1368 [00:54<01:49,  8.88it/s] 30%|███       | 412/1368 [00:57<02:05,  7.64it/s] 32%|███▏      | 431/1368 [01:00<02:16,  6.86it/s] 33%|███▎      | 448/1368 [01:04<02:33,  6.01it/s] 34%|███▍      | 466/1368 [01:07<02:26,  6.14it/s] 36%|███▌      | 493/1368 [01:10<02:07,  6.88it/s] 38%|███▊      | 520/1368 [01:12<01:50,  7.65it/s] 40%|███▉      | 544/1368 [01:15<01:45,  7.81it/s] 41%|████▏     | 566/1368 [01:19<01:50,  7.27it/s] 43%|████▎     | 589/1368 [01:21<01:40,  7.72it/s] 45%|████▌     | 617/1368 [01:24<01:27,  8.56it/s] 47%|████▋     | 637/1368 [01:27<01:32,  7.90it/s] 49%|████▊     | 665/1368 [01:29<01:19,  8.85it/s] 50%|█████     | 687/1368 [01:33<01:28,  7.69it/s] 52%|█████▏    | 710/1368 [01:35<01:23,  7.91it/s] 54%|█████▍    | 736/1368 [01:38<01:16,  8.31it/s] 56%|█████▌    | 762/1368 [01:40<01:07,  8.99it/s] 58%|█████▊    | 787/1368 [01:43<01:03,  9.16it/s] 59%|█████▊    | 802/1368 [01:47<01:27,  6.45it/s] 60%|██████    | 823/1368 [01:50<01:23,  6.53it/s] 62%|██████▏   | 844/1368 [02:04<02:41,  3.24it/s] 63%|██████▎   | 864/1368 [02:07<02:11,  3.83it/s] 65%|██████▍   | 884/1368 [02:12<02:00,  4.03it/s] 66%|██████▌   | 899/1368 [02:15<01:53,  4.13it/s] 67%|██████▋   | 917/1368 [02:18<01:40,  4.48it/s] 69%|██████▉   | 941/1368 [02:21<01:23,  5.12it/s] 71%|███████   | 968/1368 [02:24<01:06,  6.04it/s] 72%|███████▏  | 989/1368 [02:27<01:02,  6.03it/s] 74%|███████▍  | 1009/1368 [02:31<00:59,  5.99it/s] 75%|███████▌  | 1032/1368 [02:33<00:50,  6.69it/s] 78%|███████▊  | 1065/1368 [02:36<00:38,  7.85it/s] 80%|████████  | 1095/1368 [02:38<00:31,  8.67it/s] 82%|████████▏ | 1123/1368 [02:41<00:27,  9.06it/s] 84%|████████▍ | 1152/1368 [02:44<00:21,  9.82it/s] 86%|████████▌ | 1179/1368 [02:46<00:18, 10.35it/s] 88%|████████▊ | 1201/1368 [02:49<00:19,  8.72it/s] 90%|████████▉ | 1231/1368 [02:52<00:14,  9.40it/s] 92%|█████████▏| 1258/1368 [02:55<00:11,  9.56it/s] 93%|█████████▎| 1274/1368 [02:58<00:13,  7.20it/s] 94%|█████████▍| 1287/1368 [03:03<00:16,  4.94it/s] 95%|█████████▌| 1304/1368 [03:06<00:13,  4.92it/s] 97%|█████████▋| 1323/1368 [03:10<00:08,  5.07it/s] 98%|█████████▊| 1341/1368 [03:13<00:05,  5.11it/s] 99%|█████████▉| 1360/1368 [03:16<00:01,  5.53it/s]100%|██████████| 1368/1368 [03:19<00:00,  4.04it/s]100%|██████████| 1368/1368 [03:19<00:00,  6.85it/s]
+Missing concept: ( z0 / multi-sentence :snt1 ( z1 / give-01 :ARG0 ( z2 / history ) :ARG1 ( z3 / lesson :quant ( z4 / too ) ) :ARG2 ( z5 / and :op1 ( z6 / ) ) ) ) 
+ignoring epigraph data for duplicate triple: ('z13', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z13', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z5', ':day', '11')
+ignoring epigraph data for duplicate triple: ('z6', ':day', '11')
+ignoring epigraph data for duplicate triple: ('z5', ':day', '11')
+ignoring epigraph data for duplicate triple: ('z6', ':day', '11')
+ignoring epigraph data for duplicate triple: ('z10', ':polarity', '-')
+ignoring epigraph data for duplicate triple: ('z10', ':polarity', '-')
+ignoring epigraph data for duplicate triple: ('z5', ':poss', 'z3')
+ignoring epigraph data for duplicate triple: ('z5', ':poss', 'z3')
+Missing concept: ( z0 / symbol :domain ( z1 / cartel :mod ( z2 / world-region :wiki "Gulf_of_Mexico" :name ( z3 / name :op1 "Gulf" :op2 "of" :op3 "Mexico" ) ) ) :domain ( z4 / ) ) 
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:23,  9.36it/s]  3%|▎         | 36/1368 [00:06<03:49,  5.79it/s]  3%|▎         | 45/1368 [00:14<08:27,  2.61it/s]  5%|▍         | 68/1368 [00:17<06:39,  3.25it/s]  6%|▋         | 86/1368 [00:20<05:49,  3.67it/s]  7%|▋         | 100/1368 [00:23<05:21,  3.94it/s]  8%|▊         | 112/1368 [00:28<06:08,  3.41it/s]  9%|▉         | 127/1368 [00:31<05:40,  3.65it/s] 12%|█▏        | 163/1368 [00:33<04:11,  4.79it/s] 14%|█▍        | 194/1368 [00:36<03:19,  5.89it/s] 16%|█▌        | 216/1368 [00:39<03:00,  6.40it/s] 17%|█▋        | 238/1368 [00:41<02:48,  6.69it/s] 19%|█▉        | 260/1368 [00:45<02:41,  6.84it/s] 21%|██▏       | 294/1368 [00:47<02:11,  8.17it/s] 24%|██▍       | 327/1368 [00:49<01:48,  9.58it/s] 26%|██▌       | 355/1368 [00:51<01:40, 10.10it/s] 27%|██▋       | 375/1368 [00:54<01:45,  9.42it/s] 29%|██▉       | 395/1368 [00:57<01:59,  8.12it/s] 30%|███       | 412/1368 [01:00<02:19,  6.84it/s] 32%|███▏      | 431/1368 [01:04<02:29,  6.28it/s] 33%|███▎      | 448/1368 [01:08<02:43,  5.62it/s] 34%|███▍      | 466/1368 [01:11<02:37,  5.73it/s] 36%|███▌      | 493/1368 [01:14<02:17,  6.34it/s] 38%|███▊      | 520/1368 [01:17<02:00,  7.07it/s] 40%|███▉      | 544/1368 [01:20<01:50,  7.44it/s] 41%|████▏     | 566/1368 [01:23<01:53,  7.07it/s] 43%|████▎     | 589/1368 [01:26<01:46,  7.33it/s] 45%|████▌     | 617/1368 [01:28<01:31,  8.17it/s] 47%|████▋     | 637/1368 [01:31<01:35,  7.69it/s] 49%|████▊     | 665/1368 [01:34<01:21,  8.58it/s] 50%|█████     | 687/1368 [01:37<01:23,  8.14it/s] 52%|█████▏    | 710/1368 [01:40<01:21,  8.07it/s] 54%|█████▍    | 736/1368 [01:43<01:15,  8.40it/s] 56%|█████▌    | 762/1368 [01:45<01:09,  8.78it/s] 58%|█████▊    | 787/1368 [01:48<01:07,  8.62it/s] 59%|█████▊    | 802/1368 [01:52<01:26,  6.57it/s] 60%|██████    | 823/1368 [01:55<01:21,  6.69it/s] 62%|██████▏   | 844/1368 [01:58<01:17,  6.74it/s] 63%|██████▎   | 864/1368 [02:01<01:17,  6.53it/s] 65%|██████▍   | 884/1368 [02:05<01:20,  6.01it/s] 66%|██████▌   | 899/1368 [02:09<01:29,  5.26it/s] 67%|██████▋   | 917/1368 [02:12<01:26,  5.24it/s] 69%|██████▉   | 941/1368 [02:15<01:12,  5.90it/s] 71%|███████   | 968/1368 [02:17<00:58,  6.88it/s] 72%|███████▏  | 989/1368 [02:21<00:55,  6.87it/s] 74%|███████▍  | 1009/1368 [02:24<00:55,  6.51it/s] 75%|███████▌  | 1032/1368 [02:27<00:47,  7.01it/s] 78%|███████▊  | 1065/1368 [02:29<00:37,  8.16it/s] 80%|████████  | 1095/1368 [02:32<00:30,  9.07it/s] 82%|████████▏ | 1123/1368 [02:34<00:26,  9.39it/s] 84%|████████▍ | 1152/1368 [02:37<00:21, 10.21it/s] 86%|████████▌ | 1179/1368 [02:39<00:18, 10.39it/s] 88%|████████▊ | 1201/1368 [02:42<00:18,  9.27it/s] 90%|████████▉ | 1231/1368 [02:47<00:17,  8.05it/s] 92%|█████████▏| 1258/1368 [02:50<00:12,  8.63it/s] 93%|█████████▎| 1274/1368 [02:53<00:14,  6.66it/s] 94%|█████████▍| 1287/1368 [02:57<00:15,  5.06it/s] 95%|█████████▌| 1304/1368 [03:01<00:13,  4.68it/s] 97%|█████████▋| 1323/1368 [03:05<00:09,  4.80it/s] 98%|█████████▊| 1341/1368 [03:09<00:05,  4.96it/s] 99%|█████████▉| 1360/1368 [03:11<00:01,  5.36it/s]100%|██████████| 1368/1368 [03:15<00:00,  3.86it/s]100%|██████████| 1368/1368 [03:15<00:00,  7.00it/s]
+ignoring epigraph data for duplicate triple: ('z13', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z13', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z5', ':day', '11')
+ignoring epigraph data for duplicate triple: ('z5', ':day', '11')
+ignoring epigraph data for duplicate triple: ('z0', ':mode', 'interrogative')
+ignoring epigraph data for duplicate triple: ('z0', ':mode', 'interrogative')
+ignoring epigraph data for duplicate triple: ('z2', ':poss', 'z3')
+ignoring epigraph data for duplicate triple: ('z2', ':poss', 'z3')
+ignoring secondary node contexts for 'z3'
+cannot deinvert attribute: ('z12', ':quant-of', '1')
+cannot deinvert attribute: ('z12', ':quant-of', '1')
+ignoring epigraph data for duplicate triple: ('z15', ':mod', 'z5')
+ignoring epigraph data for duplicate triple: ('z15', ':mod', 'z5')
+cannot deinvert attribute: ('z18', ':consist-of', '12')
+cannot deinvert attribute: ('z18', ':consist-of', '12')
+ignoring epigraph data for duplicate triple: ('z4', ':part', 'z10')
+ignoring epigraph data for duplicate triple: ('z4', ':part', 'z10')
+Missing concept: ( z0 / symbol :domain ( z1 / cartel :mod ( z2 / world-region :wiki "Gulf_of_Mexico" :name ( z3 / name :op1 "Gulf" :op2 "of" :op3 "Mexico" ) ) ) :domain ( z4 / ) ) 
+ignoring secondary node contexts for 'z3'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:03<02:59,  7.48it/s]  3%|▎         | 36/1368 [00:07<04:33,  4.87it/s]  3%|▎         | 45/1368 [00:13<07:45,  2.84it/s]  5%|▍         | 68/1368 [00:16<06:03,  3.57it/s]  6%|▋         | 86/1368 [00:20<05:29,  3.89it/s]  7%|▋         | 100/1368 [00:23<05:13,  4.04it/s]  8%|▊         | 112/1368 [00:28<06:15,  3.35it/s]  9%|▉         | 127/1368 [00:31<05:44,  3.60it/s] 12%|█▏        | 163/1368 [00:33<04:15,  4.72it/s] 14%|█▍        | 194/1368 [00:36<03:19,  5.87it/s] 16%|█▌        | 216/1368 [00:38<03:00,  6.37it/s] 17%|█▋        | 238/1368 [00:41<02:47,  6.76it/s] 19%|█▉        | 260/1368 [00:44<02:35,  7.11it/s] 21%|██▏       | 294/1368 [00:46<02:09,  8.28it/s] 24%|██▍       | 327/1368 [00:48<01:47,  9.70it/s] 26%|██▌       | 355/1368 [00:51<01:39, 10.19it/s] 27%|██▋       | 375/1368 [00:53<01:45,  9.37it/s] 29%|██▉       | 395/1368 [00:57<01:59,  8.13it/s] 30%|███       | 412/1368 [01:00<02:19,  6.87it/s] 32%|███▏      | 431/1368 [01:04<02:28,  6.31it/s] 33%|███▎      | 448/1368 [01:07<02:41,  5.69it/s] 34%|███▍      | 466/1368 [01:11<02:41,  5.58it/s] 36%|███▌      | 493/1368 [01:13<02:15,  6.47it/s] 38%|███▊      | 520/1368 [01:16<01:57,  7.25it/s] 40%|███▉      | 544/1368 [01:19<01:49,  7.53it/s] 41%|████▏     | 566/1368 [01:22<01:48,  7.37it/s] 43%|████▎     | 589/1368 [01:25<01:41,  7.67it/s] 45%|████▌     | 617/1368 [01:27<01:27,  8.54it/s] 47%|████▋     | 637/1368 [01:30<01:32,  7.94it/s] 49%|████▊     | 665/1368 [01:32<01:19,  8.81it/s] 50%|█████     | 687/1368 [01:35<01:21,  8.37it/s] 52%|█████▏    | 710/1368 [01:38<01:18,  8.39it/s] 54%|█████▍    | 736/1368 [01:41<01:12,  8.72it/s] 56%|█████▌    | 762/1368 [01:43<01:06,  9.13it/s] 58%|█████▊    | 787/1368 [01:46<01:05,  8.93it/s] 59%|█████▊    | 802/1368 [01:50<01:27,  6.50it/s] 60%|██████    | 823/1368 [01:53<01:23,  6.52it/s] 62%|██████▏   | 844/1368 [01:57<01:23,  6.30it/s] 63%|██████▎   | 864/1368 [02:00<01:18,  6.40it/s] 65%|██████▍   | 884/1368 [02:04<01:19,  6.06it/s] 66%|██████▌   | 899/1368 [02:07<01:28,  5.30it/s] 67%|██████▋   | 917/1368 [02:11<01:25,  5.25it/s] 69%|██████▉   | 941/1368 [02:14<01:12,  5.90it/s] 71%|███████   | 968/1368 [02:16<00:58,  6.82it/s] 72%|███████▏  | 989/1368 [02:19<00:55,  6.82it/s] 74%|███████▍  | 1009/1368 [02:23<00:55,  6.45it/s] 75%|███████▌  | 1032/1368 [02:25<00:48,  6.96it/s] 78%|███████▊  | 1065/1368 [02:28<00:36,  8.21it/s] 80%|████████  | 1095/1368 [02:30<00:29,  9.12it/s] 82%|████████▏ | 1123/1368 [02:33<00:26,  9.41it/s] 84%|████████▍ | 1152/1368 [02:35<00:20, 10.31it/s] 86%|████████▌ | 1179/1368 [02:38<00:18, 10.48it/s] 88%|████████▊ | 1201/1368 [02:40<00:17,  9.53it/s] 90%|████████▉ | 1231/1368 [02:43<00:13, 10.17it/s] 92%|█████████▏| 1258/1368 [02:46<00:11,  9.89it/s] 93%|█████████▎| 1274/1368 [02:49<00:12,  7.36it/s] 94%|█████████▍| 1287/1368 [02:54<00:16,  4.94it/s] 95%|█████████▌| 1304/1368 [02:57<00:13,  4.86it/s] 97%|█████████▋| 1323/1368 [03:01<00:09,  4.90it/s] 98%|█████████▊| 1341/1368 [03:05<00:05,  5.01it/s] 99%|█████████▉| 1360/1368 [03:07<00:01,  5.46it/s]100%|██████████| 1368/1368 [03:11<00:00,  3.97it/s]100%|██████████| 1368/1368 [03:11<00:00,  7.15it/s]
+ignoring epigraph data for duplicate triple: ('z13', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z13', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z6', ':mod', 'z2')
+ignoring epigraph data for duplicate triple: ('z6', ':mod', 'z2')
+ignoring epigraph data for duplicate triple: ('z15', ':mod', 'z5')
+ignoring epigraph data for duplicate triple: ('z15', ':mod', 'z5')
+ignoring epigraph data for duplicate triple: ('z6', ':unit', 'z5')
+ignoring epigraph data for duplicate triple: ('z6', ':unit', 'z5')
+ignoring epigraph data for duplicate triple: ('z4', ':part', 'z10')
+ignoring epigraph data for duplicate triple: ('z4', ':part', 'z10')
+Missing concept: ( z0 / symbolize-01 :ARG1 ( z1 / cartel :location ( z2 / world-region :wiki "Persian_Gulf" :name ( z3 / name :op1 "Gulf" ) ) ) :ARG2 ( z4 / ) ) 
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:18,  9.72it/s]  3%|▎         | 36/1368 [00:07<04:14,  5.24it/s]  3%|▎         | 45/1368 [00:13<07:36,  2.90it/s]  5%|▍         | 68/1368 [00:16<05:57,  3.63it/s]  6%|▋         | 86/1368 [00:19<05:26,  3.93it/s]  7%|▋         | 100/1368 [00:23<05:17,  4.00it/s]  8%|▊         | 112/1368 [00:27<05:45,  3.64it/s]  9%|▉         | 127/1368 [00:30<05:22,  3.85it/s] 12%|█▏        | 163/1368 [00:32<03:59,  5.04it/s] 14%|█▍        | 194/1368 [00:34<03:09,  6.21it/s] 16%|█▌        | 216/1368 [00:37<02:51,  6.70it/s] 17%|█▋        | 238/1368 [00:40<02:40,  7.04it/s] 19%|█▉        | 260/1368 [00:42<02:29,  7.39it/s] 21%|██▏       | 294/1368 [00:45<02:05,  8.55it/s] 24%|██▍       | 327/1368 [00:47<01:45,  9.85it/s] 26%|██▌       | 355/1368 [00:50<01:39, 10.22it/s] 27%|██▋       | 375/1368 [00:53<02:00,  8.25it/s] 29%|██▉       | 395/1368 [00:57<02:12,  7.33it/s] 30%|███       | 412/1368 [01:00<02:31,  6.33it/s] 32%|███▏      | 431/1368 [01:04<02:37,  5.97it/s] 33%|███▎      | 448/1368 [01:07<02:47,  5.50it/s] 34%|███▍      | 466/1368 [01:11<02:45,  5.45it/s] 36%|███▌      | 493/1368 [01:13<02:17,  6.36it/s] 38%|███▊      | 520/1368 [01:16<02:00,  7.06it/s] 40%|███▉      | 544/1368 [01:19<01:51,  7.39it/s] 41%|████▏     | 566/1368 [01:22<01:50,  7.25it/s] 43%|████▎     | 589/1368 [01:25<01:44,  7.48it/s] 45%|████▌     | 617/1368 [01:28<01:31,  8.23it/s] 47%|████▋     | 637/1368 [01:31<01:37,  7.50it/s] 49%|████▊     | 665/1368 [01:33<01:23,  8.40it/s] 50%|█████     | 687/1368 [01:37<01:26,  7.85it/s] 52%|█████▏    | 710/1368 [01:39<01:22,  8.00it/s] 54%|█████▍    | 736/1368 [01:42<01:16,  8.26it/s] 56%|█████▌    | 762/1368 [01:45<01:09,  8.75it/s] 58%|█████▊    | 787/1368 [01:48<01:07,  8.62it/s] 59%|█████▊    | 802/1368 [01:52<01:30,  6.23it/s] 60%|██████    | 823/1368 [01:55<01:26,  6.28it/s] 62%|██████▏   | 844/1368 [01:58<01:18,  6.67it/s] 63%|██████▎   | 864/1368 [02:01<01:21,  6.21it/s] 65%|██████▍   | 884/1368 [02:05<01:20,  6.01it/s] 66%|██████▌   | 899/1368 [02:08<01:25,  5.48it/s] 67%|██████▋   | 917/1368 [02:12<01:23,  5.37it/s] 69%|██████▉   | 941/1368 [02:15<01:11,  6.01it/s] 71%|███████   | 968/1368 [02:17<00:58,  6.83it/s] 72%|███████▏  | 989/1368 [02:21<00:56,  6.73it/s] 74%|███████▍  | 1009/1368 [02:24<00:56,  6.40it/s] 75%|███████▌  | 1032/1368 [02:27<00:48,  6.91it/s] 78%|███████▊  | 1065/1368 [02:29<00:37,  8.17it/s] 80%|████████  | 1095/1368 [02:32<00:30,  8.96it/s] 82%|████████▏ | 1123/1368 [02:34<00:26,  9.38it/s] 84%|████████▍ | 1152/1368 [02:37<00:21, 10.25it/s] 86%|████████▌ | 1179/1368 [02:39<00:17, 10.59it/s] 88%|████████▊ | 1201/1368 [02:42<00:17,  9.34it/s] 90%|████████▉ | 1231/1368 [02:45<00:13,  9.92it/s] 92%|█████████▏| 1258/1368 [02:47<00:11,  9.91it/s] 93%|█████████▎| 1274/1368 [02:51<00:12,  7.30it/s] 94%|█████████▍| 1287/1368 [02:55<00:15,  5.14it/s] 95%|█████████▌| 1304/1368 [02:59<00:13,  4.82it/s] 97%|█████████▋| 1323/1368 [03:03<00:09,  4.88it/s] 98%|█████████▊| 1341/1368 [03:06<00:05,  5.01it/s] 99%|█████████▉| 1360/1368 [03:09<00:01,  5.41it/s]100%|██████████| 1368/1368 [03:13<00:00,  3.92it/s]100%|██████████| 1368/1368 [03:13<00:00,  7.09it/s]
+ignoring epigraph data for duplicate triple: ('z14', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z14', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z17', ':mode', 'imperative')
+ignoring epigraph data for duplicate triple: ('z17', ':mode', 'imperative')
+ignoring epigraph data for duplicate triple: ('z4', ':ARG1', 'z7')
+ignoring epigraph data for duplicate triple: ('z4', ':ARG1', 'z7')
+ignoring epigraph data for duplicate triple: ('z7', ':unit', 'z6')
+ignoring epigraph data for duplicate triple: ('z7', ':unit', 'z6')
+ignoring epigraph data for duplicate triple: ('z6', ':unit', 'z5')
+ignoring epigraph data for duplicate triple: ('z6', ':unit', 'z5')
+ignoring epigraph data for duplicate triple: ('z25', ':domain', 'z14')
+ignoring epigraph data for duplicate triple: ('z25', ':domain', 'z14')
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:29,  8.99it/s]  3%|▎         | 36/1368 [00:07<04:19,  5.13it/s]  3%|▎         | 45/1368 [00:13<07:48,  2.82it/s]  5%|▍         | 68/1368 [00:16<06:07,  3.53it/s]  6%|▋         | 86/1368 [00:20<05:31,  3.87it/s]  7%|▋         | 100/1368 [00:23<05:18,  3.99it/s]  8%|▊         | 112/1368 [00:28<06:17,  3.33it/s]  9%|▉         | 127/1368 [00:31<05:45,  3.59it/s] 12%|█▏        | 163/1368 [00:34<04:16,  4.70it/s] 14%|█▍        | 194/1368 [00:36<03:20,  5.85it/s] 16%|█▌        | 216/1368 [00:39<03:03,  6.28it/s] 17%|█▋        | 238/1368 [00:42<02:51,  6.59it/s] 19%|█▉        | 260/1368 [00:44<02:38,  6.99it/s] 21%|██▏       | 294/1368 [00:47<02:11,  8.19it/s] 24%|██▍       | 327/1368 [00:49<01:49,  9.54it/s] 26%|██▌       | 355/1368 [00:51<01:40, 10.13it/s] 27%|██▋       | 375/1368 [00:56<02:24,  6.88it/s] 29%|██▉       | 395/1368 [01:00<02:27,  6.60it/s] 30%|███       | 412/1368 [01:03<02:37,  6.06it/s] 32%|███▏      | 431/1368 [01:07<02:40,  5.84it/s] 33%|███▎      | 448/1368 [01:10<02:46,  5.52it/s] 34%|███▍      | 466/1368 [01:14<02:49,  5.32it/s] 36%|███▌      | 493/1368 [01:16<02:21,  6.17it/s] 38%|███▊      | 520/1368 [01:19<02:02,  6.95it/s] 40%|███▉      | 544/1368 [01:22<01:53,  7.29it/s] 41%|████▏     | 566/1368 [01:25<01:52,  7.10it/s] 43%|████▎     | 589/1368 [01:28<01:46,  7.34it/s] 45%|████▌     | 617/1368 [01:31<01:31,  8.24it/s] 47%|████▋     | 637/1368 [01:34<01:37,  7.51it/s] 49%|████▊     | 665/1368 [01:36<01:22,  8.49it/s] 50%|█████     | 687/1368 [01:39<01:24,  8.01it/s] 52%|█████▏    | 710/1368 [01:42<01:20,  8.13it/s] 54%|█████▍    | 736/1368 [01:45<01:15,  8.34it/s] 56%|█████▌    | 762/1368 [01:48<01:08,  8.84it/s] 58%|█████▊    | 787/1368 [01:51<01:06,  8.71it/s] 59%|█████▊    | 802/1368 [01:54<01:30,  6.28it/s] 60%|██████    | 823/1368 [01:58<01:26,  6.33it/s] 62%|██████▏   | 844/1368 [02:00<01:17,  6.72it/s] 63%|██████▎   | 864/1368 [02:04<01:18,  6.38it/s] 65%|██████▍   | 884/1368 [02:07<01:19,  6.12it/s] 66%|██████▌   | 899/1368 [02:11<01:24,  5.54it/s] 67%|██████▋   | 917/1368 [02:14<01:23,  5.41it/s] 69%|██████▉   | 941/1368 [02:17<01:11,  6.00it/s] 71%|███████   | 968/1368 [02:20<00:57,  6.96it/s] 72%|███████▏  | 989/1368 [02:23<00:56,  6.72it/s] 74%|███████▍  | 1009/1368 [02:27<00:56,  6.33it/s] 75%|███████▌  | 1032/1368 [02:29<00:49,  6.85it/s] 78%|███████▊  | 1065/1368 [02:32<00:37,  8.09it/s] 80%|████████  | 1095/1368 [02:34<00:30,  8.86it/s] 82%|████████▏ | 1123/1368 [02:37<00:26,  9.13it/s] 84%|████████▍ | 1152/1368 [02:39<00:21, 10.01it/s] 86%|████████▌ | 1179/1368 [02:42<00:18, 10.44it/s] 88%|████████▊ | 1201/1368 [02:45<00:18,  9.15it/s] 90%|████████▉ | 1231/1368 [02:47<00:13,  9.82it/s] 92%|█████████▏| 1258/1368 [02:50<00:11,  9.88it/s] 93%|█████████▎| 1274/1368 [02:54<00:12,  7.25it/s] 94%|█████████▍| 1287/1368 [02:58<00:16,  4.90it/s] 95%|█████████▌| 1304/1368 [03:02<00:13,  4.80it/s] 97%|█████████▋| 1323/1368 [03:06<00:09,  4.91it/s] 98%|█████████▊| 1341/1368 [03:09<00:05,  4.99it/s] 99%|█████████▉| 1360/1368 [03:12<00:01,  5.36it/s]100%|██████████| 1368/1368 [03:16<00:00,  3.89it/s]100%|██████████| 1368/1368 [03:16<00:00,  6.98it/s]
+ignoring epigraph data for duplicate triple: ('z4', ':ARG1', 'z7')
+ignoring epigraph data for duplicate triple: ('z4', ':ARG1', 'z7')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z6', ':unit', 'z5')
+ignoring epigraph data for duplicate triple: ('z6', ':unit', 'z5')
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:13, 10.07it/s]  3%|▎         | 36/1368 [00:07<04:14,  5.24it/s]  3%|▎         | 45/1368 [00:14<07:55,  2.78it/s]  5%|▍         | 68/1368 [00:16<06:12,  3.49it/s]  6%|▋         | 86/1368 [00:20<05:36,  3.81it/s]  7%|▋         | 100/1368 [00:23<05:14,  4.03it/s]  8%|▊         | 112/1368 [00:28<06:04,  3.44it/s]  9%|▉         | 127/1368 [00:31<05:37,  3.68it/s] 12%|█▏        | 163/1368 [00:33<04:13,  4.76it/s] 14%|█▍        | 194/1368 [00:36<03:19,  5.89it/s] 16%|█▌        | 216/1368 [00:39<03:04,  6.24it/s] 17%|█▋        | 238/1368 [00:42<02:52,  6.55it/s] 19%|█▉        | 260/1368 [00:45<02:40,  6.91it/s] 21%|██▏       | 294/1368 [00:47<02:13,  8.02it/s] 24%|██▍       | 327/1368 [00:49<01:52,  9.29it/s] 26%|██▌       | 355/1368 [00:52<01:42,  9.84it/s] 27%|██▋       | 375/1368 [00:55<02:03,  8.07it/s] 29%|██▉       | 395/1368 [00:59<02:12,  7.33it/s] 30%|███       | 412/1368 [01:02<02:24,  6.61it/s] 32%|███▏      | 431/1368 [01:06<02:33,  6.09it/s] 33%|███▎      | 448/1368 [01:09<02:45,  5.55it/s] 34%|███▍      | 466/1368 [01:13<02:46,  5.41it/s] 36%|███▌      | 493/1368 [01:16<02:20,  6.24it/s] 38%|███▊      | 520/1368 [01:18<02:01,  6.97it/s] 40%|███▉      | 544/1368 [01:21<01:53,  7.26it/s] 41%|████▏     | 566/1368 [01:25<01:53,  7.08it/s] 43%|████▎     | 589/1368 [01:28<01:46,  7.32it/s] 45%|████▌     | 617/1368 [01:30<01:31,  8.22it/s] 47%|████▋     | 637/1368 [01:33<01:36,  7.54it/s] 49%|████▊     | 665/1368 [01:35<01:22,  8.51it/s] 50%|█████     | 687/1368 [01:38<01:22,  8.29it/s] 52%|█████▏    | 710/1368 [01:41<01:18,  8.37it/s] 54%|█████▍    | 736/1368 [01:44<01:13,  8.62it/s] 56%|█████▌    | 762/1368 [01:46<01:06,  9.06it/s] 58%|█████▊    | 787/1368 [01:49<01:04,  8.97it/s] 59%|█████▊    | 802/1368 [01:53<01:27,  6.44it/s] 60%|██████    | 823/1368 [01:56<01:24,  6.48it/s] 62%|██████▏   | 844/1368 [01:59<01:18,  6.66it/s] 63%|██████▎   | 864/1368 [02:02<01:17,  6.49it/s] 65%|██████▍   | 884/1368 [02:06<01:18,  6.20it/s] 66%|██████▌   | 899/1368 [02:09<01:23,  5.60it/s] 67%|██████▋   | 917/1368 [02:13<01:22,  5.49it/s] 69%|██████▉   | 941/1368 [02:16<01:10,  6.05it/s] 71%|███████   | 968/1368 [02:18<00:57,  7.01it/s] 72%|███████▏  | 989/1368 [02:22<00:56,  6.65it/s] 74%|███████▍  | 1009/1368 [02:25<00:56,  6.31it/s] 75%|███████▌  | 1032/1368 [02:28<00:49,  6.81it/s] 78%|███████▊  | 1065/1368 [02:30<00:37,  8.04it/s] 80%|████████  | 1095/1368 [02:33<00:30,  8.90it/s] 82%|████████▏ | 1123/1368 [02:36<00:26,  9.32it/s] 84%|████████▍ | 1152/1368 [02:38<00:21, 10.28it/s] 86%|████████▌ | 1179/1368 [02:40<00:17, 10.60it/s] 88%|████████▊ | 1201/1368 [02:43<00:17,  9.37it/s] 90%|████████▉ | 1231/1368 [02:46<00:13, 10.01it/s] 92%|█████████▏| 1258/1368 [02:48<00:10, 10.00it/s] 93%|█████████▎| 1274/1368 [02:52<00:12,  7.61it/s] 94%|█████████▍| 1287/1368 [02:56<00:15,  5.25it/s] 95%|█████████▌| 1304/1368 [03:00<00:12,  4.94it/s] 97%|█████████▋| 1323/1368 [03:03<00:08,  5.09it/s] 98%|█████████▊| 1341/1368 [03:07<00:05,  5.14it/s] 99%|█████████▉| 1360/1368 [03:09<00:01,  5.51it/s]100%|██████████| 1368/1368 [03:13<00:00,  3.98it/s]100%|██████████| 1368/1368 [03:13<00:00,  7.08it/s]
+ignoring epigraph data for duplicate triple: ('z14', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z14', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z21', ':mod', 'z23')
+ignoring epigraph data for duplicate triple: ('z21', ':mod', 'z23')
+ignoring epigraph data for duplicate triple: ('z4', ':ARG1', 'z7')
+ignoring epigraph data for duplicate triple: ('z4', ':ARG1', 'z7')
+ignoring epigraph data for duplicate triple: ('z6', ':unit', 'z5')
+ignoring epigraph data for duplicate triple: ('z6', ':unit', 'z5')
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:25,  9.25it/s]  3%|▎         | 36/1368 [00:07<04:24,  5.03it/s]  3%|▎         | 45/1368 [00:14<08:08,  2.71it/s]  5%|▍         | 68/1368 [00:16<06:18,  3.44it/s]  6%|▋         | 86/1368 [00:20<05:43,  3.73it/s]  7%|▋         | 100/1368 [00:24<05:32,  3.82it/s]  8%|▊         | 112/1368 [00:29<06:31,  3.21it/s]  9%|▉         | 127/1368 [00:33<06:10,  3.35it/s] 12%|█▏        | 163/1368 [00:35<04:36,  4.36it/s] 14%|█▍        | 194/1368 [00:38<03:38,  5.37it/s] 16%|█▌        | 216/1368 [00:41<03:17,  5.82it/s] 17%|█▋        | 238/1368 [00:44<03:05,  6.10it/s] 19%|█▉        | 260/1368 [00:47<02:52,  6.44it/s] 21%|██▏       | 294/1368 [00:50<02:21,  7.61it/s] 24%|██▍       | 327/1368 [00:52<01:56,  8.95it/s] 26%|██▌       | 355/1368 [00:54<01:45,  9.60it/s] 27%|██▋       | 375/1368 [00:57<01:58,  8.40it/s] 29%|██▉       | 395/1368 [01:01<02:11,  7.40it/s] 30%|███       | 412/1368 [01:04<02:24,  6.63it/s] 32%|███▏      | 431/1368 [01:08<02:32,  6.14it/s] 33%|███▎      | 448/1368 [01:11<02:42,  5.65it/s] 34%|███▍      | 466/1368 [01:15<02:43,  5.51it/s] 36%|███▌      | 493/1368 [01:17<02:17,  6.38it/s] 38%|███▊      | 520/1368 [01:20<01:59,  7.12it/s] 40%|███▉      | 544/1368 [01:23<01:51,  7.40it/s] 41%|████▏     | 566/1368 [01:26<01:51,  7.20it/s] 43%|████▎     | 589/1368 [01:29<01:44,  7.44it/s] 45%|████▌     | 617/1368 [01:32<01:30,  8.34it/s] 47%|████▋     | 637/1368 [01:35<01:32,  7.87it/s] 49%|████▊     | 665/1368 [01:37<01:22,  8.56it/s] 50%|█████     | 687/1368 [01:40<01:23,  8.11it/s] 52%|█████▏    | 710/1368 [01:43<01:21,  8.12it/s] 54%|█████▍    | 736/1368 [01:46<01:15,  8.37it/s] 56%|█████▌    | 762/1368 [01:48<01:08,  8.80it/s] 58%|█████▊    | 787/1368 [01:51<01:06,  8.76it/s] 59%|█████▊    | 802/1368 [01:55<01:29,  6.36it/s] 60%|██████    | 823/1368 [01:59<01:26,  6.31it/s] 62%|██████▏   | 844/1368 [02:01<01:19,  6.60it/s] 63%|██████▎   | 864/1368 [02:05<01:19,  6.34it/s] 65%|██████▍   | 884/1368 [02:09<01:22,  5.85it/s] 66%|██████▌   | 899/1368 [02:12<01:28,  5.33it/s] 67%|██████▋   | 917/1368 [02:16<01:25,  5.27it/s] 69%|██████▉   | 941/1368 [02:19<01:11,  5.94it/s] 71%|███████   | 968/1368 [02:21<00:58,  6.85it/s] 72%|███████▏  | 989/1368 [02:25<00:57,  6.53it/s] 74%|███████▍  | 1009/1368 [02:28<00:54,  6.57it/s] 75%|███████▌  | 1032/1368 [02:31<00:48,  7.00it/s] 78%|███████▊  | 1065/1368 [02:33<00:36,  8.27it/s] 80%|████████  | 1095/1368 [02:35<00:30,  9.04it/s] 82%|████████▏ | 1123/1368 [02:38<00:26,  9.41it/s] 84%|████████▍ | 1152/1368 [02:40<00:20, 10.30it/s] 86%|████████▌ | 1179/1368 [02:43<00:17, 10.54it/s] 88%|████████▊ | 1201/1368 [02:46<00:18,  9.27it/s] 90%|████████▉ | 1231/1368 [02:48<00:13,  9.98it/s] 92%|█████████▏| 1258/1368 [02:51<00:11,  9.84it/s] 93%|█████████▎| 1274/1368 [02:54<00:12,  7.42it/s] 94%|█████████▍| 1287/1368 [02:59<00:16,  4.99it/s] 95%|█████████▌| 1304/1368 [03:03<00:13,  4.69it/s] 97%|█████████▋| 1323/1368 [03:07<00:09,  4.89it/s] 98%|█████████▊| 1341/1368 [03:10<00:05,  4.93it/s] 99%|█████████▉| 1360/1368 [03:13<00:01,  5.31it/s]100%|██████████| 1368/1368 [03:17<00:00,  3.91it/s]100%|██████████| 1368/1368 [03:17<00:00,  6.94it/s]
+ignoring epigraph data for duplicate triple: ('z14', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z14', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z4', ':ARG1', 'z9')
+ignoring epigraph data for duplicate triple: ('z4', ':ARG1', 'z9')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z7', ':ARG1', 'z17')
+ignoring epigraph data for duplicate triple: ('z7', ':ARG1', 'z17')
+ignoring epigraph data for duplicate triple: ('z2', ':domain', 'z3')
+ignoring epigraph data for duplicate triple: ('z2', ':domain', 'z3')
+ignoring secondary node contexts for 'z3'
+ignoring secondary node contexts for 'z3'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:18,  9.73it/s]  3%|▎         | 36/1368 [00:07<04:10,  5.31it/s]  3%|▎         | 45/1368 [00:14<08:07,  2.72it/s]  5%|▍         | 68/1368 [00:16<06:19,  3.42it/s]  6%|▋         | 86/1368 [00:20<05:40,  3.76it/s]  7%|▋         | 100/1368 [00:23<05:25,  3.90it/s]  8%|▊         | 112/1368 [00:28<06:25,  3.25it/s]  9%|▉         | 127/1368 [00:32<05:53,  3.51it/s] 12%|█▏        | 163/1368 [00:34<04:24,  4.56it/s] 14%|█▍        | 194/1368 [00:37<03:26,  5.70it/s] 16%|█▌        | 216/1368 [00:39<03:07,  6.15it/s] 17%|█▋        | 238/1368 [00:42<02:54,  6.47it/s] 19%|█▉        | 260/1368 [00:45<02:42,  6.80it/s] 21%|██▏       | 294/1368 [00:48<02:15,  7.93it/s] 24%|██▍       | 327/1368 [00:50<01:52,  9.23it/s] 26%|██▌       | 355/1368 [00:53<01:42,  9.87it/s] 27%|██▋       | 375/1368 [00:56<02:01,  8.21it/s] 29%|██▉       | 395/1368 [00:59<02:12,  7.33it/s] 30%|███       | 412/1368 [01:03<02:28,  6.42it/s] 32%|███▏      | 431/1368 [01:07<02:38,  5.91it/s] 33%|███▎      | 448/1368 [01:10<02:46,  5.53it/s] 34%|███▍      | 466/1368 [01:13<02:44,  5.48it/s] 36%|███▌      | 493/1368 [01:16<02:17,  6.35it/s] 38%|███▊      | 520/1368 [01:19<01:59,  7.09it/s] 40%|███▉      | 544/1368 [01:22<01:53,  7.26it/s] 41%|████▏     | 566/1368 [01:25<01:53,  7.06it/s] 43%|████▎     | 589/1368 [01:28<01:46,  7.29it/s] 45%|████▌     | 617/1368 [01:31<01:31,  8.21it/s] 47%|████▋     | 637/1368 [01:34<01:36,  7.58it/s] 49%|████▊     | 665/1368 [01:36<01:22,  8.48it/s] 50%|█████     | 687/1368 [01:39<01:22,  8.28it/s] 52%|█████▏    | 710/1368 [01:42<01:21,  8.10it/s] 54%|█████▍    | 736/1368 [01:45<01:15,  8.37it/s] 56%|█████▌    | 762/1368 [01:47<01:08,  8.79it/s] 58%|█████▊    | 787/1368 [01:50<01:06,  8.71it/s] 59%|█████▊    | 802/1368 [01:54<01:29,  6.34it/s] 60%|██████    | 823/1368 [01:58<01:26,  6.31it/s] 62%|██████▏   | 844/1368 [02:01<01:20,  6.51it/s] 63%|██████▎   | 864/1368 [02:04<01:20,  6.27it/s] 65%|██████▍   | 884/1368 [02:07<01:19,  6.13it/s] 66%|██████▌   | 899/1368 [02:11<01:24,  5.52it/s] 67%|██████▋   | 917/1368 [02:14<01:24,  5.35it/s] 69%|██████▉   | 941/1368 [02:17<01:11,  6.00it/s] 71%|███████   | 968/1368 [02:20<00:57,  6.91it/s] 72%|███████▏  | 989/1368 [02:23<00:56,  6.71it/s] 74%|███████▍  | 1009/1368 [02:26<00:52,  6.79it/s] 75%|███████▌  | 1032/1368 [02:29<00:46,  7.16it/s] 78%|███████▊  | 1065/1368 [02:31<00:35,  8.52it/s] 80%|████████  | 1095/1368 [02:34<00:29,  9.17it/s] 82%|████████▏ | 1123/1368 [02:36<00:25,  9.59it/s] 84%|████████▍ | 1152/1368 [02:39<00:20, 10.36it/s] 86%|████████▌ | 1179/1368 [02:41<00:18, 10.24it/s] 88%|████████▊ | 1201/1368 [02:44<00:18,  9.17it/s] 90%|████████▉ | 1231/1368 [02:47<00:13,  9.96it/s] 92%|█████████▏| 1258/1368 [02:49<00:10, 10.00it/s] 93%|█████████▎| 1274/1368 [02:53<00:12,  7.69it/s] 94%|█████████▍| 1287/1368 [02:57<00:16,  5.02it/s] 95%|█████████▌| 1304/1368 [03:01<00:13,  4.76it/s] 97%|█████████▋| 1323/1368 [03:05<00:09,  4.93it/s] 98%|█████████▊| 1341/1368 [03:08<00:05,  5.07it/s] 99%|█████████▉| 1360/1368 [03:11<00:01,  5.47it/s]100%|██████████| 1368/1368 [03:14<00:00,  3.98it/s]100%|██████████| 1368/1368 [03:14<00:00,  7.03it/s]
+ignoring epigraph data for duplicate triple: ('z5', ':ARG1', 'z10')
+ignoring epigraph data for duplicate triple: ('z5', ':ARG1', 'z10')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:03<03:00,  7.45it/s]  3%|▎         | 36/1368 [00:07<04:42,  4.72it/s]  3%|▎         | 45/1368 [00:14<08:26,  2.61it/s]  5%|▍         | 68/1368 [00:17<06:34,  3.30it/s]  6%|▋         | 86/1368 [00:21<05:57,  3.59it/s]  7%|▋         | 100/1368 [00:25<05:38,  3.75it/s]  8%|▊         | 112/1368 [00:29<06:20,  3.30it/s]  9%|▉         | 127/1368 [00:33<05:57,  3.47it/s] 12%|█▏        | 163/1368 [00:35<04:27,  4.51it/s] 14%|█▍        | 194/1368 [00:38<03:28,  5.62it/s] 16%|█▌        | 216/1368 [00:41<03:10,  6.03it/s] 17%|█▋        | 238/1368 [00:44<02:55,  6.46it/s] 19%|█▉        | 260/1368 [00:47<02:44,  6.74it/s] 21%|██▏       | 294/1368 [00:49<02:16,  7.84it/s] 24%|██▍       | 327/1368 [00:51<01:53,  9.18it/s] 26%|██▌       | 355/1368 [00:54<01:43,  9.78it/s] 27%|██▋       | 375/1368 [00:57<02:02,  8.09it/s] 29%|██▉       | 395/1368 [01:01<02:15,  7.21it/s] 30%|███       | 412/1368 [01:04<02:27,  6.50it/s] 32%|███▏      | 431/1368 [01:08<02:35,  6.02it/s] 33%|███▎      | 448/1368 [01:11<02:46,  5.54it/s] 34%|███▍      | 466/1368 [01:15<02:47,  5.39it/s] 36%|███▌      | 493/1368 [01:18<02:20,  6.22it/s] 38%|███▊      | 520/1368 [01:20<02:02,  6.95it/s] 40%|███▉      | 544/1368 [01:24<01:54,  7.19it/s] 41%|████▏     | 566/1368 [01:27<01:55,  6.95it/s] 43%|████▎     | 589/1368 [01:30<01:47,  7.25it/s] 45%|████▌     | 617/1368 [01:32<01:32,  8.14it/s] 47%|████▋     | 637/1368 [01:35<01:37,  7.52it/s] 49%|████▊     | 665/1368 [01:38<01:24,  8.35it/s] 50%|█████     | 687/1368 [01:41<01:23,  8.19it/s] 52%|█████▏    | 710/1368 [01:44<01:21,  8.11it/s] 54%|█████▍    | 736/1368 [01:46<01:15,  8.41it/s] 56%|█████▌    | 762/1368 [01:49<01:08,  8.86it/s] 58%|█████▊    | 787/1368 [01:52<01:06,  8.74it/s] 59%|█████▊    | 802/1368 [01:56<01:29,  6.33it/s] 60%|██████    | 823/1368 [01:59<01:26,  6.29it/s] 62%|██████▏   | 844/1368 [02:02<01:20,  6.49it/s] 63%|██████▎   | 864/1368 [02:06<01:20,  6.25it/s] 65%|██████▍   | 884/1368 [02:10<01:23,  5.79it/s] 66%|██████▌   | 899/1368 [02:13<01:30,  5.20it/s] 67%|██████▋   | 917/1368 [02:17<01:26,  5.19it/s] 69%|██████▉   | 941/1368 [02:20<01:12,  5.87it/s] 71%|███████   | 968/1368 [02:22<00:59,  6.74it/s] 72%|███████▏  | 989/1368 [02:26<00:57,  6.54it/s] 74%|███████▍  | 1009/1368 [02:29<00:53,  6.65it/s] 75%|███████▌  | 1032/1368 [02:31<00:47,  7.00it/s] 78%|███████▊  | 1065/1368 [02:34<00:36,  8.33it/s] 80%|████████  | 1095/1368 [02:36<00:30,  9.06it/s] 82%|████████▏ | 1123/1368 [02:39<00:26,  9.36it/s] 84%|████████▍ | 1152/1368 [02:41<00:21, 10.26it/s] 86%|████████▌ | 1179/1368 [02:44<00:18, 10.32it/s] 88%|████████▊ | 1201/1368 [02:47<00:18,  9.17it/s] 90%|████████▉ | 1231/1368 [02:49<00:13,  9.92it/s] 92%|█████████▏| 1258/1368 [02:52<00:11,  9.97it/s] 93%|█████████▎| 1274/1368 [02:55<00:12,  7.52it/s] 94%|█████████▍| 1287/1368 [03:00<00:16,  4.89it/s] 95%|█████████▌| 1304/1368 [03:04<00:13,  4.67it/s] 97%|█████████▋| 1323/1368 [03:08<00:09,  4.87it/s] 98%|█████████▊| 1341/1368 [03:11<00:05,  4.91it/s] 99%|█████████▉| 1360/1368 [03:14<00:01,  5.31it/s]100%|██████████| 1368/1368 [03:18<00:00,  3.84it/s]100%|██████████| 1368/1368 [03:18<00:00,  6.91it/s]
+ignoring epigraph data for duplicate triple: ('z5', ':ARG1', 'z10')
+ignoring epigraph data for duplicate triple: ('z5', ':ARG1', 'z10')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:44,  8.19it/s]  3%|▎         | 36/1368 [00:07<04:39,  4.76it/s]  3%|▎         | 45/1368 [00:14<08:16,  2.67it/s]  5%|▍         | 68/1368 [00:17<06:28,  3.35it/s]  6%|▋         | 86/1368 [00:21<05:47,  3.69it/s]  7%|▋         | 100/1368 [00:24<05:29,  3.85it/s]  8%|▊         | 112/1368 [00:29<06:25,  3.26it/s]  9%|▉         | 127/1368 [00:33<05:57,  3.47it/s] 12%|█▏        | 163/1368 [00:35<04:23,  4.57it/s] 14%|█▍        | 194/1368 [00:37<03:28,  5.63it/s] 16%|█▌        | 216/1368 [00:40<03:10,  6.04it/s] 17%|█▋        | 238/1368 [00:43<03:00,  6.27it/s] 19%|█▉        | 260/1368 [00:46<02:45,  6.71it/s] 21%|██▏       | 294/1368 [00:49<02:17,  7.81it/s] 24%|██▍       | 327/1368 [00:51<01:54,  9.09it/s] 26%|██▌       | 355/1368 [00:54<01:47,  9.45it/s] 27%|██▋       | 375/1368 [00:57<02:06,  7.83it/s] 29%|██▉       | 395/1368 [01:01<02:18,  7.00it/s] 30%|███       | 412/1368 [01:04<02:31,  6.29it/s] 32%|███▏      | 431/1368 [01:08<02:40,  5.82it/s] 33%|███▎      | 448/1368 [01:12<02:50,  5.40it/s] 34%|███▍      | 466/1368 [01:15<02:50,  5.29it/s] 36%|███▌      | 493/1368 [01:18<02:22,  6.15it/s] 38%|███▊      | 520/1368 [01:21<02:04,  6.82it/s] 40%|███▉      | 544/1368 [01:24<01:58,  6.95it/s] 41%|████▏     | 566/1368 [01:28<01:57,  6.83it/s] 43%|████▎     | 589/1368 [01:31<01:50,  7.07it/s] 45%|████▌     | 617/1368 [01:33<01:35,  7.85it/s] 47%|████▋     | 637/1368 [01:37<01:40,  7.26it/s] 49%|████▊     | 665/1368 [01:39<01:25,  8.23it/s] 50%|█████     | 687/1368 [01:42<01:28,  7.67it/s] 52%|█████▏    | 710/1368 [01:45<01:24,  7.78it/s] 54%|█████▍    | 736/1368 [01:48<01:17,  8.13it/s] 56%|█████▌    | 762/1368 [01:50<01:09,  8.69it/s] 58%|█████▊    | 787/1368 [01:53<01:07,  8.67it/s] 59%|█████▊    | 802/1368 [01:57<01:30,  6.27it/s] 60%|██████    | 823/1368 [02:01<01:25,  6.35it/s] 62%|██████▏   | 844/1368 [02:03<01:18,  6.65it/s] 63%|██████▎   | 864/1368 [02:07<01:19,  6.34it/s] 65%|██████▍   | 884/1368 [02:10<01:18,  6.13it/s] 66%|██████▌   | 899/1368 [02:14<01:28,  5.28it/s] 67%|██████▋   | 917/1368 [02:18<01:25,  5.28it/s] 69%|██████▉   | 941/1368 [02:20<01:11,  5.95it/s] 71%|███████   | 968/1368 [02:23<00:58,  6.82it/s] 72%|███████▏  | 989/1368 [02:27<00:58,  6.48it/s] 74%|███████▍  | 1009/1368 [02:30<00:57,  6.27it/s] 75%|███████▌  | 1032/1368 [02:33<00:50,  6.72it/s] 78%|███████▊  | 1065/1368 [02:35<00:37,  8.05it/s] 80%|████████  | 1095/1368 [02:38<00:30,  8.93it/s] 82%|████████▏ | 1123/1368 [02:40<00:26,  9.41it/s] 84%|████████▍ | 1152/1368 [02:42<00:20, 10.33it/s] 86%|████████▌ | 1179/1368 [02:45<00:18, 10.46it/s] 88%|████████▊ | 1201/1368 [02:48<00:18,  9.08it/s] 90%|████████▉ | 1231/1368 [02:51<00:14,  9.72it/s] 92%|█████████▏| 1258/1368 [02:53<00:11,  9.78it/s] 93%|█████████▎| 1274/1368 [02:57<00:13,  7.07it/s] 94%|█████████▍| 1287/1368 [03:02<00:16,  4.82it/s] 95%|█████████▌| 1304/1368 [03:06<00:13,  4.70it/s] 97%|█████████▋| 1323/1368 [03:09<00:09,  4.85it/s] 98%|█████████▊| 1341/1368 [03:13<00:05,  4.95it/s] 99%|█████████▉| 1360/1368 [03:16<00:01,  5.34it/s]100%|██████████| 1368/1368 [03:19<00:00,  3.87it/s]100%|██████████| 1368/1368 [03:19<00:00,  6.86it/s]
+ignoring epigraph data for duplicate triple: ('z5', ':ARG1', 'z10')
+ignoring epigraph data for duplicate triple: ('z5', ':ARG1', 'z10')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:26,  9.19it/s]  3%|▎         | 36/1368 [00:07<04:21,  5.10it/s]  3%|▎         | 45/1368 [00:14<08:05,  2.73it/s]  5%|▍         | 68/1368 [00:17<06:23,  3.39it/s]  6%|▋         | 86/1368 [00:20<05:44,  3.72it/s]  7%|▋         | 100/1368 [00:24<05:31,  3.83it/s]  8%|▊         | 112/1368 [00:29<06:28,  3.23it/s]  9%|▉         | 127/1368 [00:33<06:04,  3.41it/s] 12%|█▏        | 163/1368 [00:35<04:33,  4.41it/s] 14%|█▍        | 194/1368 [00:38<03:34,  5.48it/s] 16%|█▌        | 216/1368 [00:41<03:13,  5.95it/s] 17%|█▋        | 238/1368 [00:44<02:58,  6.31it/s] 19%|█▉        | 260/1368 [00:47<02:48,  6.59it/s] 21%|██▏       | 294/1368 [00:49<02:18,  7.74it/s] 24%|██▍       | 327/1368 [00:52<01:55,  9.04it/s] 26%|██▌       | 355/1368 [00:54<01:45,  9.57it/s] 27%|██▋       | 375/1368 [00:58<02:05,  7.90it/s] 29%|██▉       | 395/1368 [01:01<02:19,  6.98it/s] 30%|███       | 412/1368 [01:05<02:39,  6.00it/s] 32%|███▏      | 431/1368 [01:09<02:45,  5.66it/s] 33%|███▎      | 448/1368 [01:13<02:53,  5.30it/s] 34%|███▍      | 466/1368 [01:16<02:51,  5.25it/s] 36%|███▌      | 493/1368 [01:19<02:23,  6.08it/s] 38%|███▊      | 520/1368 [01:22<02:04,  6.83it/s] 40%|███▉      | 544/1368 [01:25<01:58,  6.96it/s] 41%|████▏     | 566/1368 [01:28<01:57,  6.83it/s] 43%|████▎     | 589/1368 [01:31<01:49,  7.09it/s] 45%|████▌     | 617/1368 [01:34<01:35,  7.89it/s] 47%|████▋     | 637/1368 [01:37<01:39,  7.33it/s] 49%|████▊     | 665/1368 [01:39<01:25,  8.24it/s] 50%|█████     | 687/1368 [01:43<01:26,  7.85it/s] 52%|█████▏    | 710/1368 [01:45<01:22,  7.95it/s] 54%|█████▍    | 736/1368 [01:48<01:16,  8.31it/s] 56%|█████▌    | 762/1368 [01:51<01:09,  8.74it/s] 58%|█████▊    | 787/1368 [01:54<01:09,  8.40it/s] 59%|█████▊    | 802/1368 [01:58<01:36,  5.87it/s] 60%|██████    | 823/1368 [02:02<01:32,  5.90it/s] 62%|██████▏   | 844/1368 [02:05<01:25,  6.13it/s] 63%|██████▎   | 864/1368 [02:09<01:24,  5.98it/s] 65%|██████▍   | 884/1368 [02:12<01:23,  5.82it/s] 66%|██████▌   | 899/1368 [02:16<01:33,  5.03it/s] 67%|██████▋   | 917/1368 [02:20<01:29,  5.04it/s] 69%|██████▉   | 941/1368 [02:23<01:15,  5.68it/s] 71%|███████   | 968/1368 [02:25<01:01,  6.56it/s] 72%|███████▏  | 989/1368 [02:29<00:59,  6.39it/s] 74%|███████▍  | 1009/1368 [02:32<00:58,  6.12it/s] 75%|███████▌  | 1032/1368 [02:36<00:52,  6.46it/s] 78%|███████▊  | 1065/1368 [02:38<00:39,  7.75it/s] 80%|████████  | 1095/1368 [02:41<00:32,  8.45it/s] 82%|████████▏ | 1123/1368 [02:46<00:34,  7.20it/s] 84%|████████▍ | 1152/1368 [02:48<00:26,  8.23it/s] 86%|████████▌ | 1179/1368 [02:51<00:21,  8.84it/s] 88%|████████▊ | 1201/1368 [02:54<00:20,  8.18it/s] 90%|████████▉ | 1231/1368 [02:56<00:15,  9.10it/s] 92%|█████████▏| 1258/1368 [02:59<00:11,  9.45it/s] 93%|█████████▎| 1274/1368 [03:02<00:12,  7.29it/s] 94%|█████████▍| 1287/1368 [03:07<00:16,  4.86it/s] 95%|█████████▌| 1304/1368 [03:11<00:13,  4.66it/s] 97%|█████████▋| 1323/1368 [03:15<00:09,  4.82it/s] 98%|█████████▊| 1341/1368 [03:18<00:05,  4.87it/s] 99%|█████████▉| 1360/1368 [03:21<00:01,  5.26it/s]100%|██████████| 1368/1368 [03:25<00:00,  3.81it/s]100%|██████████| 1368/1368 [03:25<00:00,  6.67it/s]
+ignoring epigraph data for duplicate triple: ('z14', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z14', ':domain', 'z2')
+ignoring epigraph data for duplicate triple: ('z5', ':ARG1', 'z10')
+ignoring epigraph data for duplicate triple: ('z5', ':ARG1', 'z10')
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:30,  8.91it/s]  3%|▎         | 36/1368 [00:07<04:20,  5.12it/s]  3%|▎         | 45/1368 [00:14<08:04,  2.73it/s]  5%|▍         | 68/1368 [00:16<06:19,  3.43it/s]  6%|▋         | 86/1368 [00:20<05:44,  3.72it/s]  7%|▋         | 100/1368 [00:24<05:29,  3.84it/s]  8%|▊         | 112/1368 [00:29<06:25,  3.26it/s]  9%|▉         | 127/1368 [00:33<06:03,  3.41it/s] 12%|█▏        | 163/1368 [00:35<04:30,  4.45it/s] 14%|█▍        | 194/1368 [00:37<03:31,  5.54it/s] 16%|█▌        | 216/1368 [00:40<03:13,  5.97it/s] 17%|█▋        | 238/1368 [00:43<02:59,  6.29it/s] 19%|█▉        | 260/1368 [00:46<02:48,  6.56it/s] 21%|██▏       | 294/1368 [00:49<02:19,  7.67it/s] 24%|██▍       | 327/1368 [00:51<01:55,  9.01it/s] 26%|██▌       | 355/1368 [00:54<01:45,  9.63it/s] 27%|██▋       | 375/1368 [00:57<02:04,  7.95it/s] 29%|██▉       | 395/1368 [01:01<02:17,  7.09it/s] 30%|███       | 412/1368 [01:04<02:30,  6.36it/s] 32%|███▏      | 431/1368 [01:08<02:40,  5.84it/s] 33%|███▎      | 448/1368 [01:12<02:49,  5.44it/s] 34%|███▍      | 466/1368 [01:15<02:48,  5.35it/s] 36%|███▌      | 493/1368 [01:18<02:22,  6.16it/s] 38%|███▊      | 520/1368 [01:21<02:02,  6.92it/s] 40%|███▉      | 544/1368 [01:24<01:56,  7.09it/s] 41%|████▏     | 566/1368 [01:27<01:56,  6.91it/s] 43%|████▎     | 589/1368 [01:30<01:49,  7.14it/s] 45%|████▌     | 617/1368 [01:33<01:35,  7.87it/s] 47%|████▋     | 637/1368 [01:36<01:40,  7.28it/s] 49%|████▊     | 665/1368 [01:39<01:25,  8.24it/s] 50%|█████     | 687/1368 [01:42<01:26,  7.84it/s] 52%|█████▏    | 710/1368 [01:44<01:22,  7.96it/s] 54%|█████▍    | 736/1368 [01:47<01:16,  8.23it/s] 56%|█████▌    | 762/1368 [01:50<01:10,  8.62it/s] 58%|█████▊    | 787/1368 [01:53<01:08,  8.54it/s] 59%|█████▊    | 802/1368 [01:57<01:31,  6.21it/s] 60%|██████    | 823/1368 [02:00<01:25,  6.38it/s] 62%|██████▏   | 844/1368 [02:03<01:21,  6.44it/s] 63%|██████▎   | 864/1368 [02:07<01:21,  6.18it/s] 65%|██████▍   | 884/1368 [02:11<01:21,  5.91it/s] 66%|██████▌   | 899/1368 [02:14<01:29,  5.25it/s] 67%|██████▋   | 917/1368 [02:18<01:27,  5.14it/s] 69%|██████▉   | 941/1368 [02:21<01:14,  5.74it/s] 71%|███████   | 968/1368 [02:23<01:00,  6.62it/s] 72%|███████▏  | 989/1368 [02:27<00:58,  6.43it/s] 74%|███████▍  | 1009/1368 [02:31<00:58,  6.13it/s] 75%|███████▌  | 1032/1368 [02:33<00:51,  6.59it/s] 78%|███████▊  | 1065/1368 [02:36<00:38,  7.89it/s] 80%|████████  | 1095/1368 [02:38<00:31,  8.72it/s] 82%|████████▏ | 1123/1368 [02:43<00:31,  7.80it/s] 84%|████████▍ | 1152/1368 [02:45<00:24,  8.77it/s] 86%|████████▌ | 1179/1368 [02:48<00:20,  9.13it/s] 88%|████████▊ | 1201/1368 [02:51<00:19,  8.48it/s] 90%|████████▉ | 1231/1368 [02:53<00:14,  9.34it/s] 92%|█████████▏| 1258/1368 [02:56<00:11,  9.36it/s] 93%|█████████▎| 1274/1368 [03:00<00:13,  6.95it/s] 94%|█████████▍| 1287/1368 [03:04<00:16,  4.86it/s] 95%|█████████▌| 1304/1368 [03:08<00:13,  4.66it/s] 97%|█████████▋| 1323/1368 [03:12<00:09,  4.83it/s] 98%|█████████▊| 1341/1368 [03:16<00:05,  4.81it/s] 99%|█████████▉| 1360/1368 [03:19<00:01,  5.21it/s]100%|██████████| 1368/1368 [03:22<00:00,  3.74it/s]100%|██████████| 1368/1368 [03:22<00:00,  6.75it/s]
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring secondary node contexts for 'z6'
+ignoring secondary node contexts for 'z6'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:42,  8.27it/s]  3%|▎         | 36/1368 [00:07<04:26,  5.01it/s]  3%|▎         | 45/1368 [00:14<08:18,  2.65it/s]  5%|▍         | 68/1368 [00:17<06:30,  3.33it/s]  6%|▋         | 86/1368 [00:21<05:51,  3.65it/s]  7%|▋         | 100/1368 [00:24<05:36,  3.77it/s]  8%|▊         | 112/1368 [00:29<06:30,  3.22it/s]  9%|▉         | 127/1368 [00:33<06:08,  3.37it/s] 12%|█▏        | 163/1368 [00:36<04:34,  4.39it/s] 14%|█▍        | 194/1368 [00:38<03:32,  5.52it/s] 16%|█▌        | 216/1368 [00:41<03:14,  5.92it/s] 17%|█▋        | 238/1368 [00:44<03:01,  6.22it/s] 19%|█▉        | 260/1368 [00:47<02:46,  6.67it/s] 21%|██▏       | 294/1368 [00:50<02:18,  7.74it/s] 24%|██▍       | 327/1368 [00:52<01:55,  9.00it/s] 26%|██▌       | 355/1368 [00:54<01:44,  9.67it/s] 27%|██▋       | 375/1368 [00:58<02:03,  8.04it/s] 29%|██▉       | 395/1368 [01:01<02:17,  7.10it/s] 30%|███       | 412/1368 [01:05<02:34,  6.20it/s] 32%|███▏      | 431/1368 [01:08<02:40,  5.83it/s] 33%|███▎      | 448/1368 [01:13<02:57,  5.19it/s] 34%|███▍      | 466/1368 [01:17<03:01,  4.97it/s] 36%|███▌      | 493/1368 [01:19<02:31,  5.79it/s] 38%|███▊      | 520/1368 [01:22<02:08,  6.61it/s] 40%|███▉      | 544/1368 [01:25<01:59,  6.87it/s] 41%|████▏     | 566/1368 [01:29<01:58,  6.77it/s] 43%|████▎     | 589/1368 [01:32<01:52,  6.95it/s] 45%|████▌     | 617/1368 [01:35<01:37,  7.67it/s] 47%|████▋     | 637/1368 [01:38<01:43,  7.05it/s] 49%|████▊     | 665/1368 [01:40<01:27,  8.03it/s] 50%|█████     | 687/1368 [01:44<01:29,  7.60it/s] 52%|█████▏    | 710/1368 [01:46<01:25,  7.74it/s] 54%|█████▍    | 736/1368 [01:49<01:19,  7.97it/s] 56%|█████▌    | 762/1368 [01:52<01:13,  8.29it/s] 58%|█████▊    | 787/1368 [01:55<01:09,  8.32it/s] 59%|█████▊    | 802/1368 [01:59<01:32,  6.09it/s] 60%|██████    | 823/1368 [02:03<01:28,  6.15it/s] 62%|██████▏   | 844/1368 [02:06<01:24,  6.23it/s] 63%|██████▎   | 864/1368 [02:09<01:23,  6.07it/s] 65%|██████▍   | 884/1368 [02:13<01:22,  5.87it/s] 66%|██████▌   | 899/1368 [02:17<01:31,  5.15it/s] 67%|██████▋   | 917/1368 [02:20<01:26,  5.20it/s] 69%|██████▉   | 941/1368 [02:23<01:12,  5.89it/s] 71%|███████   | 968/1368 [02:25<00:58,  6.87it/s] 72%|███████▏  | 989/1368 [02:29<00:57,  6.64it/s] 74%|███████▍  | 1009/1368 [02:32<00:57,  6.24it/s] 75%|███████▌  | 1032/1368 [02:35<00:50,  6.67it/s] 78%|███████▊  | 1065/1368 [02:38<00:37,  7.98it/s] 80%|████████  | 1095/1368 [02:40<00:31,  8.79it/s] 82%|████████▏ | 1123/1368 [02:43<00:27,  8.89it/s] 84%|████████▍ | 1152/1368 [02:46<00:22,  9.80it/s] 86%|████████▌ | 1179/1368 [02:48<00:19,  9.80it/s] 88%|████████▊ | 1201/1368 [02:51<00:18,  9.12it/s] 90%|████████▉ | 1231/1368 [02:54<00:13,  9.88it/s] 92%|█████████▏| 1258/1368 [02:56<00:11,  9.71it/s] 93%|█████████▎| 1274/1368 [03:00<00:12,  7.39it/s] 94%|█████████▍| 1287/1368 [03:04<00:16,  4.95it/s] 95%|█████████▌| 1304/1368 [03:08<00:13,  4.72it/s] 97%|█████████▋| 1323/1368 [03:12<00:09,  4.90it/s] 98%|█████████▊| 1341/1368 [03:15<00:05,  5.00it/s] 99%|█████████▉| 1360/1368 [03:18<00:01,  5.35it/s]100%|██████████| 1368/1368 [03:22<00:00,  3.86it/s]100%|██████████| 1368/1368 [03:22<00:00,  6.76it/s]
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring secondary node contexts for 'z6'
+ignoring epigraph data for duplicate triple: ('z5', ':ARG2', 'z1')
+ignoring epigraph data for duplicate triple: ('z5', ':ARG2', 'z1')
+ignoring secondary node contexts for 'z5'
+ignoring secondary node contexts for 'z6'
+ignoring secondary node contexts for 'z5'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:33,  8.75it/s]  3%|▎         | 36/1368 [00:07<04:28,  4.97it/s]  3%|▎         | 45/1368 [00:14<08:12,  2.69it/s]  5%|▍         | 68/1368 [00:17<06:28,  3.35it/s]  6%|▋         | 86/1368 [00:21<05:55,  3.61it/s]  7%|▋         | 100/1368 [00:25<05:49,  3.63it/s]  8%|▊         | 112/1368 [00:30<06:50,  3.06it/s]  9%|▉         | 127/1368 [00:34<06:28,  3.19it/s] 12%|█▏        | 163/1368 [00:37<04:50,  4.15it/s] 14%|█▍        | 194/1368 [00:40<03:48,  5.14it/s] 16%|█▌        | 216/1368 [00:43<03:26,  5.58it/s] 17%|█▋        | 238/1368 [00:46<03:06,  6.05it/s] 19%|█▉        | 260/1368 [00:49<02:53,  6.39it/s] 21%|██▏       | 294/1368 [00:51<02:22,  7.54it/s] 24%|██▍       | 327/1368 [00:54<01:59,  8.73it/s] 26%|██▌       | 355/1368 [00:56<01:48,  9.34it/s] 27%|██▋       | 375/1368 [01:00<02:10,  7.64it/s] 29%|██▉       | 395/1368 [01:04<02:22,  6.81it/s] 30%|███       | 412/1368 [01:07<02:37,  6.06it/s] 32%|███▏      | 431/1368 [01:11<02:44,  5.68it/s] 33%|███▎      | 448/1368 [01:15<02:52,  5.33it/s] 34%|███▍      | 466/1368 [01:18<02:53,  5.20it/s] 36%|███▌      | 493/1368 [01:21<02:25,  6.00it/s] 38%|███▊      | 520/1368 [01:24<02:04,  6.81it/s] 40%|███▉      | 544/1368 [01:27<01:57,  7.00it/s] 41%|████▏     | 566/1368 [01:31<01:56,  6.86it/s] 43%|████▎     | 589/1368 [01:33<01:48,  7.15it/s] 45%|████▌     | 617/1368 [01:36<01:35,  7.84it/s] 47%|████▋     | 637/1368 [01:39<01:38,  7.45it/s] 49%|████▊     | 665/1368 [01:42<01:25,  8.26it/s] 50%|█████     | 687/1368 [01:45<01:29,  7.59it/s] 52%|█████▏    | 710/1368 [01:48<01:26,  7.59it/s] 54%|█████▍    | 736/1368 [01:51<01:21,  7.80it/s] 56%|█████▌    | 762/1368 [01:54<01:12,  8.35it/s] 58%|█████▊    | 787/1368 [01:57<01:10,  8.26it/s] 59%|█████▊    | 802/1368 [02:01<01:33,  6.08it/s] 60%|██████    | 823/1368 [02:05<01:31,  5.98it/s] 62%|██████▏   | 844/1368 [02:08<01:23,  6.28it/s] 63%|██████▎   | 864/1368 [02:11<01:23,  6.04it/s] 65%|██████▍   | 884/1368 [02:15<01:24,  5.70it/s] 66%|██████▌   | 899/1368 [02:19<01:33,  4.99it/s] 67%|██████▋   | 917/1368 [02:23<01:30,  4.96it/s] 69%|██████▉   | 941/1368 [02:26<01:16,  5.57it/s] 71%|███████   | 968/1368 [02:29<01:03,  6.32it/s] 72%|███████▏  | 989/1368 [02:32<01:01,  6.18it/s] 74%|███████▍  | 1009/1368 [02:36<00:58,  6.19it/s] 75%|███████▌  | 1032/1368 [02:38<00:51,  6.58it/s] 78%|███████▊  | 1065/1368 [02:41<00:38,  7.78it/s] 80%|████████  | 1095/1368 [02:43<00:31,  8.71it/s] 82%|████████▏ | 1123/1368 [02:46<00:27,  9.00it/s] 84%|████████▍ | 1152/1368 [02:49<00:22,  9.70it/s] 86%|████████▌ | 1179/1368 [02:51<00:18,  9.96it/s] 88%|████████▊ | 1201/1368 [02:54<00:18,  8.94it/s] 90%|████████▉ | 1231/1368 [02:57<00:14,  9.66it/s] 92%|█████████▏| 1258/1368 [03:00<00:11,  9.63it/s] 93%|█████████▎| 1274/1368 [03:03<00:12,  7.31it/s] 94%|█████████▍| 1287/1368 [03:08<00:16,  4.99it/s] 95%|█████████▌| 1304/1368 [03:12<00:13,  4.78it/s] 97%|█████████▋| 1323/1368 [03:15<00:09,  4.81it/s] 98%|█████████▊| 1341/1368 [03:19<00:05,  4.87it/s] 99%|█████████▉| 1360/1368 [03:22<00:01,  5.14it/s]100%|██████████| 1368/1368 [03:26<00:00,  3.73it/s]100%|██████████| 1368/1368 [03:26<00:00,  6.63it/s]
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring secondary node contexts for 'z6'
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z8', ':location', 'z6')
+ignoring epigraph data for duplicate triple: ('z8', ':location', 'z6')
+ignoring secondary node contexts for 'z6'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:26,  9.16it/s]  3%|▎         | 36/1368 [00:07<04:17,  5.17it/s]  3%|▎         | 45/1368 [00:14<08:17,  2.66it/s]  5%|▍         | 68/1368 [00:17<06:29,  3.34it/s]  6%|▋         | 86/1368 [00:21<05:50,  3.66it/s]  7%|▋         | 100/1368 [00:24<05:37,  3.76it/s]  8%|▊         | 112/1368 [00:29<06:27,  3.24it/s]  9%|▉         | 127/1368 [00:33<06:05,  3.39it/s] 12%|█▏        | 163/1368 [00:35<04:33,  4.41it/s] 14%|█▍        | 194/1368 [00:38<03:33,  5.51it/s] 16%|█▌        | 216/1368 [00:40<03:09,  6.09it/s] 17%|█▋        | 238/1368 [00:43<02:54,  6.46it/s] 19%|█▉        | 260/1368 [00:46<02:38,  7.00it/s] 21%|██▏       | 294/1368 [00:49<02:12,  8.11it/s] 24%|██▍       | 327/1368 [00:51<01:51,  9.33it/s] 26%|██▌       | 355/1368 [00:53<01:43,  9.83it/s] 27%|██▋       | 375/1368 [00:57<02:01,  8.14it/s] 29%|██▉       | 395/1368 [01:00<02:15,  7.17it/s] 30%|███       | 412/1368 [01:04<02:35,  6.16it/s] 32%|███▏      | 431/1368 [01:08<02:46,  5.63it/s] 33%|███▎      | 448/1368 [01:12<02:52,  5.33it/s] 34%|███▍      | 466/1368 [01:15<02:53,  5.20it/s] 36%|███▌      | 493/1368 [01:18<02:24,  6.06it/s] 38%|███▊      | 520/1368 [01:21<02:03,  6.87it/s] 40%|███▉      | 544/1368 [01:24<01:55,  7.14it/s] 41%|████▏     | 566/1368 [01:27<01:55,  6.94it/s] 43%|████▎     | 589/1368 [01:30<01:48,  7.21it/s] 45%|████▌     | 617/1368 [01:33<01:34,  7.97it/s] 47%|████▋     | 637/1368 [01:36<01:40,  7.26it/s] 49%|████▊     | 665/1368 [01:38<01:24,  8.27it/s] 50%|█████     | 687/1368 [01:41<01:25,  7.99it/s] 52%|█████▏    | 710/1368 [01:44<01:20,  8.13it/s] 54%|█████▍    | 736/1368 [01:47<01:14,  8.47it/s] 56%|█████▌    | 762/1368 [01:50<01:09,  8.68it/s] 58%|█████▊    | 787/1368 [01:53<01:07,  8.58it/s] 59%|█████▊    | 802/1368 [01:56<01:29,  6.30it/s] 60%|██████    | 823/1368 [02:00<01:26,  6.32it/s] 62%|██████▏   | 844/1368 [02:03<01:20,  6.51it/s] 63%|██████▎   | 864/1368 [02:06<01:21,  6.18it/s] 65%|██████▍   | 884/1368 [02:10<01:20,  5.99it/s] 66%|██████▌   | 899/1368 [02:14<01:33,  5.03it/s] 67%|██████▋   | 917/1368 [02:18<01:30,  4.96it/s] 69%|██████▉   | 941/1368 [02:21<01:16,  5.60it/s] 71%|███████   | 968/1368 [02:23<01:01,  6.52it/s] 72%|███████▏  | 989/1368 [02:27<00:59,  6.33it/s] 74%|███████▍  | 1009/1368 [02:30<00:58,  6.13it/s] 75%|███████▌  | 1032/1368 [02:34<00:52,  6.43it/s] 78%|███████▊  | 1065/1368 [02:36<00:39,  7.75it/s] 80%|████████  | 1095/1368 [02:38<00:31,  8.56it/s] 82%|████████▏ | 1123/1368 [02:41<00:27,  9.03it/s] 84%|████████▍ | 1152/1368 [02:43<00:21, 10.07it/s] 86%|████████▌ | 1179/1368 [02:46<00:18, 10.07it/s] 88%|████████▊ | 1201/1368 [02:49<00:19,  8.65it/s] 90%|████████▉ | 1231/1368 [02:52<00:14,  9.46it/s] 92%|█████████▏| 1258/1368 [02:55<00:11,  9.39it/s] 93%|█████████▎| 1274/1368 [02:58<00:13,  7.21it/s] 94%|█████████▍| 1287/1368 [03:03<00:16,  4.86it/s] 95%|█████████▌| 1304/1368 [03:07<00:14,  4.51it/s] 97%|█████████▋| 1323/1368 [03:11<00:09,  4.64it/s] 98%|█████████▊| 1341/1368 [03:14<00:05,  4.82it/s] 99%|█████████▉| 1360/1368 [03:17<00:01,  5.25it/s]100%|██████████| 1368/1368 [03:21<00:00,  3.86it/s]100%|██████████| 1368/1368 [03:21<00:00,  6.80it/s]
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring secondary node contexts for 'z6'
+ignoring epigraph data for duplicate triple: ('z5', ':location', 'z13')
+ignoring epigraph data for duplicate triple: ('z5', ':location', 'z13')
+ignoring secondary node contexts for 'z13'
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring epigraph data for duplicate triple: ('z5', ':manner', 'z8')
+ignoring secondary node contexts for 'z6'
+ignoring secondary node contexts for 'z13'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:37,  8.56it/s]  3%|▎         | 36/1368 [00:07<04:17,  5.17it/s]  3%|▎         | 45/1368 [00:14<08:06,  2.72it/s]  5%|▍         | 68/1368 [00:17<06:21,  3.40it/s]  6%|▋         | 86/1368 [00:20<05:38,  3.79it/s]  7%|▋         | 100/1368 [00:23<05:23,  3.92it/s]  8%|▊         | 112/1368 [00:28<06:14,  3.35it/s]  9%|▉         | 127/1368 [00:32<05:59,  3.45it/s] 12%|█▏        | 163/1368 [00:34<04:26,  4.52it/s] 14%|█▍        | 194/1368 [00:37<03:29,  5.61it/s] 16%|█▌        | 216/1368 [00:40<03:09,  6.09it/s] 17%|█▋        | 238/1368 [00:43<03:01,  6.23it/s] 19%|█▉        | 260/1368 [00:46<02:48,  6.57it/s] 21%|██▏       | 294/1368 [00:49<02:20,  7.65it/s] 24%|██▍       | 327/1368 [00:51<01:57,  8.87it/s] 26%|██▌       | 355/1368 [00:54<01:48,  9.32it/s] 27%|██▋       | 375/1368 [00:57<02:10,  7.59it/s] 29%|██▉       | 395/1368 [01:01<02:22,  6.85it/s] 30%|███       | 412/1368 [01:05<02:37,  6.08it/s] 32%|███▏      | 431/1368 [01:08<02:43,  5.72it/s] 33%|███▎      | 448/1368 [01:12<02:51,  5.36it/s] 34%|███▍      | 466/1368 [01:16<02:52,  5.22it/s] 36%|███▌      | 493/1368 [01:18<02:24,  6.07it/s] 38%|███▊      | 520/1368 [01:21<02:04,  6.80it/s] 40%|███▉      | 544/1368 [01:25<01:58,  6.95it/s] 41%|████▏     | 566/1368 [01:28<01:56,  6.87it/s] 43%|████▎     | 589/1368 [01:31<01:48,  7.15it/s] 45%|████▌     | 617/1368 [01:33<01:35,  7.86it/s] 47%|████▋     | 637/1368 [01:37<01:40,  7.27it/s] 49%|████▊     | 665/1368 [01:39<01:25,  8.27it/s] 50%|█████     | 687/1368 [01:42<01:26,  7.85it/s] 52%|█████▏    | 710/1368 [01:45<01:24,  7.83it/s] 54%|█████▍    | 736/1368 [01:48<01:17,  8.18it/s] 56%|█████▌    | 762/1368 [01:51<01:11,  8.52it/s] 58%|█████▊    | 787/1368 [01:54<01:09,  8.38it/s] 59%|█████▊    | 802/1368 [01:58<01:32,  6.14it/s] 60%|██████    | 823/1368 [02:01<01:26,  6.29it/s] 62%|██████▏   | 844/1368 [02:04<01:20,  6.48it/s] 63%|██████▎   | 864/1368 [02:08<01:21,  6.17it/s] 65%|██████▍   | 884/1368 [02:11<01:21,  5.92it/s] 66%|██████▌   | 899/1368 [02:15<01:29,  5.22it/s] 67%|██████▋   | 917/1368 [02:19<01:28,  5.10it/s] 69%|██████▉   | 941/1368 [02:22<01:14,  5.76it/s] 71%|███████   | 968/1368 [02:24<01:00,  6.62it/s] 72%|███████▏  | 989/1368 [02:28<01:00,  6.29it/s] 74%|███████▍  | 1009/1368 [02:32<00:59,  6.04it/s] 75%|███████▌  | 1032/1368 [02:35<00:52,  6.41it/s] 78%|███████▊  | 1065/1368 [02:37<00:39,  7.68it/s] 80%|████████  | 1095/1368 [02:40<00:32,  8.47it/s] 82%|████████▏ | 1123/1368 [02:42<00:27,  8.79it/s] 84%|████████▍ | 1152/1368 [02:45<00:22,  9.66it/s] 86%|████████▌ | 1179/1368 [02:48<00:19,  9.64it/s] 88%|████████▊ | 1201/1368 [02:51<00:19,  8.35it/s] 90%|████████▉ | 1231/1368 [02:54<00:14,  9.14it/s] 92%|█████████▏| 1258/1368 [02:56<00:11,  9.34it/s] 93%|█████████▎| 1274/1368 [03:00<00:13,  7.06it/s] 94%|█████████▍| 1287/1368 [03:05<00:17,  4.69it/s] 95%|█████████▌| 1304/1368 [03:09<00:13,  4.58it/s] 97%|█████████▋| 1323/1368 [03:12<00:09,  4.80it/s] 98%|█████████▊| 1341/1368 [03:16<00:05,  4.87it/s] 99%|█████████▉| 1360/1368 [03:19<00:01,  5.21it/s]100%|██████████| 1368/1368 [03:22<00:00,  3.82it/s]100%|██████████| 1368/1368 [03:22<00:00,  6.74it/s]
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring secondary node contexts for 'z6'
+ignoring secondary node contexts for 'z6'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:30,  8.95it/s]  3%|▎         | 36/1368 [00:07<04:31,  4.91it/s]  3%|▎         | 45/1368 [00:14<08:13,  2.68it/s]  5%|▍         | 68/1368 [00:17<06:24,  3.38it/s]  6%|▋         | 86/1368 [00:20<05:44,  3.73it/s]  7%|▋         | 100/1368 [00:24<05:28,  3.86it/s]  8%|▊         | 112/1368 [00:29<06:28,  3.23it/s]  9%|▉         | 127/1368 [00:33<06:05,  3.39it/s] 12%|█▏        | 163/1368 [00:35<04:33,  4.41it/s] 14%|█▍        | 194/1368 [00:38<03:33,  5.51it/s] 16%|█▌        | 216/1368 [00:41<03:14,  5.92it/s] 17%|█▋        | 238/1368 [00:44<03:01,  6.21it/s] 19%|█▉        | 260/1368 [00:47<02:47,  6.61it/s] 21%|██▏       | 294/1368 [00:49<02:18,  7.73it/s] 24%|██▍       | 327/1368 [00:52<01:56,  8.90it/s] 26%|██▌       | 355/1368 [00:54<01:46,  9.52it/s] 27%|██▋       | 375/1368 [00:58<02:04,  7.98it/s] 29%|██▉       | 395/1368 [01:01<02:15,  7.16it/s] 30%|███       | 412/1368 [01:05<02:41,  5.92it/s] 32%|███▏      | 431/1368 [01:09<02:47,  5.60it/s] 33%|███▎      | 448/1368 [01:13<03:04,  5.00it/s] 34%|███▍      | 466/1368 [01:17<03:08,  4.79it/s] 36%|███▌      | 493/1368 [01:20<02:34,  5.65it/s] 38%|███▊      | 520/1368 [01:23<02:11,  6.47it/s] 40%|███▉      | 544/1368 [01:26<02:02,  6.70it/s] 41%|████▏     | 566/1368 [01:29<01:59,  6.73it/s] 43%|████▎     | 589/1368 [01:32<01:50,  7.07it/s] 45%|████▌     | 617/1368 [01:35<01:35,  7.82it/s] 47%|████▋     | 637/1368 [01:38<01:38,  7.39it/s] 49%|████▊     | 665/1368 [01:40<01:24,  8.33it/s] 50%|█████     | 687/1368 [01:43<01:26,  7.88it/s] 52%|█████▏    | 710/1368 [01:46<01:23,  7.85it/s] 54%|█████▍    | 736/1368 [01:49<01:17,  8.16it/s] 56%|█████▌    | 762/1368 [01:52<01:10,  8.60it/s] 58%|█████▊    | 787/1368 [01:55<01:08,  8.50it/s] 59%|█████▊    | 802/1368 [01:59<01:33,  6.03it/s] 60%|██████    | 823/1368 [02:03<01:31,  5.95it/s] 62%|██████▏   | 844/1368 [02:06<01:24,  6.20it/s] 63%|██████▎   | 864/1368 [02:10<01:24,  5.95it/s] 65%|██████▍   | 884/1368 [02:13<01:24,  5.69it/s] 66%|██████▌   | 899/1368 [02:17<01:32,  5.08it/s] 67%|██████▋   | 917/1368 [02:21<01:30,  4.96it/s] 69%|██████▉   | 941/1368 [02:24<01:16,  5.59it/s] 71%|███████   | 968/1368 [02:27<01:01,  6.49it/s] 72%|███████▏  | 989/1368 [02:30<01:00,  6.26it/s] 74%|███████▍  | 1009/1368 [02:34<00:59,  6.01it/s] 75%|███████▌  | 1032/1368 [02:37<00:51,  6.46it/s] 78%|███████▊  | 1065/1368 [02:39<00:40,  7.57it/s] 80%|████████  | 1095/1368 [02:42<00:32,  8.42it/s] 82%|████████▏ | 1123/1368 [02:45<00:28,  8.71it/s] 84%|████████▍ | 1152/1368 [02:48<00:23,  9.29it/s] 86%|████████▌ | 1179/1368 [02:50<00:20,  9.42it/s] 88%|████████▊ | 1201/1368 [02:54<00:20,  8.25it/s] 90%|████████▉ | 1231/1368 [02:56<00:15,  9.02it/s] 92%|█████████▏| 1258/1368 [02:59<00:11,  9.24it/s] 93%|█████████▎| 1274/1368 [03:03<00:13,  7.01it/s] 94%|█████████▍| 1287/1368 [03:07<00:16,  4.77it/s] 95%|█████████▌| 1304/1368 [03:12<00:13,  4.57it/s] 97%|█████████▋| 1323/1368 [03:15<00:09,  4.75it/s] 98%|█████████▊| 1341/1368 [03:19<00:05,  4.87it/s] 99%|█████████▉| 1360/1368 [03:22<00:01,  5.14it/s]100%|██████████| 1368/1368 [03:26<00:00,  3.65it/s]100%|██████████| 1368/1368 [03:26<00:00,  6.64it/s]
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:27,  9.10it/s]  3%|▎         | 36/1368 [00:07<04:30,  4.92it/s]  3%|▎         | 45/1368 [00:14<08:13,  2.68it/s]  5%|▍         | 68/1368 [00:17<06:26,  3.36it/s]  6%|▋         | 86/1368 [00:21<05:54,  3.62it/s]  7%|▋         | 100/1368 [00:25<05:42,  3.71it/s]  8%|▊         | 112/1368 [00:30<06:44,  3.10it/s]  9%|▉         | 127/1368 [00:34<06:24,  3.22it/s] 12%|█▏        | 163/1368 [00:37<04:45,  4.22it/s] 14%|█▍        | 194/1368 [00:39<03:42,  5.28it/s] 16%|█▌        | 216/1368 [00:42<03:23,  5.67it/s] 17%|█▋        | 238/1368 [00:45<03:07,  6.03it/s] 19%|█▉        | 260/1368 [00:48<02:49,  6.55it/s] 21%|██▏       | 294/1368 [00:51<02:20,  7.64it/s] 24%|██▍       | 327/1368 [00:53<01:56,  8.92it/s] 26%|██▌       | 355/1368 [00:55<01:45,  9.57it/s] 27%|██▋       | 375/1368 [00:59<02:05,  7.90it/s] 29%|██▉       | 395/1368 [01:02<02:17,  7.06it/s] 30%|███       | 412/1368 [01:06<02:40,  5.97it/s] 32%|███▏      | 431/1368 [01:10<02:47,  5.61it/s] 33%|███▎      | 448/1368 [01:14<03:01,  5.06it/s] 34%|███▍      | 466/1368 [01:18<03:01,  4.97it/s] 36%|███▌      | 493/1368 [01:21<02:29,  5.85it/s] 38%|███▊      | 520/1368 [01:24<02:07,  6.65it/s] 40%|███▉      | 544/1368 [01:27<02:00,  6.82it/s] 41%|████▏     | 566/1368 [01:30<01:57,  6.81it/s] 43%|████▎     | 589/1368 [01:33<01:50,  7.04it/s] 45%|████▌     | 617/1368 [01:36<01:38,  7.65it/s] 47%|████▋     | 637/1368 [01:39<01:44,  7.02it/s] 49%|████▊     | 665/1368 [01:42<01:27,  8.01it/s] 50%|█████     | 687/1368 [01:45<01:28,  7.69it/s] 52%|█████▏    | 710/1368 [01:48<01:26,  7.60it/s] 54%|█████▍    | 736/1368 [01:51<01:19,  7.91it/s] 56%|█████▌    | 762/1368 [01:54<01:13,  8.22it/s] 58%|█████▊    | 787/1368 [01:57<01:11,  8.18it/s] 59%|█████▊    | 802/1368 [02:01<01:33,  6.04it/s] 60%|██████    | 823/1368 [02:04<01:30,  6.02it/s] 62%|██████▏   | 844/1368 [02:08<01:25,  6.13it/s] 63%|██████▎   | 864/1368 [02:11<01:24,  5.93it/s] 65%|██████▍   | 884/1368 [02:15<01:23,  5.83it/s] 66%|██████▌   | 899/1368 [02:19<01:32,  5.09it/s] 67%|██████▋   | 917/1368 [02:23<01:30,  4.99it/s] 69%|██████▉   | 941/1368 [02:25<01:15,  5.65it/s] 71%|███████   | 968/1368 [02:28<01:01,  6.47it/s] 72%|███████▏  | 989/1368 [02:32<01:00,  6.26it/s] 74%|███████▍  | 1009/1368 [02:36<01:00,  5.98it/s] 75%|███████▌  | 1032/1368 [02:38<00:51,  6.48it/s] 78%|███████▊  | 1065/1368 [02:41<00:38,  7.79it/s] 80%|████████  | 1095/1368 [02:43<00:32,  8.51it/s] 82%|████████▏ | 1123/1368 [02:46<00:27,  8.77it/s] 84%|████████▍ | 1152/1368 [02:49<00:22,  9.70it/s] 86%|████████▌ | 1179/1368 [02:51<00:19,  9.70it/s] 88%|████████▊ | 1201/1368 [02:55<00:19,  8.54it/s] 90%|████████▉ | 1231/1368 [02:57<00:15,  9.13it/s] 92%|█████████▏| 1258/1368 [03:00<00:11,  9.20it/s] 93%|█████████▎| 1274/1368 [03:04<00:13,  7.04it/s] 94%|█████████▍| 1287/1368 [03:09<00:16,  4.77it/s] 95%|█████████▌| 1304/1368 [03:13<00:14,  4.42it/s] 97%|█████████▋| 1323/1368 [03:17<00:09,  4.67it/s] 98%|█████████▊| 1341/1368 [03:20<00:05,  4.77it/s] 99%|█████████▉| 1360/1368 [03:23<00:01,  5.16it/s]100%|██████████| 1368/1368 [03:27<00:00,  3.77it/s]100%|██████████| 1368/1368 [03:27<00:00,  6.60it/s]
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:35,  8.67it/s]  3%|▎         | 36/1368 [00:07<04:20,  5.11it/s]  3%|▎         | 45/1368 [00:14<08:21,  2.64it/s]  5%|▍         | 68/1368 [00:17<06:28,  3.35it/s]  6%|▋         | 86/1368 [00:21<05:49,  3.67it/s]  7%|▋         | 100/1368 [00:24<05:34,  3.79it/s]  8%|▊         | 112/1368 [00:29<06:27,  3.24it/s]  9%|▉         | 127/1368 [00:33<06:11,  3.34it/s] 12%|█▏        | 163/1368 [00:36<04:38,  4.33it/s] 14%|█▍        | 194/1368 [00:38<03:38,  5.38it/s] 16%|█▌        | 216/1368 [00:41<03:17,  5.82it/s] 17%|█▋        | 238/1368 [00:44<03:02,  6.19it/s] 19%|█▉        | 260/1368 [00:48<02:55,  6.30it/s] 21%|██▏       | 294/1368 [00:50<02:26,  7.35it/s] 24%|██▍       | 327/1368 [00:53<02:01,  8.58it/s] 26%|██▌       | 355/1368 [00:55<01:49,  9.27it/s] 27%|██▋       | 375/1368 [00:59<02:08,  7.75it/s] 29%|██▉       | 395/1368 [01:02<02:21,  6.90it/s] 30%|███       | 412/1368 [01:06<02:37,  6.06it/s] 32%|███▏      | 431/1368 [01:10<02:48,  5.56it/s] 33%|███▎      | 448/1368 [01:14<03:02,  5.05it/s] 34%|███▍      | 466/1368 [01:18<03:00,  5.01it/s] 36%|███▌      | 493/1368 [01:21<02:29,  5.84it/s] 38%|███▊      | 520/1368 [01:23<02:08,  6.62it/s] 40%|███▉      | 544/1368 [01:27<02:00,  6.81it/s] 41%|████▏     | 566/1368 [01:30<01:59,  6.70it/s] 43%|████▎     | 589/1368 [01:33<01:52,  6.91it/s] 45%|████▌     | 617/1368 [01:36<01:39,  7.53it/s] 47%|████▋     | 637/1368 [01:40<01:45,  6.95it/s] 49%|████▊     | 665/1368 [01:42<01:28,  7.92it/s] 50%|█████     | 687/1368 [01:45<01:30,  7.56it/s] 52%|█████▏    | 710/1368 [01:48<01:27,  7.55it/s] 54%|█████▍    | 736/1368 [01:51<01:21,  7.80it/s] 56%|█████▌    | 762/1368 [01:54<01:16,  7.97it/s] 58%|█████▊    | 787/1368 [01:58<01:13,  7.90it/s] 59%|█████▊    | 802/1368 [02:02<01:35,  5.96it/s] 60%|██████    | 823/1368 [02:05<01:31,  5.97it/s] 62%|██████▏   | 844/1368 [02:08<01:23,  6.31it/s] 63%|██████▎   | 864/1368 [02:12<01:23,  6.03it/s] 65%|██████▍   | 884/1368 [02:16<01:25,  5.65it/s] 66%|██████▌   | 899/1368 [02:19<01:32,  5.05it/s] 67%|██████▋   | 917/1368 [02:23<01:31,  4.95it/s] 69%|██████▉   | 941/1368 [02:26<01:16,  5.59it/s] 71%|███████   | 968/1368 [02:29<01:02,  6.36it/s] 72%|███████▏  | 989/1368 [02:33<01:00,  6.24it/s] 74%|███████▍  | 1009/1368 [02:36<01:01,  5.88it/s] 75%|███████▌  | 1032/1368 [02:39<00:53,  6.30it/s] 78%|███████▊  | 1065/1368 [02:42<00:39,  7.58it/s] 80%|████████  | 1095/1368 [02:45<00:32,  8.36it/s] 82%|████████▏ | 1123/1368 [02:47<00:27,  8.80it/s] 84%|████████▍ | 1152/1368 [02:49<00:22,  9.78it/s] 86%|████████▌ | 1179/1368 [02:52<00:19,  9.60it/s] 88%|████████▊ | 1201/1368 [02:56<00:19,  8.45it/s] 90%|████████▉ | 1231/1368 [02:58<00:14,  9.23it/s] 92%|█████████▏| 1258/1368 [03:01<00:11,  9.25it/s] 93%|█████████▎| 1274/1368 [03:05<00:13,  7.03it/s] 94%|█████████▍| 1287/1368 [03:10<00:17,  4.56it/s] 95%|█████████▌| 1304/1368 [03:14<00:14,  4.36it/s] 97%|█████████▋| 1323/1368 [03:18<00:09,  4.52it/s] 98%|█████████▊| 1341/1368 [03:22<00:05,  4.64it/s] 99%|█████████▉| 1360/1368 [03:25<00:01,  4.90it/s]100%|██████████| 1368/1368 [03:28<00:00,  3.77it/s]100%|██████████| 1368/1368 [03:28<00:00,  6.55it/s]
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring epigraph data for duplicate triple: ('z6', ':ARG1', 'z5')
+ignoring secondary node contexts for 'z6'
+ignoring secondary node contexts for 'z6'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:23,  9.35it/s]  3%|▎         | 36/1368 [00:07<04:26,  5.00it/s]  3%|▎         | 45/1368 [00:15<08:35,  2.57it/s]  5%|▍         | 68/1368 [00:17<06:43,  3.22it/s]  6%|▋         | 86/1368 [00:21<06:01,  3.55it/s]  7%|▋         | 100/1368 [00:25<05:42,  3.70it/s]  8%|▊         | 112/1368 [00:30<06:37,  3.16it/s]  9%|▉         | 127/1368 [00:33<06:05,  3.39it/s] 12%|█▏        | 163/1368 [00:36<04:30,  4.45it/s] 14%|█▍        | 194/1368 [00:38<03:31,  5.55it/s] 16%|█▌        | 216/1368 [00:41<03:11,  6.01it/s] 17%|█▋        | 238/1368 [00:44<02:56,  6.41it/s] 19%|█▉        | 260/1368 [00:47<02:44,  6.73it/s] 21%|██▏       | 294/1368 [00:50<02:17,  7.79it/s] 24%|██▍       | 327/1368 [00:52<01:57,  8.90it/s] 26%|██▌       | 355/1368 [00:54<01:46,  9.53it/s] 27%|██▋       | 375/1368 [00:58<02:09,  7.68it/s] 29%|██▉       | 395/1368 [01:02<02:20,  6.91it/s] 30%|███       | 412/1368 [01:06<02:45,  5.79it/s] 32%|███▏      | 431/1368 [01:10<02:49,  5.52it/s] 33%|███▎      | 448/1368 [01:14<03:01,  5.08it/s] 34%|███▍      | 466/1368 [01:18<03:09,  4.77it/s] 36%|███▌      | 493/1368 [01:21<02:36,  5.58it/s] 38%|███▊      | 520/1368 [01:24<02:16,  6.23it/s] 40%|███▉      | 544/1368 [01:27<02:06,  6.52it/s] 41%|████▏     | 566/1368 [01:31<02:03,  6.49it/s] 43%|████▎     | 589/1368 [01:34<01:55,  6.75it/s] 45%|████▌     | 617/1368 [01:37<01:41,  7.36it/s] 47%|████▋     | 637/1368 [01:40<01:45,  6.91it/s] 49%|████▊     | 665/1368 [01:43<01:29,  7.82it/s] 50%|█████     | 687/1368 [01:46<01:30,  7.56it/s] 52%|█████▏    | 710/1368 [01:49<01:25,  7.68it/s] 54%|█████▍    | 736/1368 [01:52<01:19,  7.93it/s] 56%|█████▌    | 762/1368 [01:55<01:13,  8.26it/s] 58%|█████▊    | 787/1368 [01:58<01:10,  8.28it/s] 59%|█████▊    | 802/1368 [02:02<01:34,  5.99it/s] 60%|██████    | 823/1368 [02:05<01:30,  6.03it/s] 62%|██████▏   | 844/1368 [02:08<01:22,  6.37it/s] 63%|██████▎   | 864/1368 [02:12<01:22,  6.11it/s] 65%|██████▍   | 884/1368 [02:15<01:23,  5.83it/s] 66%|██████▌   | 899/1368 [02:19<01:31,  5.12it/s] 67%|██████▋   | 917/1368 [02:23<01:30,  5.01it/s] 69%|██████▉   | 941/1368 [02:26<01:15,  5.68it/s] 71%|███████   | 968/1368 [02:28<01:00,  6.56it/s] 72%|███████▏  | 989/1368 [02:32<00:59,  6.36it/s] 74%|███████▍  | 1009/1368 [02:35<00:58,  6.17it/s] 75%|███████▌  | 1032/1368 [02:38<00:50,  6.62it/s] 78%|███████▊  | 1065/1368 [02:41<00:38,  7.93it/s] 80%|████████  | 1095/1368 [02:43<00:30,  8.82it/s] 82%|████████▏ | 1123/1368 [02:46<00:26,  9.18it/s] 84%|████████▍ | 1152/1368 [02:48<00:21, 10.00it/s] 86%|████████▌ | 1179/1368 [02:51<00:18,  9.98it/s] 88%|████████▊ | 1201/1368 [02:54<00:19,  8.65it/s] 90%|████████▉ | 1231/1368 [02:57<00:14,  9.43it/s] 92%|█████████▏| 1258/1368 [02:59<00:11,  9.51it/s] 93%|█████████▎| 1274/1368 [03:03<00:13,  7.20it/s] 94%|█████████▍| 1287/1368 [03:07<00:16,  4.99it/s] 95%|█████████▌| 1304/1368 [03:11<00:13,  4.72it/s] 97%|█████████▋| 1323/1368 [03:15<00:09,  4.95it/s] 98%|█████████▊| 1341/1368 [03:18<00:05,  5.02it/s] 99%|█████████▉| 1360/1368 [03:21<00:01,  5.34it/s]100%|██████████| 1368/1368 [03:25<00:00,  3.86it/s]100%|██████████| 1368/1368 [03:25<00:00,  6.67it/s]
+ignoring epigraph data for duplicate triple: ('z19', ':ARG0', 'z17')
+ignoring epigraph data for duplicate triple: ('z19', ':ARG0', 'z17')
+ignoring secondary node contexts for 'z19'
+ignoring secondary node contexts for 'z19'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:36,  8.58it/s]  3%|▎         | 36/1368 [00:07<04:31,  4.91it/s]  3%|▎         | 45/1368 [00:15<08:39,  2.55it/s]  5%|▍         | 68/1368 [00:18<06:46,  3.20it/s]  6%|▋         | 86/1368 [00:21<05:58,  3.57it/s]  7%|▋         | 100/1368 [00:25<05:41,  3.71it/s]  8%|▊         | 112/1368 [00:30<06:28,  3.23it/s]  9%|▉         | 127/1368 [00:34<06:11,  3.34it/s] 12%|█▏        | 163/1368 [00:36<04:35,  4.37it/s] 14%|█▍        | 194/1368 [00:38<03:34,  5.47it/s] 16%|█▌        | 216/1368 [00:41<03:17,  5.83it/s] 17%|█▋        | 238/1368 [00:44<02:59,  6.28it/s] 19%|█▉        | 260/1368 [00:47<02:45,  6.68it/s] 21%|██▏       | 294/1368 [00:50<02:19,  7.72it/s] 24%|██▍       | 327/1368 [00:52<01:57,  8.85it/s] 26%|██▌       | 355/1368 [00:55<01:47,  9.41it/s] 27%|██▋       | 375/1368 [00:58<02:05,  7.89it/s] 29%|██▉       | 395/1368 [01:02<02:22,  6.83it/s] 30%|███       | 412/1368 [01:06<02:47,  5.72it/s] 32%|███▏      | 431/1368 [01:11<02:57,  5.29it/s] 33%|███▎      | 448/1368 [01:14<03:02,  5.05it/s] 34%|███▍      | 466/1368 [01:18<02:58,  5.05it/s] 36%|███▌      | 493/1368 [01:21<02:31,  5.78it/s] 38%|███▊      | 520/1368 [01:24<02:09,  6.54it/s] 40%|███▉      | 544/1368 [01:27<02:01,  6.78it/s] 41%|████▏     | 566/1368 [01:30<01:59,  6.71it/s] 43%|████▎     | 589/1368 [01:33<01:51,  6.99it/s] 45%|████▌     | 617/1368 [01:36<01:37,  7.67it/s] 47%|████▋     | 637/1368 [01:39<01:40,  7.29it/s] 49%|████▊     | 665/1368 [01:42<01:24,  8.29it/s] 50%|█████     | 687/1368 [01:45<01:25,  7.94it/s] 52%|█████▏    | 710/1368 [01:48<01:23,  7.90it/s] 54%|█████▍    | 736/1368 [01:51<01:17,  8.12it/s] 56%|█████▌    | 762/1368 [01:53<01:12,  8.37it/s] 58%|█████▊    | 787/1368 [01:57<01:10,  8.22it/s] 59%|█████▊    | 802/1368 [02:01<01:35,  5.90it/s] 60%|██████    | 823/1368 [02:04<01:30,  5.99it/s] 62%|██████▏   | 844/1368 [02:07<01:21,  6.41it/s] 63%|██████▎   | 864/1368 [02:11<01:21,  6.15it/s] 65%|██████▍   | 884/1368 [02:15<01:25,  5.67it/s] 66%|██████▌   | 899/1368 [02:18<01:32,  5.07it/s] 67%|██████▋   | 917/1368 [02:22<01:30,  5.00it/s] 69%|██████▉   | 941/1368 [02:25<01:15,  5.67it/s] 71%|███████   | 968/1368 [02:28<01:01,  6.49it/s] 72%|███████▏  | 989/1368 [02:31<00:58,  6.43it/s] 74%|███████▍  | 1009/1368 [02:34<00:57,  6.28it/s] 75%|███████▌  | 1032/1368 [02:38<00:50,  6.62it/s] 78%|███████▊  | 1065/1368 [02:40<00:38,  7.93it/s] 80%|████████  | 1095/1368 [02:42<00:31,  8.78it/s] 82%|████████▏ | 1123/1368 [02:45<00:26,  9.32it/s] 84%|████████▍ | 1152/1368 [02:47<00:21, 10.09it/s] 86%|████████▌ | 1179/1368 [02:50<00:18, 10.02it/s] 88%|████████▊ | 1201/1368 [02:53<00:19,  8.73it/s] 90%|████████▉ | 1231/1368 [02:56<00:14,  9.46it/s] 92%|█████████▏| 1258/1368 [02:58<00:11,  9.60it/s] 93%|█████████▎| 1274/1368 [03:02<00:12,  7.30it/s] 94%|█████████▍| 1287/1368 [03:06<00:15,  5.15it/s] 95%|█████████▌| 1304/1368 [03:10<00:13,  4.83it/s] 97%|█████████▋| 1323/1368 [03:14<00:09,  4.97it/s] 98%|█████████▊| 1341/1368 [03:17<00:05,  4.96it/s] 99%|█████████▉| 1360/1368 [03:20<00:01,  5.30it/s]100%|██████████| 1368/1368 [03:24<00:00,  3.85it/s]100%|██████████| 1368/1368 [03:24<00:00,  6.70it/s]
+ignoring epigraph data for duplicate triple: ('z18', ':mod', 'z20')
+ignoring epigraph data for duplicate triple: ('z18', ':mod', 'z20')
+ignoring secondary node contexts for 'z20'
+ignoring secondary node contexts for 'z20'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:29,  8.99it/s]  3%|▎         | 36/1368 [00:07<04:23,  5.05it/s]  3%|▎         | 45/1368 [00:14<08:22,  2.64it/s]  5%|▍         | 68/1368 [00:17<06:33,  3.31it/s]  6%|▋         | 86/1368 [00:21<05:55,  3.61it/s]  7%|▋         | 100/1368 [00:24<05:35,  3.78it/s]  8%|▊         | 112/1368 [00:29<06:25,  3.25it/s]  9%|▉         | 127/1368 [00:33<06:08,  3.37it/s] 12%|█▏        | 163/1368 [00:36<04:36,  4.36it/s] 14%|█▍        | 194/1368 [00:38<03:36,  5.42it/s] 16%|█▌        | 216/1368 [00:41<03:16,  5.87it/s] 17%|█▋        | 238/1368 [00:44<03:02,  6.19it/s] 19%|█▉        | 260/1368 [00:47<02:48,  6.59it/s] 21%|██▏       | 294/1368 [00:50<02:21,  7.61it/s] 24%|██▍       | 327/1368 [00:53<01:59,  8.69it/s] 26%|██▌       | 355/1368 [00:55<01:49,  9.24it/s] 27%|██▋       | 375/1368 [00:59<02:08,  7.73it/s] 29%|██▉       | 395/1368 [01:02<02:21,  6.89it/s] 30%|███       | 412/1368 [01:06<02:42,  5.89it/s] 32%|███▏      | 431/1368 [01:10<02:47,  5.61it/s] 33%|███▎      | 448/1368 [01:14<02:56,  5.22it/s] 34%|███▍      | 466/1368 [01:18<02:57,  5.07it/s] 36%|███▌      | 493/1368 [01:21<02:28,  5.88it/s] 38%|███▊      | 520/1368 [01:23<02:05,  6.75it/s] 40%|███▉      | 544/1368 [01:27<02:00,  6.81it/s] 41%|████▏     | 566/1368 [01:30<01:58,  6.76it/s] 43%|████▎     | 589/1368 [01:33<01:51,  6.98it/s] 45%|████▌     | 617/1368 [01:36<01:40,  7.48it/s] 47%|████▋     | 637/1368 [01:39<01:45,  6.93it/s] 49%|████▊     | 665/1368 [01:42<01:30,  7.77it/s] 50%|█████     | 687/1368 [01:45<01:32,  7.33it/s] 52%|█████▏    | 710/1368 [01:48<01:28,  7.46it/s] 54%|█████▍    | 736/1368 [01:51<01:19,  7.90it/s] 56%|█████▌    | 762/1368 [01:54<01:14,  8.18it/s] 58%|█████▊    | 787/1368 [01:57<01:10,  8.27it/s] 59%|█████▊    | 802/1368 [02:01<01:31,  6.16it/s] 60%|██████    | 823/1368 [02:05<01:33,  5.86it/s] 62%|██████▏   | 844/1368 [02:08<01:26,  6.08it/s] 63%|██████▎   | 864/1368 [02:12<01:25,  5.93it/s] 65%|██████▍   | 884/1368 [02:16<01:25,  5.68it/s] 66%|██████▌   | 899/1368 [02:19<01:33,  5.03it/s] 67%|██████▋   | 917/1368 [02:23<01:31,  4.93it/s] 69%|██████▉   | 941/1368 [02:26<01:16,  5.57it/s] 71%|███████   | 968/1368 [02:29<01:02,  6.39it/s] 72%|███████▏  | 989/1368 [02:33<01:00,  6.21it/s] 74%|███████▍  | 1009/1368 [02:36<00:59,  6.02it/s] 75%|███████▌  | 1032/1368 [02:39<00:51,  6.47it/s] 78%|███████▊  | 1065/1368 [02:41<00:39,  7.73it/s] 80%|████████  | 1095/1368 [02:44<00:31,  8.59it/s] 82%|████████▏ | 1123/1368 [02:47<00:27,  9.04it/s] 84%|████████▍ | 1152/1368 [02:49<00:22,  9.76it/s] 86%|████████▌ | 1179/1368 [02:52<00:19,  9.81it/s] 88%|████████▊ | 1201/1368 [02:55<00:19,  8.63it/s] 90%|████████▉ | 1231/1368 [02:58<00:14,  9.39it/s] 92%|█████████▏| 1258/1368 [03:01<00:11,  9.33it/s] 93%|█████████▎| 1274/1368 [03:04<00:13,  7.11it/s] 94%|█████████▍| 1287/1368 [03:09<00:16,  4.92it/s] 95%|█████████▌| 1304/1368 [03:13<00:13,  4.62it/s] 97%|█████████▋| 1323/1368 [03:16<00:09,  4.83it/s] 98%|█████████▊| 1341/1368 [03:20<00:05,  4.92it/s] 99%|█████████▉| 1360/1368 [03:23<00:01,  5.24it/s]100%|██████████| 1368/1368 [03:26<00:00,  3.84it/s]100%|██████████| 1368/1368 [03:26<00:00,  6.62it/s]
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:34,  8.71it/s]  3%|▎         | 36/1368 [00:07<04:20,  5.12it/s]  3%|▎         | 45/1368 [00:14<08:10,  2.70it/s]  5%|▍         | 68/1368 [00:17<06:23,  3.39it/s]  6%|▋         | 86/1368 [00:20<05:47,  3.69it/s]  7%|▋         | 100/1368 [00:24<05:28,  3.86it/s]  8%|▊         | 112/1368 [00:29<06:24,  3.26it/s]  9%|▉         | 127/1368 [00:33<06:09,  3.36it/s] 12%|█▏        | 163/1368 [00:35<04:34,  4.39it/s] 14%|█▍        | 194/1368 [00:38<03:36,  5.41it/s] 16%|█▌        | 216/1368 [00:41<03:16,  5.85it/s] 17%|█▋        | 238/1368 [00:44<03:01,  6.23it/s] 19%|█▉        | 260/1368 [00:47<02:50,  6.49it/s] 21%|██▏       | 294/1368 [00:50<02:20,  7.62it/s] 24%|██▍       | 327/1368 [00:52<01:58,  8.79it/s] 26%|██▌       | 355/1368 [00:54<01:47,  9.43it/s] 27%|██▋       | 375/1368 [00:58<02:06,  7.83it/s] 29%|██▉       | 395/1368 [01:01<02:16,  7.14it/s] 30%|███       | 412/1368 [01:05<02:33,  6.23it/s] 32%|███▏      | 431/1368 [01:09<02:43,  5.75it/s] 33%|███▎      | 448/1368 [01:13<03:00,  5.08it/s] 34%|███▍      | 466/1368 [01:17<03:05,  4.86it/s] 36%|███▌      | 493/1368 [01:20<02:33,  5.70it/s] 38%|███▊      | 520/1368 [01:23<02:11,  6.47it/s] 40%|███▉      | 544/1368 [01:26<02:04,  6.60it/s] 41%|████▏     | 566/1368 [01:30<02:02,  6.55it/s] 43%|████▎     | 589/1368 [01:33<01:53,  6.85it/s] 45%|████▌     | 617/1368 [01:36<01:41,  7.43it/s] 47%|████▋     | 637/1368 [01:39<01:44,  7.01it/s] 49%|████▊     | 665/1368 [01:41<01:27,  8.03it/s] 50%|█████     | 687/1368 [01:45<01:29,  7.58it/s] 52%|█████▏    | 710/1368 [01:48<01:30,  7.25it/s] 54%|█████▍    | 736/1368 [01:51<01:22,  7.65it/s] 56%|█████▌    | 762/1368 [01:54<01:15,  8.04it/s] 58%|█████▊    | 787/1368 [01:57<01:12,  8.01it/s] 59%|█████▊    | 802/1368 [02:01<01:34,  5.99it/s] 60%|██████    | 823/1368 [02:05<01:32,  5.91it/s] 62%|██████▏   | 844/1368 [02:08<01:26,  6.04it/s] 63%|██████▎   | 864/1368 [02:11<01:25,  5.90it/s] 65%|██████▍   | 884/1368 [02:16<01:26,  5.59it/s] 66%|██████▌   | 899/1368 [02:19<01:33,  4.99it/s] 67%|██████▋   | 917/1368 [02:23<01:32,  4.85it/s] 69%|██████▉   | 941/1368 [02:26<01:17,  5.49it/s] 71%|███████   | 968/1368 [02:29<01:03,  6.28it/s] 72%|███████▏  | 989/1368 [02:33<01:00,  6.23it/s] 74%|███████▍  | 1009/1368 [02:36<01:01,  5.86it/s] 75%|███████▌  | 1032/1368 [02:40<00:53,  6.26it/s] 78%|███████▊  | 1065/1368 [02:42<00:40,  7.45it/s] 80%|████████  | 1095/1368 [02:45<00:33,  8.08it/s] 82%|████████▏ | 1123/1368 [02:48<00:28,  8.53it/s] 84%|████████▍ | 1152/1368 [02:50<00:23,  9.31it/s] 86%|████████▌ | 1179/1368 [02:53<00:20,  9.34it/s] 88%|████████▊ | 1201/1368 [02:56<00:20,  8.29it/s] 90%|████████▉ | 1231/1368 [02:59<00:15,  8.95it/s] 92%|█████████▏| 1258/1368 [03:02<00:12,  9.07it/s] 93%|█████████▎| 1274/1368 [03:06<00:14,  6.70it/s] 94%|█████████▍| 1287/1368 [03:11<00:17,  4.65it/s] 95%|█████████▌| 1304/1368 [03:16<00:15,  4.21it/s] 97%|█████████▋| 1323/1368 [03:19<00:10,  4.47it/s] 98%|█████████▊| 1341/1368 [03:23<00:05,  4.61it/s] 99%|█████████▉| 1360/1368 [03:26<00:01,  5.00it/s]100%|██████████| 1368/1368 [03:29<00:00,  3.69it/s]100%|██████████| 1368/1368 [03:29<00:00,  6.52it/s]
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:00, 11.11it/s]  3%|▎         | 36/1368 [00:07<04:11,  5.29it/s]  3%|▎         | 45/1368 [00:14<08:07,  2.71it/s]  5%|▍         | 68/1368 [00:17<06:25,  3.38it/s]  6%|▋         | 86/1368 [00:21<05:47,  3.69it/s]  7%|▋         | 100/1368 [00:24<05:30,  3.84it/s]  8%|▊         | 112/1368 [00:29<06:28,  3.23it/s]  9%|▉         | 127/1368 [00:33<06:08,  3.36it/s] 12%|█▏        | 163/1368 [00:35<04:34,  4.39it/s] 14%|█▍        | 194/1368 [00:38<03:36,  5.41it/s] 16%|█▌        | 216/1368 [00:41<03:17,  5.84it/s] 17%|█▋        | 238/1368 [00:44<03:05,  6.10it/s] 19%|█▉        | 260/1368 [00:47<02:51,  6.44it/s] 21%|██▏       | 294/1368 [00:50<02:22,  7.52it/s] 24%|██▍       | 327/1368 [00:52<01:59,  8.69it/s] 26%|██▌       | 355/1368 [00:55<01:48,  9.31it/s] 27%|██▋       | 375/1368 [00:58<02:07,  7.78it/s] 29%|██▉       | 395/1368 [01:02<02:24,  6.75it/s] 30%|███       | 412/1368 [01:06<02:42,  5.89it/s] 32%|███▏      | 431/1368 [01:10<02:48,  5.55it/s] 33%|███▎      | 448/1368 [01:14<03:02,  5.04it/s] 34%|███▍      | 466/1368 [01:18<03:01,  4.96it/s] 36%|███▌      | 493/1368 [01:21<02:30,  5.80it/s] 38%|███▊      | 520/1368 [01:24<02:10,  6.51it/s] 40%|███▉      | 544/1368 [01:27<02:03,  6.67it/s] 41%|████▏     | 566/1368 [01:30<02:01,  6.61it/s] 43%|████▎     | 589/1368 [01:33<01:53,  6.87it/s] 45%|████▌     | 617/1368 [01:36<01:38,  7.60it/s] 47%|████▋     | 637/1368 [01:39<01:42,  7.12it/s] 49%|████▊     | 665/1368 [01:42<01:27,  8.07it/s] 50%|█████     | 687/1368 [01:45<01:30,  7.49it/s] 52%|█████▏    | 710/1368 [01:48<01:26,  7.59it/s] 54%|█████▍    | 736/1368 [01:51<01:19,  7.92it/s] 56%|█████▌    | 762/1368 [01:54<01:15,  8.06it/s] 58%|█████▊    | 787/1368 [01:57<01:12,  8.01it/s] 59%|█████▊    | 802/1368 [02:01<01:34,  6.01it/s] 60%|██████    | 823/1368 [02:05<01:30,  6.05it/s] 62%|██████▏   | 844/1368 [02:08<01:21,  6.39it/s] 63%|██████▎   | 864/1368 [02:11<01:23,  6.01it/s] 65%|██████▍   | 884/1368 [02:15<01:24,  5.72it/s] 66%|██████▌   | 899/1368 [02:19<01:32,  5.06it/s] 67%|██████▋   | 917/1368 [02:23<01:31,  4.93it/s] 69%|██████▉   | 941/1368 [02:26<01:17,  5.51it/s] 71%|███████   | 968/1368 [02:29<01:03,  6.32it/s] 72%|███████▏  | 989/1368 [02:32<01:01,  6.20it/s] 74%|███████▍  | 1009/1368 [02:36<00:59,  6.02it/s] 75%|███████▌  | 1032/1368 [02:39<00:51,  6.49it/s] 78%|███████▊  | 1065/1368 [02:41<00:39,  7.73it/s] 80%|████████  | 1095/1368 [02:44<00:32,  8.48it/s] 82%|████████▏ | 1123/1368 [02:47<00:28,  8.65it/s] 84%|████████▍ | 1152/1368 [02:50<00:23,  9.38it/s] 86%|████████▌ | 1179/1368 [02:52<00:19,  9.51it/s] 88%|████████▊ | 1201/1368 [02:56<00:19,  8.46it/s] 90%|████████▉ | 1231/1368 [02:58<00:14,  9.19it/s] 92%|█████████▏| 1258/1368 [03:01<00:12,  9.12it/s] 93%|█████████▎| 1274/1368 [03:05<00:13,  6.80it/s] 94%|█████████▍| 1287/1368 [03:10<00:17,  4.62it/s] 95%|█████████▌| 1304/1368 [03:14<00:14,  4.41it/s] 97%|█████████▋| 1323/1368 [03:18<00:09,  4.66it/s] 98%|█████████▊| 1341/1368 [03:21<00:05,  4.76it/s] 99%|█████████▉| 1360/1368 [03:24<00:01,  5.14it/s]100%|██████████| 1368/1368 [03:28<00:00,  3.65it/s]100%|██████████| 1368/1368 [03:28<00:00,  6.56it/s]
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:20,  9.56it/s]  3%|▎         | 36/1368 [00:07<04:21,  5.09it/s]  3%|▎         | 45/1368 [00:14<08:23,  2.63it/s]  5%|▍         | 68/1368 [00:17<06:35,  3.28it/s]  6%|▋         | 86/1368 [00:21<05:47,  3.69it/s]  7%|▋         | 100/1368 [00:24<05:35,  3.78it/s]  8%|▊         | 112/1368 [00:29<06:16,  3.33it/s]  9%|▉         | 127/1368 [00:32<05:46,  3.58it/s] 12%|█▏        | 163/1368 [00:35<04:19,  4.64it/s] 14%|█▍        | 194/1368 [00:37<03:24,  5.74it/s] 16%|█▌        | 216/1368 [00:40<03:05,  6.20it/s] 17%|█▋        | 238/1368 [00:43<02:55,  6.43it/s] 19%|█▉        | 260/1368 [00:46<02:47,  6.62it/s] 21%|██▏       | 294/1368 [00:49<02:20,  7.67it/s] 24%|██▍       | 327/1368 [00:51<01:56,  8.91it/s] 26%|██▌       | 355/1368 [00:54<01:46,  9.52it/s] 27%|██▋       | 375/1368 [00:57<02:06,  7.85it/s] 29%|██▉       | 395/1368 [01:01<02:19,  6.95it/s] 30%|███       | 412/1368 [01:04<02:36,  6.10it/s] 32%|███▏      | 431/1368 [01:08<02:44,  5.70it/s] 33%|███▎      | 448/1368 [01:12<03:00,  5.10it/s] 34%|███▍      | 466/1368 [01:16<02:59,  5.01it/s] 36%|███▌      | 493/1368 [01:19<02:28,  5.90it/s] 38%|███▊      | 520/1368 [01:22<02:07,  6.63it/s] 40%|███▉      | 544/1368 [01:25<02:00,  6.81it/s] 41%|████▏     | 566/1368 [01:28<01:58,  6.76it/s] 43%|████▎     | 589/1368 [01:31<01:50,  7.06it/s] 45%|████▌     | 617/1368 [01:34<01:35,  7.84it/s] 47%|████▋     | 637/1368 [01:37<01:39,  7.35it/s] 49%|████▊     | 665/1368 [01:39<01:24,  8.31it/s] 50%|█████     | 687/1368 [01:43<01:27,  7.78it/s] 52%|█████▏    | 710/1368 [01:46<01:25,  7.66it/s] 54%|█████▍    | 736/1368 [01:49<01:18,  8.07it/s] 56%|█████▌    | 762/1368 [01:51<01:11,  8.52it/s] 58%|█████▊    | 787/1368 [01:54<01:09,  8.37it/s] 59%|█████▊    | 802/1368 [01:58<01:32,  6.09it/s] 60%|██████    | 823/1368 [02:02<01:29,  6.07it/s] 62%|██████▏   | 844/1368 [02:05<01:22,  6.34it/s] 63%|██████▎   | 864/1368 [02:09<01:23,  6.05it/s] 65%|██████▍   | 884/1368 [02:12<01:21,  5.92it/s] 66%|██████▌   | 899/1368 [02:16<01:29,  5.22it/s] 67%|██████▋   | 917/1368 [02:19<01:28,  5.10it/s] 69%|██████▉   | 941/1368 [02:23<01:15,  5.67it/s] 71%|███████   | 968/1368 [02:25<01:01,  6.49it/s] 72%|███████▏  | 989/1368 [02:29<00:59,  6.33it/s] 74%|███████▍  | 1009/1368 [02:32<00:58,  6.11it/s] 75%|███████▌  | 1032/1368 [02:35<00:51,  6.53it/s] 78%|███████▊  | 1065/1368 [02:38<00:38,  7.85it/s] 80%|████████  | 1095/1368 [02:40<00:31,  8.64it/s] 82%|████████▏ | 1123/1368 [02:43<00:27,  8.99it/s] 84%|████████▍ | 1152/1368 [02:45<00:21,  9.91it/s] 86%|████████▌ | 1179/1368 [02:48<00:19,  9.86it/s] 88%|████████▊ | 1201/1368 [02:51<00:19,  8.74it/s] 90%|████████▉ | 1231/1368 [02:54<00:14,  9.45it/s] 92%|█████████▏| 1258/1368 [02:57<00:11,  9.51it/s] 93%|█████████▎| 1274/1368 [03:00<00:13,  7.17it/s] 94%|█████████▍| 1287/1368 [03:03<00:13,  5.96it/s] 95%|█████████▌| 1304/1368 [03:07<00:12,  5.20it/s] 97%|█████████▋| 1323/1368 [03:11<00:08,  5.16it/s] 98%|█████████▊| 1341/1368 [03:15<00:05,  5.10it/s] 99%|█████████▉| 1360/1368 [03:18<00:01,  5.43it/s]100%|██████████| 1368/1368 [03:21<00:00,  3.86it/s]100%|██████████| 1368/1368 [03:21<00:00,  6.78it/s]
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:37,  8.51it/s]  3%|▎         | 36/1368 [00:07<04:24,  5.04it/s]  3%|▎         | 45/1368 [00:14<08:21,  2.64it/s]  5%|▍         | 68/1368 [00:17<06:29,  3.33it/s]  6%|▋         | 86/1368 [00:20<05:43,  3.73it/s]  7%|▋         | 100/1368 [00:24<05:27,  3.87it/s]  8%|▊         | 112/1368 [00:28<06:16,  3.34it/s]  9%|▉         | 127/1368 [00:32<05:49,  3.55it/s] 12%|█▏        | 163/1368 [00:34<04:21,  4.62it/s] 14%|█▍        | 194/1368 [00:37<03:25,  5.71it/s] 16%|█▌        | 216/1368 [00:40<03:08,  6.12it/s] 17%|█▋        | 238/1368 [00:43<02:57,  6.35it/s] 19%|█▉        | 260/1368 [00:46<02:46,  6.66it/s] 21%|██▏       | 294/1368 [00:48<02:18,  7.78it/s] 24%|██▍       | 327/1368 [00:51<01:57,  8.83it/s] 26%|██▌       | 355/1368 [00:54<01:49,  9.29it/s] 27%|██▋       | 375/1368 [00:57<02:08,  7.70it/s] 29%|██▉       | 395/1368 [01:01<02:22,  6.84it/s] 30%|███       | 412/1368 [01:05<02:45,  5.77it/s] 32%|███▏      | 431/1368 [01:09<02:51,  5.48it/s] 33%|███▎      | 448/1368 [01:13<03:04,  4.98it/s] 34%|███▍      | 466/1368 [01:17<03:02,  4.93it/s] 36%|███▌      | 493/1368 [01:20<02:34,  5.68it/s] 38%|███▊      | 520/1368 [01:23<02:11,  6.46it/s] 40%|███▉      | 544/1368 [01:26<02:03,  6.67it/s] 41%|████▏     | 566/1368 [01:30<02:02,  6.54it/s] 43%|████▎     | 589/1368 [01:33<01:54,  6.81it/s] 45%|████▌     | 617/1368 [01:35<01:39,  7.55it/s] 47%|████▋     | 637/1368 [01:39<01:47,  6.81it/s] 49%|████▊     | 665/1368 [01:41<01:30,  7.80it/s] 50%|█████     | 687/1368 [01:45<01:31,  7.47it/s] 52%|█████▏    | 710/1368 [01:48<01:27,  7.48it/s] 54%|█████▍    | 736/1368 [01:50<01:19,  7.92it/s] 56%|█████▌    | 762/1368 [01:53<01:14,  8.18it/s] 58%|█████▊    | 787/1368 [01:56<01:11,  8.16it/s] 59%|█████▊    | 802/1368 [02:00<01:34,  6.01it/s] 60%|██████    | 823/1368 [02:04<01:31,  5.97it/s] 62%|██████▏   | 844/1368 [02:07<01:24,  6.22it/s] 63%|██████▎   | 864/1368 [02:11<01:23,  6.01it/s] 65%|██████▍   | 884/1368 [02:15<01:24,  5.70it/s] 66%|██████▌   | 899/1368 [02:18<01:31,  5.13it/s] 67%|██████▋   | 917/1368 [02:22<01:30,  5.00it/s] 69%|██████▉   | 941/1368 [02:25<01:16,  5.61it/s] 71%|███████   | 968/1368 [02:28<01:02,  6.41it/s] 72%|███████▏  | 989/1368 [02:32<01:00,  6.22it/s] 74%|███████▍  | 1009/1368 [02:35<01:00,  5.94it/s] 75%|███████▌  | 1032/1368 [02:38<00:52,  6.37it/s] 78%|███████▊  | 1065/1368 [02:41<00:40,  7.56it/s] 80%|████████  | 1095/1368 [02:44<00:33,  8.22it/s] 82%|████████▏ | 1123/1368 [02:47<00:28,  8.58it/s] 84%|████████▍ | 1152/1368 [02:49<00:23,  9.29it/s] 86%|████████▌ | 1179/1368 [02:52<00:20,  9.45it/s] 88%|████████▊ | 1201/1368 [02:55<00:19,  8.48it/s] 90%|████████▉ | 1231/1368 [02:58<00:15,  9.11it/s] 92%|█████████▏| 1258/1368 [03:01<00:11,  9.24it/s] 93%|█████████▎| 1274/1368 [03:05<00:14,  6.66it/s] 94%|█████████▍| 1287/1368 [03:09<00:17,  4.57it/s] 95%|█████████▌| 1304/1368 [03:14<00:14,  4.43it/s] 97%|█████████▋| 1323/1368 [03:17<00:09,  4.66it/s] 98%|█████████▊| 1341/1368 [03:21<00:05,  4.78it/s] 99%|█████████▉| 1360/1368 [03:24<00:01,  5.18it/s]100%|██████████| 1368/1368 [03:27<00:00,  3.78it/s]100%|██████████| 1368/1368 [03:27<00:00,  6.59it/s]
+ignoring epigraph data for duplicate triple: ('z19', ':ARG0', 'z17')
+ignoring epigraph data for duplicate triple: ('z19', ':ARG0', 'z17')
+ignoring secondary node contexts for 'z19'
+ignoring secondary node contexts for 'z19'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:31,  8.86it/s]  3%|▎         | 36/1368 [00:07<04:20,  5.12it/s]  3%|▎         | 45/1368 [00:14<08:12,  2.69it/s]  5%|▍         | 68/1368 [00:17<06:26,  3.36it/s]  6%|▋         | 86/1368 [00:20<05:46,  3.70it/s]  7%|▋         | 100/1368 [00:24<05:34,  3.79it/s]  8%|▊         | 112/1368 [00:29<06:23,  3.27it/s]  9%|▉         | 127/1368 [00:32<05:55,  3.49it/s] 12%|█▏        | 163/1368 [00:35<04:24,  4.56it/s] 14%|█▍        | 194/1368 [00:37<03:28,  5.64it/s] 16%|█▌        | 216/1368 [00:40<03:08,  6.10it/s] 17%|█▋        | 238/1368 [00:43<02:54,  6.47it/s] 19%|█▉        | 260/1368 [00:46<02:44,  6.74it/s] 21%|██▏       | 294/1368 [00:49<02:16,  7.87it/s] 24%|██▍       | 327/1368 [00:51<01:55,  8.99it/s] 26%|██▌       | 355/1368 [00:54<01:47,  9.42it/s] 27%|██▋       | 375/1368 [00:57<02:07,  7.79it/s] 29%|██▉       | 395/1368 [01:01<02:18,  7.04it/s] 30%|███       | 412/1368 [01:05<02:41,  5.93it/s] 32%|███▏      | 431/1368 [01:09<02:50,  5.50it/s] 33%|███▎      | 448/1368 [01:13<03:07,  4.89it/s] 34%|███▍      | 466/1368 [01:17<03:04,  4.88it/s] 36%|███▌      | 493/1368 [01:20<02:33,  5.70it/s] 38%|███▊      | 520/1368 [01:22<02:07,  6.63it/s] 40%|███▉      | 544/1368 [01:26<02:01,  6.78it/s] 41%|████▏     | 566/1368 [01:29<01:59,  6.69it/s] 43%|████▎     | 589/1368 [01:32<01:52,  6.92it/s] 45%|████▌     | 617/1368 [01:35<01:37,  7.67it/s] 47%|████▋     | 637/1368 [01:38<01:45,  6.91it/s] 49%|████▊     | 665/1368 [01:41<01:30,  7.73it/s] 50%|█████     | 687/1368 [01:44<01:31,  7.41it/s] 52%|█████▏    | 710/1368 [01:47<01:27,  7.54it/s] 54%|█████▍    | 736/1368 [01:50<01:21,  7.74it/s] 56%|█████▌    | 762/1368 [01:53<01:15,  8.02it/s] 58%|█████▊    | 787/1368 [01:56<01:13,  7.96it/s] 59%|█████▊    | 802/1368 [02:00<01:34,  5.96it/s] 60%|██████    | 823/1368 [02:04<01:31,  5.94it/s] 62%|██████▏   | 844/1368 [02:07<01:24,  6.21it/s] 63%|██████▎   | 864/1368 [02:11<01:23,  6.01it/s] 65%|██████▍   | 884/1368 [02:15<01:25,  5.67it/s] 66%|██████▌   | 899/1368 [02:18<01:32,  5.04it/s] 67%|██████▋   | 917/1368 [02:22<01:29,  5.01it/s] 69%|██████▉   | 941/1368 [02:25<01:15,  5.69it/s] 71%|███████   | 968/1368 [02:27<01:01,  6.53it/s] 72%|███████▏  | 989/1368 [02:31<00:59,  6.35it/s] 74%|███████▍  | 1009/1368 [02:35<00:59,  6.05it/s] 75%|███████▌  | 1032/1368 [02:38<00:52,  6.46it/s] 78%|███████▊  | 1065/1368 [02:40<00:39,  7.75it/s] 80%|████████  | 1095/1368 [02:43<00:31,  8.59it/s] 82%|████████▏ | 1123/1368 [02:45<00:27,  8.95it/s] 84%|████████▍ | 1152/1368 [02:48<00:22,  9.79it/s] 86%|████████▌ | 1179/1368 [02:51<00:19,  9.72it/s] 88%|████████▊ | 1201/1368 [02:54<00:20,  8.20it/s] 90%|████████▉ | 1231/1368 [02:57<00:15,  9.03it/s] 92%|█████████▏| 1258/1368 [02:59<00:11,  9.26it/s] 93%|█████████▎| 1274/1368 [03:03<00:13,  7.03it/s] 94%|█████████▍| 1287/1368 [03:07<00:16,  5.00it/s] 95%|█████████▌| 1304/1368 [03:11<00:13,  4.70it/s] 97%|█████████▋| 1323/1368 [03:15<00:09,  4.83it/s] 98%|█████████▊| 1341/1368 [03:19<00:05,  4.86it/s] 99%|█████████▉| 1360/1368 [03:22<00:01,  5.24it/s]100%|██████████| 1368/1368 [03:25<00:00,  3.83it/s]100%|██████████| 1368/1368 [03:25<00:00,  6.65it/s]
+ignoring epigraph data for duplicate triple: ('z20', ':ARG1', 'z19')
+ignoring epigraph data for duplicate triple: ('z20', ':ARG1', 'z19')
+ignoring secondary node contexts for 'z20'
+ignoring secondary node contexts for 'z20'
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:36,  8.59it/s]  3%|▎         | 36/1368 [00:07<04:41,  4.74it/s]  3%|▎         | 45/1368 [00:15<08:30,  2.59it/s]  5%|▍         | 68/1368 [00:17<06:36,  3.27it/s]  6%|▋         | 86/1368 [00:22<06:05,  3.51it/s]  7%|▋         | 100/1368 [00:25<05:43,  3.69it/s]  8%|▊         | 112/1368 [00:30<06:31,  3.21it/s]  9%|▉         | 127/1368 [00:34<06:14,  3.32it/s] 12%|█▏        | 163/1368 [00:36<04:37,  4.35it/s] 14%|█▍        | 194/1368 [00:39<03:38,  5.37it/s] 16%|█▌        | 216/1368 [00:42<03:21,  5.73it/s] 17%|█▋        | 238/1368 [00:45<03:08,  6.00it/s] 19%|█▉        | 260/1368 [00:48<02:55,  6.32it/s] 21%|██▏       | 294/1368 [00:51<02:24,  7.43it/s] 24%|██▍       | 327/1368 [00:53<01:59,  8.68it/s] 26%|██▌       | 355/1368 [00:56<01:49,  9.25it/s] 27%|██▋       | 375/1368 [01:00<02:09,  7.67it/s] 29%|██▉       | 395/1368 [01:03<02:22,  6.84it/s] 30%|███       | 412/1368 [01:07<02:42,  5.88it/s] 32%|███▏      | 431/1368 [01:11<02:51,  5.48it/s] 33%|███▎      | 448/1368 [01:15<03:05,  4.95it/s] 34%|███▍      | 466/1368 [01:19<03:06,  4.83it/s] 36%|███▌      | 493/1368 [01:22<02:34,  5.65it/s] 38%|███▊      | 520/1368 [01:25<02:11,  6.46it/s] 40%|███▉      | 544/1368 [01:28<02:03,  6.69it/s] 41%|████▏     | 566/1368 [01:32<02:00,  6.64it/s] 43%|████▎     | 589/1368 [01:35<01:52,  6.95it/s] 45%|████▌     | 617/1368 [01:37<01:37,  7.68it/s] 47%|████▋     | 637/1368 [01:41<01:43,  7.04it/s] 49%|████▊     | 665/1368 [01:43<01:27,  8.00it/s] 50%|█████     | 687/1368 [01:46<01:30,  7.52it/s] 52%|█████▏    | 710/1368 [01:50<01:27,  7.50it/s] 54%|█████▍    | 736/1368 [01:52<01:20,  7.82it/s] 56%|█████▌    | 762/1368 [01:55<01:14,  8.12it/s] 58%|█████▊    | 787/1368 [01:59<01:11,  8.08it/s] 59%|█████▊    | 802/1368 [02:02<01:33,  6.06it/s] 60%|██████    | 823/1368 [02:06<01:29,  6.06it/s] 62%|██████▏   | 844/1368 [02:09<01:23,  6.27it/s] 63%|██████▎   | 864/1368 [02:13<01:23,  6.01it/s] 65%|██████▍   | 884/1368 [02:17<01:25,  5.68it/s] 66%|██████▌   | 899/1368 [02:20<01:33,  5.01it/s] 67%|██████▋   | 917/1368 [02:24<01:31,  4.95it/s] 69%|██████▉   | 941/1368 [02:27<01:16,  5.60it/s] 71%|███████   | 968/1368 [02:30<01:02,  6.41it/s] 72%|███████▏  | 989/1368 [02:33<00:59,  6.33it/s] 74%|███████▍  | 1009/1368 [02:37<00:59,  6.08it/s] 75%|███████▌  | 1032/1368 [02:40<00:52,  6.43it/s] 78%|███████▊  | 1065/1368 [02:42<00:39,  7.69it/s] 80%|████████  | 1095/1368 [02:45<00:32,  8.50it/s] 82%|████████▏ | 1123/1368 [02:48<00:27,  8.93it/s] 84%|████████▍ | 1152/1368 [02:50<00:22,  9.71it/s] 86%|████████▌ | 1179/1368 [02:53<00:19,  9.61it/s] 88%|████████▊ | 1201/1368 [02:56<00:19,  8.54it/s] 90%|████████▉ | 1231/1368 [02:59<00:14,  9.34it/s] 92%|█████████▏| 1258/1368 [03:02<00:11,  9.51it/s] 93%|█████████▎| 1274/1368 [03:05<00:13,  7.14it/s] 94%|█████████▍| 1287/1368 [03:10<00:16,  4.77it/s] 95%|█████████▌| 1304/1368 [03:14<00:14,  4.54it/s] 97%|█████████▋| 1323/1368 [03:18<00:09,  4.68it/s] 98%|█████████▊| 1341/1368 [03:22<00:05,  4.69it/s] 99%|█████████▉| 1360/1368 [03:25<00:01,  5.09it/s]100%|██████████| 1368/1368 [03:28<00:00,  3.74it/s]100%|██████████| 1368/1368 [03:28<00:00,  6.56it/s]
+  0%|          | 0/1368 [00:00<?, ?it/s]  2%|▏         | 24/1368 [00:02<02:39,  8.42it/s]  3%|▎         | 36/1368 [00:08<04:47,  4.63it/s]  3%|▎         | 45/1368 [00:16<09:16,  2.38it/s]  5%|▍         | 68/1368 [00:18<07:08,  3.04it/s]  6%|▋         | 86/1368 [00:22<06:17,  3.39it/s]  7%|▋         | 100/1368 [00:25<05:42,  3.70it/s]  8%|▊         | 112/1368 [00:30<06:37,  3.16it/s]  9%|▉         | 127/1368 [00:34<06:17,  3.29it/s] 12%|█▏        | 163/1368 [00:37<04:39,  4.31it/s] 14%|█▍        | 194/1368 [00:39<03:40,  5.32it/s] 16%|█▌        | 216/1368 [00:43<03:22,  5.70it/s] 17%|█▋        | 238/1368 [00:46<03:05,  6.09it/s] 19%|█▉        | 260/1368 [00:49<02:56,  6.28it/s] 21%|██▏       | 294/1368 [00:52<02:27,  7.30it/s] 24%|██▍       | 327/1368 [00:54<02:02,  8.50it/s] 26%|██▌       | 355/1368 [00:57<01:50,  9.21it/s] 27%|██▋       | 375/1368 [01:00<02:08,  7.70it/s] 29%|██▉       | 395/1368 [01:04<02:23,  6.78it/s] 30%|███       | 412/1368 [01:08<02:39,  6.01it/s] 32%|███▏      | 431/1368 [01:12<02:47,  5.59it/s] 33%|███▎      | 448/1368 [01:16<03:02,  5.05it/s] 34%|███▍      | 466/1368 [01:20<03:09,  4.76it/s] 36%|███▌      | 493/1368 [01:23<02:38,  5.52it/s] 38%|███▊      | 520/1368 [01:26<02:12,  6.40it/s] 40%|███▉      | 544/1368 [01:29<02:05,  6.59it/s] 41%|████▏     | 566/1368 [01:33<02:02,  6.53it/s] 43%|████▎     | 589/1368 [01:36<01:54,  6.78it/s] 45%|████▌     | 617/1368 [01:39<01:43,  7.27it/s] 47%|████▋     | 637/1368 [01:42<01:44,  6.96it/s] 49%|████▊     | 665/1368 [01:44<01:28,  7.92it/s] 50%|█████     | 687/1368 [01:48<01:32,  7.39it/s] 52%|█████▏    | 710/1368 [01:51<01:30,  7.23it/s] 54%|█████▍    | 736/1368 [01:54<01:22,  7.68it/s] 56%|█████▌    | 762/1368 [01:57<01:14,  8.14it/s] 58%|█████▊    | 787/1368 [01:59<01:08,  8.54it/s] 59%|█████▊    | 802/1368 [02:03<01:30,  6.24it/s] 60%|██████    | 823/1368 [02:07<01:28,  6.18it/s] 62%|██████▏   | 844/1368 [02:10<01:23,  6.25it/s] 63%|██████▎   | 864/1368 [02:14<01:23,  6.03it/s] 65%|██████▍   | 884/1368 [02:18<01:24,  5.71it/s] 66%|██████▌   | 899/1368 [02:22<01:34,  4.95it/s] 67%|██████▋   | 917/1368 [02:25<01:32,  4.85it/s] 69%|██████▉   | 941/1368 [02:28<01:17,  5.50it/s] 71%|███████   | 968/1368 [02:31<01:03,  6.32it/s] 72%|███████▏  | 989/1368 [02:35<01:01,  6.14it/s] 74%|███████▍  | 1009/1368 [02:39<01:00,  5.91it/s] 75%|███████▌  | 1032/1368 [02:41<00:52,  6.38it/s] 78%|███████▊  | 1065/1368 [02:44<00:39,  7.66it/s] 80%|████████  | 1095/1368 [02:47<00:32,  8.42it/s] 82%|████████▏ | 1123/1368 [02:49<00:27,  8.87it/s] 84%|████████▍ | 1152/1368 [02:52<00:22,  9.65it/s] 86%|████████▌ | 1179/1368 [02:54<00:19,  9.84it/s] 88%|████████▊ | 1201/1368 [02:57<00:19,  8.72it/s] 90%|████████▉ | 1231/1368 [03:00<00:14,  9.42it/s] 92%|█████████▏| 1258/1368 [03:03<00:11,  9.26it/s] 93%|█████████▎| 1274/1368 [03:07<00:13,  6.79it/s] 94%|█████████▍| 1287/1368 [03:12<00:17,  4.60it/s] 95%|█████████▌| 1304/1368 [03:16<00:14,  4.35it/s] 97%|█████████▋| 1323/1368 [03:20<00:10,  4.49it/s] 98%|█████████▊| 1341/1368 [03:24<00:05,  4.61it/s] 99%|█████████▉| 1360/1368 [03:27<00:01,  4.93it/s]100%|██████████| 1368/1368 [03:31<00:00,  3.66it/s]100%|██████████| 1368/1368 [03:31<00:00,  6.48it/s]
+{'name': 'baseline+smart_init', 'model': 'facebook/bart-large', 'penman_linearization': True, 'use_pointer_tokens': True, 'raw_graph': False, 'remove_wiki': False, 'dereify': False, 'collapse_name_ops': False, 'batch_size': 5000, 'beam_size': 1, 'dropout': 0.25, 'attention_dropout': 0.0, 'smart_init': True, 'accum_steps': 10, 'warmup_steps': 1, 'training_steps': 250000, 'weight_decay': 0.004, 'grad_norm': 2.5, 'scheduler': 'constant', 'learning_rate': 5e-05, 'max_epochs': 30, 'save_checkpoints': True, 'log_wandb': False, 'warm_start': True, 'use_recategorization': False, 'best_loss': False, 'remove_longer_than': 1024, 'train': '/nfs/Desktop/data/abstract_meaning_representation_amr_2.0/data/amrs/split/training/*.txt', 'dev': '/nfs/Desktop/data/abstract_meaning_representation_amr_2.0/data/amrs/split/dev/*.txt', 'test': '/nfs/Desktop/data/abstract_meaning_representation_amr_2.0/data/amrs/split/test/*.txt'}
+AMRBartForConditionalGeneration(
+  (model): AMRBartModel(
+    (shared): Embedding(53587, 1024)
+    (encoder): AMRBartEncoder(
+      (embed_tokens): Embedding(53587, 1024)
+      (embed_positions): LearnedPositionalEmbedding(1026, 1024, padding_idx=1)
+      (layers): ModuleList(
+        (0): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (1): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (2): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (3): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (4): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (5): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (6): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (7): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (8): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (9): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (10): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (11): EncoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+      )
+      (layernorm_embedding): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+    )
+    (decoder): AMRBartDecoder(
+      (embed_tokens): Embedding(53587, 1024)
+      (embed_positions): LearnedPositionalEmbedding(1026, 1024, padding_idx=1)
+      (layers): ModuleList(
+        (0): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (1): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (2): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (3): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (4): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (5): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (6): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (7): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (8): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (9): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (10): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+        (11): DecoderLayer(
+          (self_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (self_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): SelfAttention(
+            (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+          )
+          (encoder_attn_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+        )
+      )
+      (layernorm_embedding): FusedLayerNorm(torch.Size([1024]), eps=1e-05, elementwise_affine=True)
+      (pointer_k): Linear(in_features=1024, out_features=1024, bias=True)
+      (pointer_q): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+)
+BartConfig {
+  "activation_dropout": 0.1,
+  "activation_function": "gelu",
+  "add_bias_logits": false,
+  "add_final_layer_norm": false,
+  "architectures": [
+    "BartModel",
+    "BartForConditionalGeneration",
+    "BartForSequenceClassification"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 0,
+  "classif_dropout": 0.0,
+  "d_model": 1024,
+  "decoder_attention_heads": 16,
+  "decoder_ffn_dim": 4096,
+  "decoder_layerdrop": 0.0,
+  "decoder_layers": 12,
+  "decoder_start_token_id": 2,
+  "dropout": 0.25,
+  "early_stopping": true,
+  "encoder_attention_heads": 16,
+  "encoder_ffn_dim": 4096,
+  "encoder_layerdrop": 0.0,
+  "encoder_layers": 12,
+  "eos_token_id": 2,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "init_std": 0.02,
+  "is_encoder_decoder": true,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "max_position_embeddings": 1024,
+  "model_type": "bart",
+  "normalize_before": false,
+  "normalize_embedding": true,
+  "num_beams": 4,
+  "num_hidden_layers": 12,
+  "output_attentions": true,
+  "output_past": false,
+  "pad_token_id": 1,
+  "prefix": " ",
+  "scale_embedding": false,
+  "static_position_embeddings": false,
+  "task_specific_params": {
+    "summarization": {
+      "length_penalty": 1.0,
+      "max_length": 128,
+      "min_length": 12,
+      "num_beams": 4
+    },
+    "summarization_cnn": {
+      "length_penalty": 2.0,
+      "max_length": 142,
+      "min_length": 56,
+      "num_beams": 4
+    },
+    "summarization_xsum": {
+      "length_penalty": 1.0,
+      "max_length": 62,
+      "min_length": 11,
+      "num_beams": 6
+    }
+  },
+  "vocab_size": 53587
+}
+
+/nfs/Desktop/AMRparsing/spring/runs/3
+training started!
+training epoch: 1 | loss_amr: 1.064
+dev epoch: 1 | loss_amr: 0.796 | smatch: 0.511
+training epoch: 2 | loss_amr: 0.642
+dev epoch: 2 | loss_amr: 0.447 | smatch: 0.691
+training epoch: 3 | loss_amr: 0.497
+dev epoch: 3 | loss_amr: 0.374 | smatch: 0.750
+training epoch: 4 | loss_amr: 0.411
+dev epoch: 4 | loss_amr: 0.323 | smatch: 0.783
+training epoch: 5 | loss_amr: 0.365
+dev epoch: 5 | loss_amr: 0.280 | smatch: 0.798
+training epoch: 6 | loss_amr: 0.331
+dev epoch: 6 | loss_amr: 0.261 | smatch: 0.812
+training epoch: 7 | loss_amr: 0.283
+dev epoch: 7 | loss_amr: 0.252 | smatch: 0.818
+training epoch: 8 | loss_amr: 0.260
+dev epoch: 8 | loss_amr: 0.247 | smatch: 0.823
+training epoch: 9 | loss_amr: 0.232
+dev epoch: 9 | loss_amr: 0.316 | smatch: 0.817
+training epoch: 10 | loss_amr: 0.215
+dev epoch: 10 | loss_amr: 0.249 | smatch: 0.833
+training epoch: 11 | loss_amr: 0.201
+dev epoch: 11 | loss_amr: 0.251 | smatch: 0.835
+training epoch: 12 | loss_amr: 0.187
+dev epoch: 12 | loss_amr: 0.244 | smatch: 0.836
+training epoch: 13 | loss_amr: 0.171
+dev epoch: 13 | loss_amr: 0.248 | smatch: 0.836
+training epoch: 14 | loss_amr: 0.158
+dev epoch: 14 | loss_amr: 0.251 | smatch: 0.834
+training epoch: 15 | loss_amr: 0.145
+dev epoch: 15 | loss_amr: 0.257 | smatch: 0.838
+training epoch: 16 | loss_amr: 0.146
+dev epoch: 16 | loss_amr: 0.293 | smatch: 0.826
+training epoch: 17 | loss_amr: 0.126
+dev epoch: 17 | loss_amr: 0.259 | smatch: 0.840
+training epoch: 18 | loss_amr: 0.114
+dev epoch: 18 | loss_amr: 0.275 | smatch: 0.842
+training epoch: 19 | loss_amr: 0.113
+dev epoch: 19 | loss_amr: 0.320 | smatch: 0.787
+training epoch: 20 | loss_amr: 0.098
+dev epoch: 20 | loss_amr: 0.278 | smatch: 0.838
+training epoch: 21 | loss_amr: 0.089
+dev epoch: 21 | loss_amr: 0.290 | smatch: 0.838
+training epoch: 22 | loss_amr: 0.086
+dev epoch: 22 | loss_amr: 0.306 | smatch: 0.834
+training epoch: 23 | loss_amr: 0.074
+dev epoch: 23 | loss_amr: 0.296 | smatch: 0.840
+training epoch: 24 | loss_amr: 0.076
+dev epoch: 24 | loss_amr: 0.301 | smatch: 0.838
+training epoch: 25 | loss_amr: 0.069
+dev epoch: 25 | loss_amr: 0.311 | smatch: 0.841
+training epoch: 26 | loss_amr: 0.062
+dev epoch: 26 | loss_amr: 0.323 | smatch: 0.838
+training epoch: 27 | loss_amr: 0.057
+dev epoch: 27 | loss_amr: 0.333 | smatch: 0.841
+training epoch: 28 | loss_amr: 0.055
+dev epoch: 28 | loss_amr: 0.327 | smatch: 0.841
+training epoch: 29 | loss_amr: 0.049
+dev epoch: 29 | loss_amr: 0.331 | smatch: 0.839
+training epoch: 30 | loss_amr: 0.046
+dev epoch: 30 | loss_amr: 0.345 | smatch: 0.840
