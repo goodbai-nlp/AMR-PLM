@@ -31,8 +31,8 @@ python -u ${ROOT_DIR}/finetune_bart_amrparsing_new.py \
     --num_train_epochs 20 \
     --task amrparsing \
     --model_name_or_path=${MODEL} \
-    --train_batch_size=8 \
-    --eval_batch_size=8 \
+    --train_batch_size=6 \
+    --eval_batch_size=6 \
     --accumulate_grad_batches 1 \
     --early_stopping_patience 15 \
     --gpus 1 \

@@ -24,5 +24,5 @@
 
 ```
   cd amr-seq2seq
-  bash finetune_bart_amrparsing_large.sh facebook/bart-large
+  bash finetune_bart_amrparsing_large.sh facebook/bart-large 0
 ```

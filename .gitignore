@@ -1,0 +1,5 @@
+*.pyc
+data/
+best_tfmr/
+# val_outputs/
+*.ckpt

@@ -1,0 +1,121 @@
+# ::id 0
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093056
+(a / thing)
+
+# ::id 1
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093076
+()
+
+# ::id 2
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093081
+()
+
+# ::id 3
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093086
+(a / thing)
+
+# ::id 4
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093090
+()
+
+# ::id 5
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093095
+()
+
+# ::id 15
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093145
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
+
+# ::id 7
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093108
+()
+
+# ::id 8
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093113
+()
+
+# ::id 9
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093117
+()
+
+# ::id 10
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093122
+(a / thing)
+
+# ::id 11
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093126
+()
+
+# ::id 12
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093131
+(a / thing)
+
+# ::id 13
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093136
+(a / thing)
+
+# ::id 14
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093140
+()
+
+# ::id 15
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093145
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
+
+# ::id 16
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093149
+()
+
+# ::id 17
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093154
+()
+
+# ::id 18
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093158
+(a / thing)
+
+# ::id 19
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093163
+()
+
+# ::id 20
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093167
+()
+
+# ::id 21
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093172
+()
+
+# ::id 22
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093176
+(a / thing)
+
+# ::id 23
+# ::annotator bart-amr
+# ::date 2021-10-09 03:43:06.093181
+()

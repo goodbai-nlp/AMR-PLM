@@ -1,0 +1,6839 @@
+# ::id 0
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710745
+()
+
+# ::id 1
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710764
+()
+
+# ::id 2
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710769
+()
+
+# ::id 3
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710774
+()
+
+# ::id 4
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710779
+()
+
+# ::id 5
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710784
+()
+
+# ::id 6
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710789
+()
+
+# ::id 7
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710794
+()
+
+# ::id 8
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710799
+()
+
+# ::id 9
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710803
+()
+
+# ::id 10
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710808
+()
+
+# ::id 11
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710813
+()
+
+# ::id 12
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710818
+()
+
+# ::id 13
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710823
+()
+
+# ::id 14
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710827
+()
+
+# ::id 15
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710832
+()
+
+# ::id 16
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710837
+()
+
+# ::id 17
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710841
+()
+
+# ::id 18
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710846
+()
+
+# ::id 19
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710851
+()
+
+# ::id 20
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710856
+()
+
+# ::id 21
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710860
+()
+
+# ::id 22
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710865
+()
+
+# ::id 23
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710870
+()
+
+# ::id 24
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710874
+()
+
+# ::id 25
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710879
+()
+
+# ::id 26
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710884
+()
+
+# ::id 27
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710888
+()
+
+# ::id 28
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710893
+()
+
+# ::id 29
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710897
+()
+
+# ::id 30
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710902
+()
+
+# ::id 31
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710907
+()
+
+# ::id 32
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710912
+()
+
+# ::id 33
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710916
+()
+
+# ::id 34
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710921
+()
+
+# ::id 35
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710925
+()
+
+# ::id 36
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710930
+()
+
+# ::id 37
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710935
+()
+
+# ::id 38
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710939
+()
+
+# ::id 39
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710944
+()
+
+# ::id 40
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710949
+()
+
+# ::id 41
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710953
+()
+
+# ::id 42
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710958
+()
+
+# ::id 43
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710962
+()
+
+# ::id 44
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710967
+()
+
+# ::id 45
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710971
+()
+
+# ::id 46
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710976
+()
+
+# ::id 47
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710980
+()
+
+# ::id 48
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710985
+()
+
+# ::id 49
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710990
+()
+
+# ::id 50
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710994
+()
+
+# ::id 51
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.710999
+()
+
+# ::id 52
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711003
+()
+
+# ::id 53
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711008
+()
+
+# ::id 54
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711013
+()
+
+# ::id 55
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711017
+()
+
+# ::id 56
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711022
+()
+
+# ::id 57
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711026
+()
+
+# ::id 58
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711031
+()
+
+# ::id 59
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711036
+()
+
+# ::id 60
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711040
+()
+
+# ::id 61
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711045
+()
+
+# ::id 62
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711049
+()
+
+# ::id 63
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711054
+()
+
+# ::id 64
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711058
+()
+
+# ::id 65
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711063
+()
+
+# ::id 66
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711067
+()
+
+# ::id 67
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711072
+()
+
+# ::id 68
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711076
+()
+
+# ::id 69
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711081
+()
+
+# ::id 70
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711090
+()
+
+# ::id 71
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711095
+()
+
+# ::id 72
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711100
+()
+
+# ::id 73
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711104
+()
+
+# ::id 74
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711109
+()
+
+# ::id 75
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711114
+()
+
+# ::id 76
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711119
+()
+
+# ::id 77
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711124
+()
+
+# ::id 78
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711128
+()
+
+# ::id 79
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711133
+()
+
+# ::id 80
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711138
+()
+
+# ::id 81
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711143
+()
+
+# ::id 82
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711147
+()
+
+# ::id 83
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711152
+()
+
+# ::id 84
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711157
+()
+
+# ::id 85
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711161
+()
+
+# ::id 86
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711166
+()
+
+# ::id 87
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711170
+()
+
+# ::id 88
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711175
+()
+
+# ::id 89
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711180
+()
+
+# ::id 90
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711184
+()
+
+# ::id 91
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711189
+()
+
+# ::id 92
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711194
+()
+
+# ::id 93
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711198
+()
+
+# ::id 94
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711203
+()
+
+# ::id 95
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711207
+()
+
+# ::id 96
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711212
+()
+
+# ::id 97
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711217
+()
+
+# ::id 98
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711221
+()
+
+# ::id 99
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711225
+()
+
+# ::id 100
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711230
+()
+
+# ::id 101
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711235
+()
+
+# ::id 102
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711240
+()
+
+# ::id 103
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711244
+()
+
+# ::id 104
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711249
+()
+
+# ::id 105
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711254
+()
+
+# ::id 106
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711258
+()
+
+# ::id 107
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711263
+()
+
+# ::id 108
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711267
+()
+
+# ::id 109
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711272
+()
+
+# ::id 110
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711277
+()
+
+# ::id 111
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711281
+()
+
+# ::id 112
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711286
+()
+
+# ::id 113
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711291
+()
+
+# ::id 114
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711295
+()
+
+# ::id 115
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711300
+()
+
+# ::id 116
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711305
+()
+
+# ::id 117
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711309
+()
+
+# ::id 118
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711314
+()
+
+# ::id 119
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711318
+()
+
+# ::id 120
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711323
+()
+
+# ::id 121
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711327
+()
+
+# ::id 122
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711332
+()
+
+# ::id 123
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711337
+()
+
+# ::id 124
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711342
+()
+
+# ::id 125
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711346
+()
+
+# ::id 126
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711351
+()
+
+# ::id 127
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711356
+()
+
+# ::id 128
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711361
+()
+
+# ::id 129
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711365
+()
+
+# ::id 130
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711370
+()
+
+# ::id 131
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711374
+()
+
+# ::id 132
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711379
+()
+
+# ::id 133
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711386
+()
+
+# ::id 134
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711391
+()
+
+# ::id 135
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711396
+()
+
+# ::id 136
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711401
+()
+
+# ::id 137
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711406
+()
+
+# ::id 138
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711411
+()
+
+# ::id 139
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711415
+()
+
+# ::id 140
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711420
+()
+
+# ::id 141
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711424
+()
+
+# ::id 142
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711429
+()
+
+# ::id 143
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711434
+()
+
+# ::id 144
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711438
+()
+
+# ::id 145
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711443
+()
+
+# ::id 146
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711448
+()
+
+# ::id 147
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711452
+()
+
+# ::id 148
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711457
+()
+
+# ::id 149
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711462
+()
+
+# ::id 150
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711467
+()
+
+# ::id 151
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711471
+()
+
+# ::id 152
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711476
+()
+
+# ::id 153
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711481
+()
+
+# ::id 154
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711486
+()
+
+# ::id 155
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711490
+()
+
+# ::id 156
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711495
+()
+
+# ::id 157
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711499
+()
+
+# ::id 158
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711504
+()
+
+# ::id 159
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711509
+()
+
+# ::id 160
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711513
+()
+
+# ::id 161
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711518
+()
+
+# ::id 162
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711523
+()
+
+# ::id 163
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711544
+()
+
+# ::id 164
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711549
+()
+
+# ::id 165
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711553
+()
+
+# ::id 166
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711558
+()
+
+# ::id 167
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711563
+()
+
+# ::id 168
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711568
+()
+
+# ::id 169
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711572
+()
+
+# ::id 170
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711577
+()
+
+# ::id 171
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711582
+()
+
+# ::id 172
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711587
+()
+
+# ::id 173
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711591
+()
+
+# ::id 174
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711596
+()
+
+# ::id 175
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711601
+()
+
+# ::id 176
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711606
+()
+
+# ::id 177
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711610
+()
+
+# ::id 178
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711615
+()
+
+# ::id 179
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711620
+()
+
+# ::id 180
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711624
+()
+
+# ::id 181
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711629
+()
+
+# ::id 182
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711634
+()
+
+# ::id 183
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711638
+()
+
+# ::id 184
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711643
+()
+
+# ::id 185
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711647
+()
+
+# ::id 186
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711652
+()
+
+# ::id 187
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711657
+()
+
+# ::id 188
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711661
+()
+
+# ::id 189
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711666
+()
+
+# ::id 190
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711670
+()
+
+# ::id 191
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711675
+()
+
+# ::id 192
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711679
+()
+
+# ::id 193
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711684
+()
+
+# ::id 194
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711689
+()
+
+# ::id 195
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711693
+()
+
+# ::id 196
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711700
+()
+
+# ::id 197
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711705
+()
+
+# ::id 198
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711710
+()
+
+# ::id 199
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711714
+()
+
+# ::id 200
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711719
+()
+
+# ::id 201
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711724
+()
+
+# ::id 202
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711728
+()
+
+# ::id 203
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711733
+()
+
+# ::id 204
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711738
+()
+
+# ::id 205
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711742
+()
+
+# ::id 206
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711747
+()
+
+# ::id 207
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711752
+()
+
+# ::id 208
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711756
+()
+
+# ::id 209
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711761
+()
+
+# ::id 210
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711766
+()
+
+# ::id 211
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711770
+()
+
+# ::id 212
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711775
+()
+
+# ::id 213
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711779
+()
+
+# ::id 214
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711784
+()
+
+# ::id 215
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711789
+()
+
+# ::id 216
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711794
+()
+
+# ::id 217
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711798
+()
+
+# ::id 218
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711803
+()
+
+# ::id 219
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711808
+()
+
+# ::id 220
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711812
+()
+
+# ::id 221
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711817
+()
+
+# ::id 222
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711822
+()
+
+# ::id 223
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711826
+()
+
+# ::id 224
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711831
+()
+
+# ::id 225
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711835
+()
+
+# ::id 226
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711840
+()
+
+# ::id 227
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711845
+()
+
+# ::id 228
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711849
+()
+
+# ::id 229
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711854
+()
+
+# ::id 230
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711858
+()
+
+# ::id 231
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711863
+()
+
+# ::id 232
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711868
+()
+
+# ::id 233
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711872
+()
+
+# ::id 234
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711877
+()
+
+# ::id 235
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711881
+()
+
+# ::id 236
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711886
+()
+
+# ::id 237
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711890
+()
+
+# ::id 238
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711895
+()
+
+# ::id 239
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711900
+()
+
+# ::id 240
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711904
+()
+
+# ::id 241
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711909
+()
+
+# ::id 242
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711913
+()
+
+# ::id 243
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711918
+()
+
+# ::id 244
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711922
+()
+
+# ::id 245
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711927
+()
+
+# ::id 246
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711932
+()
+
+# ::id 247
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711936
+()
+
+# ::id 248
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711941
+()
+
+# ::id 249
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711945
+()
+
+# ::id 250
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711950
+()
+
+# ::id 251
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711954
+()
+
+# ::id 252
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711959
+()
+
+# ::id 253
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711963
+()
+
+# ::id 254
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711968
+()
+
+# ::id 255
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711973
+()
+
+# ::id 256
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711977
+()
+
+# ::id 257
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711982
+()
+
+# ::id 258
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711986
+()
+
+# ::id 259
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.711997
+()
+
+# ::id 260
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712002
+()
+
+# ::id 261
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712006
+()
+
+# ::id 262
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712011
+()
+
+# ::id 263
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712016
+()
+
+# ::id 264
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712021
+()
+
+# ::id 265
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712025
+()
+
+# ::id 266
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712030
+()
+
+# ::id 267
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712035
+()
+
+# ::id 268
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712040
+()
+
+# ::id 269
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712044
+()
+
+# ::id 270
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712049
+()
+
+# ::id 271
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712053
+()
+
+# ::id 272
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712058
+()
+
+# ::id 273
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712063
+()
+
+# ::id 274
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712067
+()
+
+# ::id 275
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712072
+()
+
+# ::id 276
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712077
+()
+
+# ::id 277
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712081
+()
+
+# ::id 278
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712086
+()
+
+# ::id 279
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712091
+()
+
+# ::id 280
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712096
+()
+
+# ::id 281
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712100
+()
+
+# ::id 282
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712105
+()
+
+# ::id 283
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712110
+()
+
+# ::id 284
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712114
+()
+
+# ::id 285
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712119
+()
+
+# ::id 286
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712123
+()
+
+# ::id 287
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712128
+()
+
+# ::id 288
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712132
+()
+
+# ::id 289
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712137
+()
+
+# ::id 290
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712141
+()
+
+# ::id 291
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712146
+()
+
+# ::id 292
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712151
+()
+
+# ::id 293
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712155
+()
+
+# ::id 294
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712160
+()
+
+# ::id 295
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712164
+()
+
+# ::id 296
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712169
+()
+
+# ::id 297
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712174
+()
+
+# ::id 298
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712178
+()
+
+# ::id 299
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712183
+()
+
+# ::id 300
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712188
+()
+
+# ::id 301
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712192
+()
+
+# ::id 302
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712197
+()
+
+# ::id 303
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712201
+()
+
+# ::id 304
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712206
+()
+
+# ::id 305
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712211
+()
+
+# ::id 306
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712215
+()
+
+# ::id 307
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712220
+()
+
+# ::id 308
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712224
+()
+
+# ::id 309
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712229
+()
+
+# ::id 310
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712234
+()
+
+# ::id 311
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712238
+()
+
+# ::id 312
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712243
+()
+
+# ::id 313
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712247
+()
+
+# ::id 314
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712252
+()
+
+# ::id 315
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712256
+()
+
+# ::id 316
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712261
+()
+
+# ::id 317
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712266
+()
+
+# ::id 318
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712271
+()
+
+# ::id 319
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712275
+()
+
+# ::id 320
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712280
+()
+
+# ::id 321
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712284
+()
+
+# ::id 322
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712291
+()
+
+# ::id 323
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712296
+()
+
+# ::id 324
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712301
+()
+
+# ::id 325
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712305
+()
+
+# ::id 326
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712310
+()
+
+# ::id 327
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712314
+()
+
+# ::id 328
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712319
+()
+
+# ::id 329
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712324
+()
+
+# ::id 330
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712329
+()
+
+# ::id 331
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712333
+()
+
+# ::id 332
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712338
+()
+
+# ::id 333
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712343
+()
+
+# ::id 334
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712347
+()
+
+# ::id 335
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712352
+()
+
+# ::id 336
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712357
+()
+
+# ::id 337
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712361
+()
+
+# ::id 338
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712366
+()
+
+# ::id 339
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712371
+()
+
+# ::id 340
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712375
+()
+
+# ::id 341
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712380
+()
+
+# ::id 342
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712384
+()
+
+# ::id 343
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712389
+()
+
+# ::id 344
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712394
+()
+
+# ::id 345
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712399
+()
+
+# ::id 346
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712403
+()
+
+# ::id 347
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712408
+()
+
+# ::id 348
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712413
+()
+
+# ::id 349
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712417
+()
+
+# ::id 350
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712422
+()
+
+# ::id 351
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712426
+()
+
+# ::id 352
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712431
+()
+
+# ::id 353
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712436
+()
+
+# ::id 354
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712440
+()
+
+# ::id 355
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712445
+()
+
+# ::id 356
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712450
+()
+
+# ::id 357
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712454
+()
+
+# ::id 358
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712459
+()
+
+# ::id 359
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712463
+()
+
+# ::id 360
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712468
+()
+
+# ::id 361
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712472
+()
+
+# ::id 362
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712477
+()
+
+# ::id 363
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712481
+()
+
+# ::id 364
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712486
+()
+
+# ::id 365
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712491
+()
+
+# ::id 366
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712495
+()
+
+# ::id 367
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712500
+()
+
+# ::id 368
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712505
+()
+
+# ::id 369
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712509
+()
+
+# ::id 370
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712514
+()
+
+# ::id 371
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712518
+()
+
+# ::id 372
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712523
+()
+
+# ::id 373
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712527
+()
+
+# ::id 374
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712532
+()
+
+# ::id 375
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712536
+()
+
+# ::id 376
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712541
+()
+
+# ::id 377
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712545
+()
+
+# ::id 378
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712550
+()
+
+# ::id 379
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712555
+()
+
+# ::id 380
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712559
+()
+
+# ::id 381
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712564
+()
+
+# ::id 382
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712569
+()
+
+# ::id 383
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712573
+()
+
+# ::id 384
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712578
+()
+
+# ::id 385
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712585
+()
+
+# ::id 386
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712590
+()
+
+# ::id 387
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712595
+()
+
+# ::id 388
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712599
+()
+
+# ::id 389
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712604
+()
+
+# ::id 390
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712609
+()
+
+# ::id 391
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712613
+()
+
+# ::id 392
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712618
+()
+
+# ::id 393
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712622
+()
+
+# ::id 394
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712627
+()
+
+# ::id 395
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712632
+()
+
+# ::id 396
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712637
+()
+
+# ::id 397
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712641
+()
+
+# ::id 398
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712646
+()
+
+# ::id 399
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712651
+()
+
+# ::id 400
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712655
+()
+
+# ::id 401
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712660
+()
+
+# ::id 402
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712664
+()
+
+# ::id 403
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712669
+()
+
+# ::id 404
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712673
+()
+
+# ::id 405
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712678
+()
+
+# ::id 406
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712683
+()
+
+# ::id 407
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712687
+()
+
+# ::id 408
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712692
+()
+
+# ::id 409
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712697
+()
+
+# ::id 410
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712701
+()
+
+# ::id 411
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712706
+()
+
+# ::id 412
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712711
+()
+
+# ::id 413
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712715
+()
+
+# ::id 414
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712720
+()
+
+# ::id 415
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712724
+()
+
+# ::id 416
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712729
+()
+
+# ::id 417
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712734
+()
+
+# ::id 418
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712738
+()
+
+# ::id 419
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712742
+()
+
+# ::id 420
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712747
+()
+
+# ::id 421
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712752
+()
+
+# ::id 422
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712756
+()
+
+# ::id 423
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712761
+()
+
+# ::id 424
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712765
+()
+
+# ::id 425
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712770
+()
+
+# ::id 426
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712774
+()
+
+# ::id 427
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712779
+()
+
+# ::id 428
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712783
+()
+
+# ::id 429
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712788
+()
+
+# ::id 430
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712793
+()
+
+# ::id 431
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712797
+()
+
+# ::id 432
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712802
+()
+
+# ::id 433
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712806
+()
+
+# ::id 434
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712811
+()
+
+# ::id 435
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712815
+()
+
+# ::id 436
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712820
+()
+
+# ::id 437
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712824
+()
+
+# ::id 438
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712828
+()
+
+# ::id 439
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712833
+()
+
+# ::id 440
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712837
+()
+
+# ::id 441
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712842
+()
+
+# ::id 442
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712847
+()
+
+# ::id 443
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712851
+()
+
+# ::id 444
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712856
+()
+
+# ::id 445
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712860
+()
+
+# ::id 446
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712865
+()
+
+# ::id 447
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712869
+()
+
+# ::id 448
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712876
+()
+
+# ::id 449
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712881
+()
+
+# ::id 450
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712885
+()
+
+# ::id 451
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712890
+()
+
+# ::id 452
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712895
+()
+
+# ::id 453
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712899
+()
+
+# ::id 454
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712904
+()
+
+# ::id 455
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712909
+()
+
+# ::id 456
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712913
+()
+
+# ::id 457
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712918
+()
+
+# ::id 458
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712922
+()
+
+# ::id 459
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712927
+()
+
+# ::id 460
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712932
+()
+
+# ::id 461
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712936
+()
+
+# ::id 462
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712941
+()
+
+# ::id 463
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712945
+()
+
+# ::id 464
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712950
+()
+
+# ::id 465
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712954
+()
+
+# ::id 466
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712959
+()
+
+# ::id 467
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712964
+()
+
+# ::id 468
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712969
+()
+
+# ::id 469
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712973
+()
+
+# ::id 470
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712978
+()
+
+# ::id 471
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712982
+()
+
+# ::id 472
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712987
+()
+
+# ::id 473
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712992
+()
+
+# ::id 474
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.712997
+()
+
+# ::id 475
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713001
+()
+
+# ::id 476
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713006
+()
+
+# ::id 477
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713010
+()
+
+# ::id 478
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713015
+()
+
+# ::id 479
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713020
+()
+
+# ::id 480
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713024
+()
+
+# ::id 481
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713029
+()
+
+# ::id 482
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713034
+()
+
+# ::id 483
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713038
+()
+
+# ::id 484
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713043
+()
+
+# ::id 485
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713047
+()
+
+# ::id 486
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713052
+()
+
+# ::id 487
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713056
+()
+
+# ::id 488
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713061
+()
+
+# ::id 489
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713065
+()
+
+# ::id 490
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713070
+()
+
+# ::id 491
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713075
+()
+
+# ::id 492
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713079
+()
+
+# ::id 493
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713084
+()
+
+# ::id 494
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713089
+()
+
+# ::id 495
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713093
+()
+
+# ::id 496
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713098
+()
+
+# ::id 497
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713102
+()
+
+# ::id 498
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713107
+()
+
+# ::id 499
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713112
+()
+
+# ::id 500
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713116
+()
+
+# ::id 501
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713120
+()
+
+# ::id 502
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713125
+()
+
+# ::id 503
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713129
+()
+
+# ::id 504
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713134
+()
+
+# ::id 505
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713139
+()
+
+# ::id 506
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713144
+()
+
+# ::id 507
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713148
+()
+
+# ::id 508
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713153
+()
+
+# ::id 509
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713157
+()
+
+# ::id 510
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713162
+()
+
+# ::id 511
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713169
+()
+
+# ::id 512
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713174
+()
+
+# ::id 513
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713179
+()
+
+# ::id 514
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713183
+()
+
+# ::id 515
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713188
+()
+
+# ::id 516
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713193
+()
+
+# ::id 517
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713197
+()
+
+# ::id 518
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713202
+()
+
+# ::id 519
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713206
+()
+
+# ::id 520
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713211
+()
+
+# ::id 521
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713215
+()
+
+# ::id 522
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713220
+()
+
+# ::id 523
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713225
+()
+
+# ::id 524
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713229
+()
+
+# ::id 525
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713234
+()
+
+# ::id 526
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713239
+()
+
+# ::id 527
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713243
+()
+
+# ::id 528
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713248
+()
+
+# ::id 529
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713253
+()
+
+# ::id 530
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713258
+()
+
+# ::id 531
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713262
+()
+
+# ::id 532
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713267
+()
+
+# ::id 533
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713271
+()
+
+# ::id 534
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713276
+()
+
+# ::id 535
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713281
+()
+
+# ::id 536
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713285
+()
+
+# ::id 537
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713290
+()
+
+# ::id 538
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713294
+()
+
+# ::id 539
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713299
+()
+
+# ::id 540
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713303
+()
+
+# ::id 541
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713308
+()
+
+# ::id 542
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713313
+()
+
+# ::id 543
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713317
+()
+
+# ::id 544
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713322
+()
+
+# ::id 545
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713327
+()
+
+# ::id 546
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713331
+()
+
+# ::id 547
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713336
+()
+
+# ::id 548
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713340
+()
+
+# ::id 549
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713345
+()
+
+# ::id 550
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713349
+()
+
+# ::id 551
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713354
+()
+
+# ::id 552
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713358
+()
+
+# ::id 553
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713363
+()
+
+# ::id 554
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713368
+()
+
+# ::id 555
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713372
+()
+
+# ::id 556
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713377
+()
+
+# ::id 557
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713381
+()
+
+# ::id 558
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713386
+()
+
+# ::id 559
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713391
+()
+
+# ::id 560
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713395
+()
+
+# ::id 561
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713399
+()
+
+# ::id 562
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713404
+()
+
+# ::id 563
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713408
+()
+
+# ::id 564
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713413
+()
+
+# ::id 565
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713418
+()
+
+# ::id 566
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713422
+()
+
+# ::id 567
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713427
+()
+
+# ::id 568
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713431
+()
+
+# ::id 569
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713436
+()
+
+# ::id 570
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713440
+()
+
+# ::id 571
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713445
+()
+
+# ::id 572
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713449
+()
+
+# ::id 573
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713454
+()
+
+# ::id 574
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713461
+()
+
+# ::id 575
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713466
+()
+
+# ::id 576
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713470
+()
+
+# ::id 577
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713475
+()
+
+# ::id 578
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713480
+()
+
+# ::id 579
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713485
+()
+
+# ::id 580
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713489
+()
+
+# ::id 581
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713494
+()
+
+# ::id 582
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713498
+()
+
+# ::id 583
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713503
+()
+
+# ::id 584
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713507
+()
+
+# ::id 585
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713512
+()
+
+# ::id 586
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713517
+()
+
+# ::id 587
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713521
+()
+
+# ::id 588
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713526
+()
+
+# ::id 589
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713530
+()
+
+# ::id 590
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713535
+()
+
+# ::id 591
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713540
+()
+
+# ::id 592
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713544
+()
+
+# ::id 593
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713549
+()
+
+# ::id 594
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713554
+()
+
+# ::id 595
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713558
+()
+
+# ::id 596
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713563
+()
+
+# ::id 597
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713568
+()
+
+# ::id 598
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713573
+()
+
+# ::id 599
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713577
+()
+
+# ::id 600
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713582
+()
+
+# ::id 601
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713587
+()
+
+# ::id 602
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713591
+()
+
+# ::id 603
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713596
+()
+
+# ::id 604
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713601
+()
+
+# ::id 605
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713605
+()
+
+# ::id 606
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713610
+()
+
+# ::id 607
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713614
+()
+
+# ::id 608
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713619
+()
+
+# ::id 609
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713623
+()
+
+# ::id 610
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713628
+()
+
+# ::id 611
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713633
+()
+
+# ::id 612
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713637
+()
+
+# ::id 613
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713642
+()
+
+# ::id 614
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713646
+()
+
+# ::id 615
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713651
+()
+
+# ::id 616
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713656
+()
+
+# ::id 617
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713660
+()
+
+# ::id 618
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713665
+()
+
+# ::id 619
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713669
+()
+
+# ::id 620
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713674
+()
+
+# ::id 621
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713678
+()
+
+# ::id 622
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713683
+()
+
+# ::id 623
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713688
+()
+
+# ::id 624
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713692
+()
+
+# ::id 625
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713696
+()
+
+# ::id 626
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713701
+()
+
+# ::id 627
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713705
+()
+
+# ::id 628
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713710
+()
+
+# ::id 629
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713715
+()
+
+# ::id 630
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713719
+()
+
+# ::id 631
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713724
+()
+
+# ::id 632
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713728
+()
+
+# ::id 633
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713733
+()
+
+# ::id 634
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713738
+()
+
+# ::id 635
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713742
+()
+
+# ::id 636
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713747
+()
+
+# ::id 637
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713754
+()
+
+# ::id 638
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713759
+()
+
+# ::id 639
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713763
+()
+
+# ::id 640
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713768
+()
+
+# ::id 641
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713772
+()
+
+# ::id 642
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713777
+()
+
+# ::id 643
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713782
+()
+
+# ::id 644
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713787
+()
+
+# ::id 645
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713791
+()
+
+# ::id 646
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713796
+()
+
+# ::id 647
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713801
+()
+
+# ::id 648
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713805
+()
+
+# ::id 649
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713810
+()
+
+# ::id 650
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713815
+()
+
+# ::id 651
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713819
+()
+
+# ::id 652
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713824
+()
+
+# ::id 653
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713828
+()
+
+# ::id 654
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713833
+()
+
+# ::id 655
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713838
+()
+
+# ::id 656
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713843
+()
+
+# ::id 657
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713847
+()
+
+# ::id 658
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713852
+()
+
+# ::id 659
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713856
+()
+
+# ::id 660
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713861
+()
+
+# ::id 661
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713865
+()
+
+# ::id 662
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713870
+()
+
+# ::id 663
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713875
+()
+
+# ::id 664
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713879
+()
+
+# ::id 665
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713884
+()
+
+# ::id 666
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713888
+()
+
+# ::id 667
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713893
+()
+
+# ::id 668
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713897
+()
+
+# ::id 669
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713902
+()
+
+# ::id 670
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713906
+()
+
+# ::id 671
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713911
+()
+
+# ::id 672
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713915
+()
+
+# ::id 673
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713920
+()
+
+# ::id 674
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713924
+()
+
+# ::id 675
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713929
+()
+
+# ::id 676
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713934
+()
+
+# ::id 677
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713938
+()
+
+# ::id 678
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713943
+()
+
+# ::id 679
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713947
+()
+
+# ::id 680
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713952
+()
+
+# ::id 681
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713956
+()
+
+# ::id 682
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713961
+()
+
+# ::id 683
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713965
+()
+
+# ::id 684
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713970
+()
+
+# ::id 685
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713975
+()
+
+# ::id 686
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713979
+()
+
+# ::id 687
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713984
+()
+
+# ::id 688
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713988
+()
+
+# ::id 689
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713993
+()
+
+# ::id 690
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.713997
+()
+
+# ::id 691
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714002
+()
+
+# ::id 692
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714006
+()
+
+# ::id 693
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714011
+()
+
+# ::id 694
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714015
+()
+
+# ::id 695
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714020
+()
+
+# ::id 696
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714024
+()
+
+# ::id 697
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714029
+()
+
+# ::id 698
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714033
+()
+
+# ::id 699
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714038
+()
+
+# ::id 700
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714045
+()
+
+# ::id 701
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714049
+()
+
+# ::id 702
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714054
+()
+
+# ::id 703
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714058
+()
+
+# ::id 704
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714063
+()
+
+# ::id 705
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714067
+()
+
+# ::id 706
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714072
+()
+
+# ::id 707
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714077
+()
+
+# ::id 708
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714082
+()
+
+# ::id 709
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714086
+()
+
+# ::id 710
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714091
+()
+
+# ::id 711
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714096
+()
+
+# ::id 712
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714100
+()
+
+# ::id 713
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714105
+()
+
+# ::id 714
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714110
+()
+
+# ::id 715
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714114
+()
+
+# ::id 716
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714119
+()
+
+# ::id 717
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714123
+()
+
+# ::id 718
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714128
+()
+
+# ::id 719
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714132
+()
+
+# ::id 720
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714137
+()
+
+# ::id 721
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714142
+()
+
+# ::id 722
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714147
+()
+
+# ::id 723
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714151
+()
+
+# ::id 724
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714156
+()
+
+# ::id 725
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714161
+()
+
+# ::id 726
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714165
+()
+
+# ::id 727
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714170
+()
+
+# ::id 728
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714174
+()
+
+# ::id 729
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714179
+()
+
+# ::id 730
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714183
+()
+
+# ::id 731
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714188
+()
+
+# ::id 732
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714192
+()
+
+# ::id 733
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714197
+()
+
+# ::id 734
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714201
+()
+
+# ::id 735
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714206
+()
+
+# ::id 736
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714210
+()
+
+# ::id 737
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714215
+()
+
+# ::id 738
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714219
+()
+
+# ::id 739
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714224
+()
+
+# ::id 740
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714228
+()
+
+# ::id 741
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714233
+()
+
+# ::id 742
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714237
+()
+
+# ::id 743
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714242
+()
+
+# ::id 744
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714247
+()
+
+# ::id 745
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714251
+()
+
+# ::id 746
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714256
+()
+
+# ::id 747
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714260
+()
+
+# ::id 748
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714265
+()
+
+# ::id 749
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714270
+()
+
+# ::id 750
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714274
+()
+
+# ::id 751
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714279
+()
+
+# ::id 752
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714283
+()
+
+# ::id 753
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714287
+()
+
+# ::id 754
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714292
+()
+
+# ::id 755
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714297
+()
+
+# ::id 756
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714301
+()
+
+# ::id 757
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714306
+()
+
+# ::id 758
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714310
+()
+
+# ::id 759
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714315
+()
+
+# ::id 760
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714319
+()
+
+# ::id 761
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714324
+()
+
+# ::id 762
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714328
+()
+
+# ::id 763
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714337
+()
+
+# ::id 764
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714342
+()
+
+# ::id 765
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714347
+()
+
+# ::id 766
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714351
+()
+
+# ::id 767
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714356
+()
+
+# ::id 768
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714361
+()
+
+# ::id 769
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714365
+()
+
+# ::id 770
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714370
+()
+
+# ::id 771
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714375
+()
+
+# ::id 772
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714379
+()
+
+# ::id 773
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714384
+()
+
+# ::id 774
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714389
+()
+
+# ::id 775
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714393
+()
+
+# ::id 776
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714398
+()
+
+# ::id 777
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714403
+()
+
+# ::id 778
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714408
+()
+
+# ::id 779
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714412
+()
+
+# ::id 780
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714417
+()
+
+# ::id 781
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714421
+()
+
+# ::id 782
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714426
+()
+
+# ::id 783
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714431
+()
+
+# ::id 784
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714435
+()
+
+# ::id 785
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714440
+()
+
+# ::id 786
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714445
+()
+
+# ::id 787
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714450
+()
+
+# ::id 788
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714454
+()
+
+# ::id 789
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714459
+()
+
+# ::id 790
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714464
+()
+
+# ::id 791
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714468
+()
+
+# ::id 792
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714473
+()
+
+# ::id 793
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714477
+()
+
+# ::id 794
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714482
+()
+
+# ::id 795
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714487
+()
+
+# ::id 796
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714491
+()
+
+# ::id 797
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714496
+()
+
+# ::id 798
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714500
+()
+
+# ::id 799
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714505
+()
+
+# ::id 800
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714509
+()
+
+# ::id 801
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714514
+()
+
+# ::id 802
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714519
+()
+
+# ::id 803
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714523
+()
+
+# ::id 804
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714528
+()
+
+# ::id 805
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714532
+()
+
+# ::id 806
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714537
+()
+
+# ::id 807
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714541
+()
+
+# ::id 808
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714546
+()
+
+# ::id 809
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714551
+()
+
+# ::id 810
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714555
+()
+
+# ::id 811
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714560
+()
+
+# ::id 812
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714564
+()
+
+# ::id 813
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714569
+()
+
+# ::id 814
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714573
+()
+
+# ::id 815
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714578
+()
+
+# ::id 816
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714583
+()
+
+# ::id 817
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714587
+()
+
+# ::id 818
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714592
+()
+
+# ::id 819
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714596
+()
+
+# ::id 820
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714601
+()
+
+# ::id 821
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714605
+()
+
+# ::id 822
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714610
+()
+
+# ::id 823
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714614
+()
+
+# ::id 824
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714619
+()
+
+# ::id 825
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714624
+()
+
+# ::id 826
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714631
+()
+
+# ::id 827
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714636
+()
+
+# ::id 828
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714640
+()
+
+# ::id 829
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714645
+()
+
+# ::id 830
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714650
+()
+
+# ::id 831
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714654
+()
+
+# ::id 832
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714659
+()
+
+# ::id 833
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714663
+()
+
+# ::id 834
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714668
+()
+
+# ::id 835
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714673
+()
+
+# ::id 836
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714677
+()
+
+# ::id 837
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714682
+()
+
+# ::id 838
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714687
+()
+
+# ::id 839
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714692
+()
+
+# ::id 840
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714696
+()
+
+# ::id 841
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714701
+()
+
+# ::id 842
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714706
+()
+
+# ::id 843
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714710
+()
+
+# ::id 844
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714715
+()
+
+# ::id 845
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714720
+()
+
+# ::id 846
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714724
+()
+
+# ::id 847
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714729
+()
+
+# ::id 848
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714733
+()
+
+# ::id 849
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714738
+()
+
+# ::id 850
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714743
+()
+
+# ::id 851
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714748
+()
+
+# ::id 852
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714752
+()
+
+# ::id 853
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714757
+()
+
+# ::id 854
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714761
+()
+
+# ::id 855
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714766
+()
+
+# ::id 856
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714771
+()
+
+# ::id 857
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714775
+()
+
+# ::id 858
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714780
+()
+
+# ::id 859
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714784
+()
+
+# ::id 860
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714789
+()
+
+# ::id 861
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714793
+()
+
+# ::id 862
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714798
+()
+
+# ::id 863
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714803
+()
+
+# ::id 864
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714807
+()
+
+# ::id 865
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714812
+()
+
+# ::id 866
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714816
+()
+
+# ::id 867
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714821
+()
+
+# ::id 868
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714826
+()
+
+# ::id 869
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714830
+()
+
+# ::id 870
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714835
+()
+
+# ::id 871
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714839
+()
+
+# ::id 872
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714844
+()
+
+# ::id 873
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714849
+()
+
+# ::id 874
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714853
+()
+
+# ::id 875
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714858
+()
+
+# ::id 876
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714862
+()
+
+# ::id 877
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714867
+()
+
+# ::id 878
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714871
+()
+
+# ::id 879
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714876
+()
+
+# ::id 880
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714880
+()
+
+# ::id 881
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714885
+()
+
+# ::id 882
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714889
+()
+
+# ::id 883
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714894
+()
+
+# ::id 884
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714899
+()
+
+# ::id 885
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714903
+()
+
+# ::id 886
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714908
+()
+
+# ::id 887
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714912
+()
+
+# ::id 888
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714917
+()
+
+# ::id 889
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714924
+()
+
+# ::id 890
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714929
+()
+
+# ::id 891
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714933
+()
+
+# ::id 892
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714938
+()
+
+# ::id 893
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714943
+()
+
+# ::id 894
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714948
+()
+
+# ::id 895
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714952
+()
+
+# ::id 896
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714957
+()
+
+# ::id 897
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714962
+()
+
+# ::id 898
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714966
+()
+
+# ::id 899
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714971
+()
+
+# ::id 900
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714975
+()
+
+# ::id 901
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714980
+()
+
+# ::id 902
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714985
+()
+
+# ::id 903
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714989
+()
+
+# ::id 904
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714994
+()
+
+# ::id 905
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.714999
+()
+
+# ::id 906
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715003
+()
+
+# ::id 907
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715008
+()
+
+# ::id 908
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715013
+()
+
+# ::id 909
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715017
+()
+
+# ::id 910
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715022
+()
+
+# ::id 911
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715026
+()
+
+# ::id 912
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715031
+()
+
+# ::id 913
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715036
+()
+
+# ::id 914
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715040
+()
+
+# ::id 915
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715045
+()
+
+# ::id 916
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715050
+()
+
+# ::id 917
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715054
+()
+
+# ::id 918
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715059
+()
+
+# ::id 919
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715064
+()
+
+# ::id 920
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715068
+()
+
+# ::id 921
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715073
+()
+
+# ::id 922
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715078
+()
+
+# ::id 923
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715082
+()
+
+# ::id 924
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715087
+()
+
+# ::id 925
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715091
+()
+
+# ::id 926
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715096
+()
+
+# ::id 927
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715101
+()
+
+# ::id 928
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715105
+()
+
+# ::id 929
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715110
+()
+
+# ::id 930
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715115
+()
+
+# ::id 931
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715119
+()
+
+# ::id 932
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715124
+()
+
+# ::id 933
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715128
+()
+
+# ::id 934
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715133
+()
+
+# ::id 935
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715138
+()
+
+# ::id 936
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715142
+()
+
+# ::id 937
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715147
+()
+
+# ::id 938
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715151
+()
+
+# ::id 939
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715156
+()
+
+# ::id 940
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715160
+()
+
+# ::id 941
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715165
+()
+
+# ::id 942
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715170
+()
+
+# ::id 943
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715174
+()
+
+# ::id 944
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715179
+()
+
+# ::id 945
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715183
+()
+
+# ::id 946
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715188
+()
+
+# ::id 947
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715193
+()
+
+# ::id 948
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715197
+()
+
+# ::id 949
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715201
+()
+
+# ::id 950
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715206
+()
+
+# ::id 951
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715211
+()
+
+# ::id 952
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715217
+()
+
+# ::id 953
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715222
+()
+
+# ::id 954
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715227
+()
+
+# ::id 955
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715232
+()
+
+# ::id 956
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715236
+()
+
+# ::id 957
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715241
+()
+
+# ::id 958
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715245
+()
+
+# ::id 959
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715250
+()
+
+# ::id 960
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715255
+()
+
+# ::id 961
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715259
+()
+
+# ::id 962
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715264
+()
+
+# ::id 963
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715268
+()
+
+# ::id 964
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715273
+()
+
+# ::id 965
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715278
+()
+
+# ::id 966
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715283
+()
+
+# ::id 967
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715287
+()
+
+# ::id 968
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715292
+()
+
+# ::id 969
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715297
+()
+
+# ::id 970
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715301
+()
+
+# ::id 971
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715306
+()
+
+# ::id 972
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715310
+()
+
+# ::id 973
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715315
+()
+
+# ::id 974
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715319
+()
+
+# ::id 975
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715324
+()
+
+# ::id 976
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715329
+()
+
+# ::id 977
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715333
+()
+
+# ::id 978
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715338
+()
+
+# ::id 979
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715342
+()
+
+# ::id 980
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715347
+()
+
+# ::id 981
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715351
+()
+
+# ::id 982
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715356
+()
+
+# ::id 983
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715361
+()
+
+# ::id 984
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715366
+()
+
+# ::id 985
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715370
+()
+
+# ::id 986
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715375
+()
+
+# ::id 987
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715379
+()
+
+# ::id 988
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715384
+()
+
+# ::id 989
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715389
+()
+
+# ::id 990
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715393
+()
+
+# ::id 991
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715398
+()
+
+# ::id 992
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715402
+()
+
+# ::id 993
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715407
+()
+
+# ::id 994
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715412
+()
+
+# ::id 995
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715416
+()
+
+# ::id 996
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715421
+()
+
+# ::id 997
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715426
+()
+
+# ::id 998
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715430
+()
+
+# ::id 999
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715435
+()
+
+# ::id 1000
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715439
+()
+
+# ::id 1001
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715444
+()
+
+# ::id 1002
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715449
+()
+
+# ::id 1003
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715453
+()
+
+# ::id 1004
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715458
+()
+
+# ::id 1005
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715462
+()
+
+# ::id 1006
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715467
+()
+
+# ::id 1007
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715472
+()
+
+# ::id 1008
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715476
+()
+
+# ::id 1009
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715481
+()
+
+# ::id 1010
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715486
+()
+
+# ::id 1011
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715490
+()
+
+# ::id 1012
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715495
+()
+
+# ::id 1013
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715500
+()
+
+# ::id 1014
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715504
+()
+
+# ::id 1015
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715511
+()
+
+# ::id 1016
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715516
+()
+
+# ::id 1017
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715521
+()
+
+# ::id 1018
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715530
+()
+
+# ::id 1019
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715535
+()
+
+# ::id 1020
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715540
+()
+
+# ::id 1021
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715544
+()
+
+# ::id 1022
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715549
+()
+
+# ::id 1023
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715554
+()
+
+# ::id 1024
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715559
+()
+
+# ::id 1025
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715564
+()
+
+# ::id 1026
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715568
+()
+
+# ::id 1027
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715573
+()
+
+# ::id 1028
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715578
+()
+
+# ::id 1029
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715583
+()
+
+# ::id 1030
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715587
+()
+
+# ::id 1031
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715592
+()
+
+# ::id 1032
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715597
+()
+
+# ::id 1033
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715602
+()
+
+# ::id 1034
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715606
+()
+
+# ::id 1035
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715611
+()
+
+# ::id 1036
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715616
+()
+
+# ::id 1037
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715620
+()
+
+# ::id 1038
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715625
+()
+
+# ::id 1039
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715630
+()
+
+# ::id 1040
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715635
+()
+
+# ::id 1041
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715639
+()
+
+# ::id 1042
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715644
+()
+
+# ::id 1043
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715648
+()
+
+# ::id 1044
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715653
+()
+
+# ::id 1045
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715658
+()
+
+# ::id 1046
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715662
+()
+
+# ::id 1047
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715667
+()
+
+# ::id 1048
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715672
+()
+
+# ::id 1049
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715676
+()
+
+# ::id 1050
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715681
+()
+
+# ::id 1051
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715686
+()
+
+# ::id 1052
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715690
+()
+
+# ::id 1053
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715695
+()
+
+# ::id 1054
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715700
+()
+
+# ::id 1055
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715705
+()
+
+# ::id 1056
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715710
+()
+
+# ::id 1057
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715714
+()
+
+# ::id 1058
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715719
+()
+
+# ::id 1059
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715724
+()
+
+# ::id 1060
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715728
+()
+
+# ::id 1061
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715733
+()
+
+# ::id 1062
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715738
+()
+
+# ::id 1063
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715742
+()
+
+# ::id 1064
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715747
+()
+
+# ::id 1065
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715752
+()
+
+# ::id 1066
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715756
+()
+
+# ::id 1067
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715761
+()
+
+# ::id 1068
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715766
+()
+
+# ::id 1069
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715771
+()
+
+# ::id 1070
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715775
+()
+
+# ::id 1071
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715780
+()
+
+# ::id 1072
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715785
+()
+
+# ::id 1073
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715789
+()
+
+# ::id 1074
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715794
+()
+
+# ::id 1075
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715799
+()
+
+# ::id 1076
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715803
+()
+
+# ::id 1077
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715808
+()
+
+# ::id 1078
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715815
+()
+
+# ::id 1079
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715820
+()
+
+# ::id 1080
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715825
+()
+
+# ::id 1081
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715829
+()
+
+# ::id 1082
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715834
+()
+
+# ::id 1083
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715838
+()
+
+# ::id 1084
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715843
+()
+
+# ::id 1085
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715848
+()
+
+# ::id 1086
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715853
+()
+
+# ::id 1087
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715858
+()
+
+# ::id 1088
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715862
+()
+
+# ::id 1089
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715867
+()
+
+# ::id 1090
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715872
+()
+
+# ::id 1091
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715876
+()
+
+# ::id 1092
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715881
+()
+
+# ::id 1093
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715885
+()
+
+# ::id 1094
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715890
+()
+
+# ::id 1095
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715895
+()
+
+# ::id 1096
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715899
+()
+
+# ::id 1097
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715904
+()
+
+# ::id 1098
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715908
+()
+
+# ::id 1099
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715913
+()
+
+# ::id 1100
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715918
+()
+
+# ::id 1101
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715922
+()
+
+# ::id 1102
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715927
+()
+
+# ::id 1103
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715931
+()
+
+# ::id 1104
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715936
+()
+
+# ::id 1105
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715941
+()
+
+# ::id 1106
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715945
+()
+
+# ::id 1107
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715950
+()
+
+# ::id 1108
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715955
+()
+
+# ::id 1109
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715959
+()
+
+# ::id 1110
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715964
+()
+
+# ::id 1111
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715968
+()
+
+# ::id 1112
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715973
+()
+
+# ::id 1113
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715977
+()
+
+# ::id 1114
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715982
+()
+
+# ::id 1115
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715986
+()
+
+# ::id 1116
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715991
+()
+
+# ::id 1117
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.715995
+()
+
+# ::id 1118
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716000
+()
+
+# ::id 1119
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716004
+()
+
+# ::id 1120
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716009
+()
+
+# ::id 1121
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716013
+()
+
+# ::id 1122
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716018
+()
+
+# ::id 1123
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716023
+()
+
+# ::id 1124
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716027
+()
+
+# ::id 1125
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716032
+()
+
+# ::id 1126
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716036
+()
+
+# ::id 1127
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716041
+()
+
+# ::id 1128
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716045
+()
+
+# ::id 1129
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716050
+()
+
+# ::id 1130
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716055
+()
+
+# ::id 1131
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716059
+()
+
+# ::id 1132
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716063
+()
+
+# ::id 1133
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716068
+()
+
+# ::id 1134
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716072
+()
+
+# ::id 1135
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716077
+()
+
+# ::id 1136
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716081
+()
+
+# ::id 1137
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716086
+()
+
+# ::id 1138
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716090
+()
+
+# ::id 1139
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716095
+()
+
+# ::id 1140
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716100
+()
+
+# ::id 1141
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716106
+()
+
+# ::id 1142
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716111
+()
+
+# ::id 1143
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716116
+()
+
+# ::id 1144
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716120
+()
+
+# ::id 1145
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716125
+()
+
+# ::id 1146
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716129
+()
+
+# ::id 1147
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716134
+()
+
+# ::id 1148
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716139
+()
+
+# ::id 1149
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716143
+()
+
+# ::id 1150
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716148
+()
+
+# ::id 1151
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716153
+()
+
+# ::id 1152
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716158
+()
+
+# ::id 1153
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716162
+()
+
+# ::id 1154
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716167
+()
+
+# ::id 1155
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716171
+()
+
+# ::id 1156
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716176
+()
+
+# ::id 1157
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716180
+()
+
+# ::id 1158
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716185
+()
+
+# ::id 1159
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716189
+()
+
+# ::id 1160
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716194
+()
+
+# ::id 1161
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716198
+()
+
+# ::id 1162
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716203
+()
+
+# ::id 1163
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716208
+()
+
+# ::id 1164
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716213
+()
+
+# ::id 1165
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716217
+()
+
+# ::id 1166
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716222
+()
+
+# ::id 1167
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716226
+()
+
+# ::id 1168
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716231
+()
+
+# ::id 1169
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716235
+()
+
+# ::id 1170
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716240
+()
+
+# ::id 1171
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716244
+()
+
+# ::id 1172
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716249
+()
+
+# ::id 1173
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716254
+()
+
+# ::id 1174
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716258
+()
+
+# ::id 1175
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716263
+()
+
+# ::id 1176
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716267
+()
+
+# ::id 1177
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716272
+()
+
+# ::id 1178
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716276
+()
+
+# ::id 1179
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716281
+()
+
+# ::id 1180
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716286
+()
+
+# ::id 1181
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716290
+()
+
+# ::id 1182
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716295
+()
+
+# ::id 1183
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716299
+()
+
+# ::id 1184
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716304
+()
+
+# ::id 1185
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716308
+()
+
+# ::id 1186
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716313
+()
+
+# ::id 1187
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716318
+()
+
+# ::id 1188
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716322
+()
+
+# ::id 1189
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716327
+()
+
+# ::id 1190
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716331
+()
+
+# ::id 1191
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716336
+()
+
+# ::id 1192
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716340
+()
+
+# ::id 1193
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716345
+()
+
+# ::id 1194
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716349
+()
+
+# ::id 1195
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716354
+()
+
+# ::id 1196
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716358
+()
+
+# ::id 1197
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716363
+()
+
+# ::id 1198
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716368
+()
+
+# ::id 1199
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716372
+()
+
+# ::id 1200
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716377
+()
+
+# ::id 1201
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716381
+()
+
+# ::id 1202
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716386
+()
+
+# ::id 1203
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716390
+()
+
+# ::id 1204
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716397
+()
+
+# ::id 1205
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716402
+()
+
+# ::id 1206
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716406
+()
+
+# ::id 1207
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716411
+()
+
+# ::id 1208
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716416
+()
+
+# ::id 1209
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716420
+()
+
+# ::id 1210
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716425
+()
+
+# ::id 1211
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716430
+()
+
+# ::id 1212
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716434
+()
+
+# ::id 1213
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716439
+()
+
+# ::id 1214
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716443
+()
+
+# ::id 1215
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716448
+()
+
+# ::id 1216
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716453
+()
+
+# ::id 1217
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716458
+()
+
+# ::id 1218
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716462
+()
+
+# ::id 1219
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716467
+()
+
+# ::id 1220
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716471
+()
+
+# ::id 1221
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716476
+()
+
+# ::id 1222
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716480
+()
+
+# ::id 1223
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716485
+()
+
+# ::id 1224
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716490
+()
+
+# ::id 1225
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716494
+()
+
+# ::id 1226
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716498
+()
+
+# ::id 1227
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716503
+()
+
+# ::id 1228
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716508
+()
+
+# ::id 1229
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716513
+()
+
+# ::id 1230
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716517
+()
+
+# ::id 1231
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716522
+()
+
+# ::id 1232
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716526
+()
+
+# ::id 1233
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716531
+()
+
+# ::id 1234
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716535
+()
+
+# ::id 1235
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716540
+()
+
+# ::id 1236
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716544
+()
+
+# ::id 1237
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716549
+()
+
+# ::id 1238
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716553
+()
+
+# ::id 1239
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716558
+()
+
+# ::id 1240
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716562
+()
+
+# ::id 1241
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716567
+()
+
+# ::id 1242
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716571
+()
+
+# ::id 1243
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716575
+()
+
+# ::id 1244
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716580
+()
+
+# ::id 1245
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716584
+()
+
+# ::id 1246
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716589
+()
+
+# ::id 1247
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716593
+()
+
+# ::id 1248
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716598
+()
+
+# ::id 1249
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716602
+()
+
+# ::id 1250
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716607
+()
+
+# ::id 1251
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716611
+()
+
+# ::id 1252
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716616
+()
+
+# ::id 1253
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716620
+()
+
+# ::id 1254
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716625
+()
+
+# ::id 1255
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716630
+()
+
+# ::id 1256
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716634
+()
+
+# ::id 1257
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716638
+()
+
+# ::id 1258
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716643
+()
+
+# ::id 1259
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716647
+()
+
+# ::id 1260
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716652
+()
+
+# ::id 1261
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716657
+()
+
+# ::id 1262
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716661
+()
+
+# ::id 1263
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716666
+()
+
+# ::id 1264
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716670
+()
+
+# ::id 1265
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716675
+()
+
+# ::id 1266
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716679
+()
+
+# ::id 1267
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716686
+()
+
+# ::id 1268
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716690
+()
+
+# ::id 1269
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716695
+()
+
+# ::id 1270
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716700
+()
+
+# ::id 1271
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716704
+()
+
+# ::id 1272
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716709
+()
+
+# ::id 1273
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716714
+()
+
+# ::id 1274
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716718
+()
+
+# ::id 1275
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716723
+()
+
+# ::id 1276
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716727
+()
+
+# ::id 1277
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716732
+()
+
+# ::id 1278
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716736
+()
+
+# ::id 1279
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716741
+()
+
+# ::id 1280
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716745
+()
+
+# ::id 1281
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716750
+()
+
+# ::id 1282
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716755
+()
+
+# ::id 1283
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716759
+()
+
+# ::id 1284
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716764
+()
+
+# ::id 1285
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716768
+()
+
+# ::id 1286
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716773
+()
+
+# ::id 1287
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716778
+()
+
+# ::id 1288
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716782
+()
+
+# ::id 1289
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716787
+()
+
+# ::id 1290
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716791
+()
+
+# ::id 1291
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716796
+()
+
+# ::id 1292
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716800
+()
+
+# ::id 1293
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716805
+()
+
+# ::id 1294
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716810
+()
+
+# ::id 1295
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716814
+()
+
+# ::id 1296
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716819
+()
+
+# ::id 1297
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716824
+()
+
+# ::id 1298
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716828
+()
+
+# ::id 1299
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716833
+()
+
+# ::id 1300
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716837
+()
+
+# ::id 1301
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716842
+()
+
+# ::id 1302
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716846
+()
+
+# ::id 1303
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716851
+()
+
+# ::id 1304
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716856
+()
+
+# ::id 1305
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716860
+()
+
+# ::id 1306
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716865
+()
+
+# ::id 1307
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716869
+()
+
+# ::id 1308
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716874
+()
+
+# ::id 1309
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716878
+()
+
+# ::id 1310
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716883
+()
+
+# ::id 1311
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716887
+()
+
+# ::id 1312
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716892
+()
+
+# ::id 1313
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716896
+()
+
+# ::id 1314
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716900
+()
+
+# ::id 1315
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716905
+()
+
+# ::id 1316
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716910
+()
+
+# ::id 1317
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716914
+()
+
+# ::id 1318
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716919
+()
+
+# ::id 1319
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716923
+()
+
+# ::id 1320
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716928
+()
+
+# ::id 1321
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716932
+()
+
+# ::id 1322
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716936
+()
+
+# ::id 1323
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716941
+()
+
+# ::id 1324
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716945
+()
+
+# ::id 1325
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716950
+()
+
+# ::id 1326
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716954
+()
+
+# ::id 1327
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716959
+()
+
+# ::id 1328
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716963
+()
+
+# ::id 1329
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716967
+()
+
+# ::id 1330
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716974
+()
+
+# ::id 1331
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716979
+()
+
+# ::id 1332
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716984
+()
+
+# ::id 1333
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716988
+()
+
+# ::id 1334
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716993
+()
+
+# ::id 1335
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.716997
+()
+
+# ::id 1336
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717001
+()
+
+# ::id 1337
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717006
+()
+
+# ::id 1338
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717010
+()
+
+# ::id 1339
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717015
+()
+
+# ::id 1340
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717019
+()
+
+# ::id 1341
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717024
+()
+
+# ::id 1342
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717028
+()
+
+# ::id 1343
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717033
+()
+
+# ::id 1344
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717037
+()
+
+# ::id 1345
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717042
+()
+
+# ::id 1346
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717046
+()
+
+# ::id 1347
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717050
+()
+
+# ::id 1348
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717055
+()
+
+# ::id 1349
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717059
+()
+
+# ::id 1350
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717064
+()
+
+# ::id 1351
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717068
+()
+
+# ::id 1352
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717072
+()
+
+# ::id 1353
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717077
+()
+
+# ::id 1354
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717081
+()
+
+# ::id 1355
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717086
+()
+
+# ::id 1356
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717090
+()
+
+# ::id 1357
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717095
+()
+
+# ::id 1358
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717099
+()
+
+# ::id 1359
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717103
+()
+
+# ::id 1360
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717108
+()
+
+# ::id 1361
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717112
+()
+
+# ::id 1362
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717116
+()
+
+# ::id 1363
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717121
+()
+
+# ::id 1364
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717125
+()
+
+# ::id 1365
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717129
+()
+
+# ::id 1366
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717134
+()
+
+# ::id 1367
+# ::annotator bart-amr
+# ::date 2021-10-09 10:12:29.717138
+()
