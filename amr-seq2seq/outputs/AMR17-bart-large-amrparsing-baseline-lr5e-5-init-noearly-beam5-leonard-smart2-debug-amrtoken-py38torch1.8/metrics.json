@@ -1,70 +1,50 @@
 {
     "val": [
         {
-            "val_avg_loss": 18.739057540893555,
-            "val_avg_gen_time": 0.23226207494735718,
-            "val_avg_gen_len": 43.75,
+            "val_avg_loss": 18.53614616394043,
+            "val_avg_gen_time": 0.2794591784477234,
+            "val_avg_gen_len": 38.5,
             "step_count": -1,
             "val_avg_smatch": 0.0
         },
         {
-            "val_avg_loss": 9.293316841125488,
-            "val_avg_gen_time": 4.674469470977783,
-            "val_avg_gen_len": 1024.0,
+            "val_avg_loss": 1.3098864555358887,
+            "val_avg_gen_time": 0.5912577509880066,
+            "val_avg_gen_len": 103.0,
             "step_count": 0,
-            "val_avg_smatch": 0.0
+            "val_avg_smatch": 0.17051513634681928
         },
         {
-            "val_avg_loss": 16.915048599243164,
-            "val_avg_gen_time": 4.642836570739746,
-            "val_avg_gen_len": 1024.0,
+            "val_avg_loss": 1.269152045249939,
+            "val_avg_gen_time": 0.27649572491645813,
+            "val_avg_gen_len": 49.0,
             "step_count": 1,
-            "val_avg_smatch": 0.0
+            "val_avg_smatch": 0.13393482585670655
         },
         {
-            "val_avg_loss": 14.42330551147461,
-            "val_avg_gen_time": 4.705687999725342,
-            "val_avg_gen_len": 1024.0,
+            "val_avg_loss": 1.2657347917556763,
+            "val_avg_gen_time": 0.12315971404314041,
+            "val_avg_gen_len": 20.0,
             "step_count": 2,
-            "val_avg_smatch": 0.0
+            "val_avg_smatch": 0.1077835595502347
         },
         {
-            "val_avg_loss": 16.24736213684082,
-            "val_avg_gen_time": 4.6962785720825195,
-            "val_avg_gen_len": 1024.0,
+            "val_avg_loss": 1.5304169654846191,
+            "val_avg_gen_time": 0.11801008880138397,
+            "val_avg_gen_len": 21.0,
             "step_count": 3,
-            "val_avg_smatch": 0.0
-        },
-        {
-            "val_avg_loss": 14.599699020385742,
-            "val_avg_gen_time": 4.746957302093506,
-            "val_avg_gen_len": 1024.0,
-            "step_count": 4,
-            "val_avg_smatch": 0.0
-        },
-        {
-            "val_avg_loss": 15.058358192443848,
-            "val_avg_gen_time": 4.665156841278076,
-            "val_avg_gen_len": 1024.0,
-            "step_count": 5,
-            "val_avg_smatch": 0.0
+            "val_avg_smatch": 0.09792220079327535
         }
     ],
     "training": [
         {
-            "loss": 3.7805306911468506
+            "loss": 1.596117615699768
         },
         {
-            "loss": 3.456526041030884
+            "loss": 1.3037725687026978
         },
         {
-            "loss": 3.257117986679077
-        },
-        {
-            "loss": 3.164353609085083
-        },
-        {
-            "loss": 3.1457197666168213
+            "loss": 1.2077535390853882
         }
     ]
 }

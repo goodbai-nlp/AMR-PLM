@@ -5,7 +5,7 @@ ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 GPUID=$2
 MODEL=$1
 eval_beam=5
-lr=5e-5
+lr=3e-5
 
 export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-baseline-lr${lr}-init-noearly-beam${eval_beam}-leonard-smart2-debug-0917
 export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-baseline-lr${lr}-init-noearly-beam${eval_beam}-leonard-smart2-debug-0924
@@ -31,9 +31,9 @@ python -u ${ROOT_DIR}/finetune_bart_amrparsing_new.py \
     --num_train_epochs 20 \
     --task amrparsing \
     --model_name_or_path=${MODEL} \
-    --train_batch_size=6 \
-    --eval_batch_size=6 \
-    --accumulate_grad_batches 1 \
+    --train_batch_size=4 \
+    --eval_batch_size=4 \
+    --accumulate_grad_batches 2 \
     --early_stopping_patience 15 \
     --gpus 1 \
     --output_dir=$OUTPUT_DIR \
@@ -45,5 +45,4 @@ python -u ${ROOT_DIR}/finetune_bart_amrparsing_new.py \
     --do_train --do_predict \
     --seed 42 \
     --smart_init \
-    --fp16 \
     --eval_beams ${eval_beam} 2>&1 | tee $OUTPUT_DIR/run.log

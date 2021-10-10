@@ -1,121 +1,80 @@
 # ::id 0
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093056
+# ::date 2021-10-10 06:09:36.902812
 (a / thing)
 
 # ::id 1
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093076
+# ::date 2021-10-10 06:09:36.902833
 ()
 
 # ::id 2
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093081
+# ::date 2021-10-10 06:09:36.902839
 ()
 
 # ::id 3
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093086
+# ::date 2021-10-10 06:09:36.902843
 (a / thing)
 
 # ::id 4
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093090
+# ::date 2021-10-10 06:09:36.902848
 ()
 
 # ::id 5
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093095
+# ::date 2021-10-10 06:09:36.902853
 ()
 
-# ::id 15
+# ::id 6
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093145
-(d2 / dog
-    :ARG0-of (b1 / bark-01))
+# ::date 2021-10-10 06:09:36.902857
+(a / thing)
 
 # ::id 7
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093108
+# ::date 2021-10-10 06:09:36.902862
 ()
 
 # ::id 8
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093113
+# ::date 2021-10-10 06:09:36.902866
 ()
 
 # ::id 9
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093117
+# ::date 2021-10-10 06:09:36.902871
 ()
 
 # ::id 10
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093122
+# ::date 2021-10-10 06:09:36.902875
 (a / thing)
 
 # ::id 11
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093126
+# ::date 2021-10-10 06:09:36.902880
 ()
 
 # ::id 12
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093131
+# ::date 2021-10-10 06:09:36.902903
 (a / thing)
 
 # ::id 13
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093136
+# ::date 2021-10-10 06:09:36.902914
 (a / thing)
 
 # ::id 14
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093140
+# ::date 2021-10-10 06:09:36.902919
 ()
 
 # ::id 15
 # ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093145
+# ::date 2021-10-10 06:09:36.902924
 (d2 / dog
     :ARG0-of (b1 / bark-01))
-
-# ::id 16
-# ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093149
-()
-
-# ::id 17
-# ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093154
-()
-
-# ::id 18
-# ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093158
-(a / thing)
-
-# ::id 19
-# ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093163
-()
-
-# ::id 20
-# ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093167
-()
-
-# ::id 21
-# ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093172
-()
-
-# ::id 22
-# ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093176
-(a / thing)
-
-# ::id 23
-# ::annotator bart-amr
-# ::date 2021-10-09 03:43:06.093181
-()

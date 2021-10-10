@@ -1,5 +1,6 @@
 *.pyc
 data/
 best_tfmr/
-# val_outputs/
+outputs/
+lightning_logs/
 *.ckpt
