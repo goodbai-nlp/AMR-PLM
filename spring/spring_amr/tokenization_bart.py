@@ -67,12 +67,16 @@ class AMRBartTokenizer(BartTokenizer):
         if self.use_pointer_tokens:
             for cnt in range(512):
                 tokens.append(f"<pointer:{cnt}>")
+        
+        for cnt in range(1, 256):
+            tokens.append(f"<mask{cnt}>")
 
         tokens += self.ADDITIONAL
         tokens = [self.INIT + t if t[0] not in ('_', '-') else t for t in tokens]
         tokens = [t for t in tokens if t not in self.encoder]
+        
         self.old_enc_size = old_enc_size = len(self.encoder)
-        for i, t in enumerate(tokens, start= old_enc_size):
+        for i, t in enumerate(tokens, start=old_enc_size):
             self.encoder[t] = i
 
         self.encoder = {k: i for i, (k,v) in enumerate(sorted(self.encoder.items(), key=lambda x: x[1]))}

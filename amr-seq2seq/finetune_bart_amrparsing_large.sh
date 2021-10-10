@@ -7,14 +7,8 @@ MODEL=$1
 eval_beam=5
 lr=5e-5
 
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-baseline-lr${lr}-init-noearly-beam${eval_beam}-leonard-smart2-debug-0917
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-baseline-lr${lr}-init-noearly-beam${eval_beam}-leonard-smart2-debug-0924
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-baseline-lr${lr}-init-noearly-beam${eval_beam}-leonard-smart2-debug-0925
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-baseline-lr${lr}-init-noearly-beam${eval_beam}-leonard-smart2-debug-0925-debug
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-baseline-lr${lr}-TAPT-Text
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-baseline-lr${lr}-TAPT-Text-checkpoint450
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-baseline-lr${lr}-init-noearly-beam${eval_beam}-leonard-smart2-debug-amrtoken
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-baseline-lr${lr}-init-noearly-beam${eval_beam}-leonard-smart2-debug-amrtoken-py38torch1.8
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-lr${lr}-beam${eval_beam}-py38torch1.8
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-lr${lr}-beam${eval_beam}-py38torch1.8-local
 
 export CURRENT_DIR=${ROOT_DIR}
 export OUTPUT_DIR=${CURRENT_DIR}/${OUTPUT_DIR_NAME}
