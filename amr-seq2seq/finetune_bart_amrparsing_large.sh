@@ -20,7 +20,7 @@ export OMP_NUM_THREADS=10
 
 export CUDA_VISIBLE_DEVICES=${GPUID}
 python -u ${ROOT_DIR}/finetune_bart_amrparsing.py \
-    --data_dir=${ROOT_DIR}/data/AMR17 \
+    --data_dir=../data/AMR2.0 \
     --learning_rate=$lr \
     --num_train_epochs 20 \
     --task amrparsing \
