@@ -90,6 +90,7 @@ def do_train(checkpoint=None, direction='amr', split_both_decoder=False, fp16=Fa
         remove_longer_than=config['remove_longer_than'],
         remove_wiki=config['remove_wiki'],
         dereify=config['dereify'],
+        type_path="train",
     )
 
     dev_gold_path = ROOT / 'data/tmp/dev-gold.txt'
@@ -102,8 +103,10 @@ def do_train(checkpoint=None, direction='amr', split_both_decoder=False, fp16=Fa
         use_recategorization=config['use_recategorization'],
         remove_wiki=config['remove_wiki'],
         dereify=config['dereify'],
+        type_path="dev",
     )
-
+    exit()
+    
     if direction == 'amr':
 
         def train_step(engine, batch):

@@ -1,6 +1,7 @@
 import logging
 import random
 import torch
+import json
 from cached_property import cached_property
 from torch.utils.data import Dataset
 from spring_amr.IO import read_raw_amr_data
@@ -26,6 +27,8 @@ class AMRDataset(Dataset):
         remove_longer_than=None,
         remove_wiki=False,
         dereify=True,
+        type_path="train",
+        data_cate="AMR1.0"
     ):
         self.paths = paths
         self.tokenizer = tokenizer
@@ -34,6 +37,7 @@ class AMRDataset(Dataset):
         self.graphs = []
         self.sentences = []
         self.linearized = []
+        self.linearized_tokens = []
         self.linearized_extra = []
         self.remove_longer_than = remove_longer_than
         for g in graphs:
@@ -54,6 +58,14 @@ class AMRDataset(Dataset):
             self.graphs.append(g)
             self.linearized.append(l)
             self.linearized_extra.append(e)
+            self.linearized_tokens.append(e['linearized_graphs'][1:-1])
+        
+        print("All {} instances in {}".format(len(self.sentences), paths))
+        # json.dump(self.graphs, open(f'{type_path}_graph.json', 'w', encoding='utf-8'), indent=4)
+        json.dump(self.sentences, open(f'../data/{data_cate}/{type_path}_tgt_tokens.json', 'w', encoding='utf-8'), indent=4)
+        # json.dump(self.linearized, open(f'{type_path}_linearized_ids.json', 'w', encoding='utf-8'), indent=4)
+        json.dump(self.linearized_tokens, open(f'../data/{data_cate}/{type_path}_linearized_tokens.json', 'w', encoding='utf-8'), indent=4)
+        # exit()
 
     def __len__(self):
         return len(self.sentences)
@@ -84,7 +96,7 @@ class AMRDataset(Dataset):
     
 class AMRDatasetTokenBatcherAndLoader:
     
-    def __init__(self, dataset, batch_size=800 ,device=torch.device('cpu'), shuffle=False, sort=False):
+    def __init__(self, dataset, batch_size=800, device=torch.device('cpu'), shuffle=False, sort=False):
         assert not (shuffle and sort)
         self.batch_size = batch_size
         self.tokenizer = dataset.tokenizer

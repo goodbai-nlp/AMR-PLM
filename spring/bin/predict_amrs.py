@@ -64,6 +64,7 @@ if __name__ == '__main__':
         batch_size=args.batch_size,
         evaluation=True, out=gold_path,
         use_recategorization=args.use_recategorization,
+        type_path="dev",
     )
     loader.device = device
 

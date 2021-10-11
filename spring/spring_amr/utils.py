@@ -5,7 +5,7 @@ import torch
 from transformers import AutoConfig
 
 from spring_amr.dataset import AMRDataset, AMRDatasetTokenBatcherAndLoader
-from spring_amr.modeling_bart import AMRBartForConditionalGeneration
+#from spring_amr.modeling_bart import AMRBartForConditionalGeneration
 from spring_amr.tokenization_bart import AMRBartTokenizer, PENMANBartTokenizer
 
 
@@ -132,6 +132,59 @@ def instantiate_model_and_tokenizer(
     return model, tokenizer
 
 
+def instantiate_tokenizer(
+        name=None,
+        checkpoint=None,
+        additional_tokens_smart_init=True,
+        dropout = 0.15,
+        attention_dropout = 0.15,
+        from_pretrained = True,
+        init_reverse = False,
+        collapse_name_ops = False,
+        penman_linearization = False,
+        use_pointer_tokens = False,
+        raw_graph = False,
+):
+    if raw_graph:
+        assert penman_linearization
+
+    skip_relations = False
+
+    if name is None:
+        name = 'facebook/bart-large'
+
+    if name == 'facebook/bart-base':
+        tokenizer_name = 'facebook/bart-large'
+    else:
+        tokenizer_name = name
+
+    config = AutoConfig.from_pretrained(name)
+    config.output_past = False
+    config.no_repeat_ngram_size = 0
+    config.prefix = " "
+    config.output_attentions = True
+    config.dropout = dropout
+    config.attention_dropout = attention_dropout
+
+    if penman_linearization:
+        tokenizer = PENMANBartTokenizer.from_pretrained(
+            tokenizer_name,
+            collapse_name_ops=collapse_name_ops,
+            use_pointer_tokens=use_pointer_tokens,
+            raw_graph=raw_graph,
+            config=config,
+        )
+    else:
+        tokenizer = AMRBartTokenizer.from_pretrained(
+            tokenizer_name,
+            collapse_name_ops=collapse_name_ops,
+            use_pointer_tokens=use_pointer_tokens,
+            config=config,
+        )
+
+    return tokenizer
+
+
 def instantiate_loader(
         glob_pattn,
         tokenizer,
@@ -142,6 +195,8 @@ def instantiate_loader(
         remove_longer_than=None,
         remove_wiki=False,
         dereify=True,
+        type_path="train",
+        data_cate="AMR1.0"
 ):
     paths = []
     if isinstance(glob_pattn, str) or isinstance(glob_pattn, Path):
@@ -159,6 +214,8 @@ def instantiate_loader(
         remove_longer_than=remove_longer_than,
         remove_wiki=remove_wiki,
         dereify=dereify,
+        type_path=type_path,
+        data_cate=data_cate,
     )
     loader = AMRDatasetTokenBatcherAndLoader(
         dataset,

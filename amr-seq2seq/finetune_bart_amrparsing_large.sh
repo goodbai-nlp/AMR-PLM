@@ -8,7 +8,7 @@ eval_beam=5
 lr=5e-5
 
 export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-lr${lr}-beam${eval_beam}-py38torch1.8
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-lr${lr}-beam${eval_beam}-py38torch1.8-local
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-lr${lr}-baseline2
 
 export CURRENT_DIR=${ROOT_DIR}
 export OUTPUT_DIR=${CURRENT_DIR}/${OUTPUT_DIR_NAME}
@@ -19,8 +19,8 @@ mkdir -p $OUTPUT_DIR
 export OMP_NUM_THREADS=10
 
 export CUDA_VISIBLE_DEVICES=${GPUID}
-python -u ${ROOT_DIR}/finetune_bart_amrparsing_new.py \
-    --data_dir=${ROOT_DIR}/data/AMR17-parsing \
+python -u ${ROOT_DIR}/finetune_bart_amrparsing.py \
+    --data_dir=${ROOT_DIR}/data/AMR17 \
     --learning_rate=$lr \
     --num_train_epochs 20 \
     --task amrparsing \
