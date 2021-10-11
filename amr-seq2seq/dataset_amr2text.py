@@ -95,9 +95,6 @@ class AMR2TextDataset(Dataset):
         self.linearized_tokens = json.load(
             open(f"{data_dir}/{type_path}_linearized_tokens.json", "r", encoding="utf-8")
         )
-        self.linearized_ids = json.load(
-            open(f"{data_dir}/{type_path}_linearized_ids.json", "r", encoding="utf-8")
-        )
 
     def __len__(self):
         return len(self.sentences)
@@ -106,12 +103,11 @@ class AMR2TextDataset(Dataset):
         sample = {}
         sample["id"] = idx
         sample["sentences"] = self.sentences[idx]
-        sample["linearized_graphs_ids"] = self.linearized_ids[idx]
         sample["linearized_graph"] = self.linearized_tokens[idx]
         return sample
 
     def size(self, sample):
-        return len(sample["linearized_graphs_ids"])
+        return len(sample["linearized_graph"])
 
     def collate_fn(self, samples, device=torch.device("cpu")):
         x = [
@@ -197,7 +193,7 @@ class AMR2TextDataModule(pl.LightningDataModule):
         self.val_dataset = AMR2TextDataset(
             self.tokenizer,
             data_dir=self.data_dir,
-            type_path="dev",
+            type_path="val",
             max_source_length=self.max_source_length,
             max_target_length=self.max_target_length,
         )

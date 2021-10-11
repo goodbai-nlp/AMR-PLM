@@ -555,7 +555,7 @@ class Graph2TextModule(SummarizationModule):
     def __init__(self, hparams, **kwargs):
         config = AutoConfig.from_pretrained(hparams.model_name_or_path)
         amr_tokenizer = PENMANBartTokenizer.from_pretrained(
-            "facebook/bart-large",
+            hparams.model_name_or_path,
             collapse_name_ops=False,
             use_pointer_tokens=True,
             raw_graph=False,
@@ -734,4 +734,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
     setup_seed(args.seed)
     main(args)
-
