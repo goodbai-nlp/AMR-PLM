@@ -23,8 +23,7 @@ class AMRBartTokenizer(BartTokenizer):
         AMRTokens.LIT_END,
         AMRTokens.BACKR_SRC_N,
         AMRTokens.BACKR_TRG_N,
-        "ToText",
-        "ToAMR"]
+        "<AMR>"]
 
     def __init__(self, *args, use_pointer_tokens=False, collapse_name_ops=False, **kwargs):
         super().__init__(*args, **kwargs)
@@ -88,9 +87,9 @@ class AMRBartTokenizer(BartTokenizer):
         self.eos_token = self.INIT + '</s>'
         self.mask_token = self.INIT + '<mask>'
         self.unk_token = self.INIT + '<unk>'
-        self.text_bos_token = self.INIT + "ToText"
-        self.text_bos_token_id = self.encoder[self.text_bos_token]
-        self.amr_bos_token = self.INIT + "ToAMR"
+        # self.text_bos_token = self.INIT + "ToText"
+        # self.text_bos_token_id = self.encoder[self.text_bos_token]
+        self.amr_bos_token = self.INIT + "<AMR>"
         self.amr_bos_token_id = self.encoder[self.amr_bos_token]
 
     def build_inputs_with_special_tokens(self, token_ids_0, token_ids_1=None):

@@ -114,8 +114,12 @@ class AMR2TextDataset(Dataset):
         return len(sample["linearized_graphs_ids"])
 
     def collate_fn(self, samples, device=torch.device("cpu")):
+        # x = [
+        #     [self.tokenizer.bos_token] + s["linearized_graph"] + [self.tokenizer.eos_token]
+        #     for s in samples
+        # ]
         x = [
-            [self.tokenizer.bos_token] + s["linearized_graph"] + [self.tokenizer.eos_token]
+            [self.tokenizer.amr_bos_token] + s["linearized_graph"] + [self.tokenizer.eos_token]
             for s in samples
         ]
         x = self.amr_batch_encode(x, max_length=self.max_target_length, pad_to_max_length=True).to(
@@ -124,7 +128,7 @@ class AMR2TextDataset(Dataset):
         x_mask = x.ne(self.tokenizer.pad_token_id).int()
         y = [s["sentences"] for s in samples]
         y = self.tokenizer.batch_encode_plus(y, return_tensors="pt", padding="longest")["input_ids"].to(device)
-        dec_inp = shift_tokens_right(y[:, 1:], self.tokenizer.pad_token_id, self.tokenizer.text_bos_token_id).to(device)
+        dec_inp = shift_tokens_right(y[:, 1:], self.tokenizer.pad_token_id, self.tokenizer.bos_token_id).to(device)
 
         return {
             "input_ids": x,

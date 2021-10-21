@@ -157,6 +157,9 @@ def mask_tokens(
     if tokenizer._pad_token is not None:
         padding_mask = labels.eq(tokenizer.pad_token_id)
         probability_matrix.masked_fill_(padding_mask, value=0.0)
+        special_token_mask = mask_inputs.eq(tokenizer.amr_bos_token_id)     # don't mask AMR_bos_token
+        probability_matrix.masked_fill_(special_token_mask, value=0.0)
+    
     masked_indices = torch.bernoulli(probability_matrix).bool()
     labels[~masked_indices] = -100                      # We only compute loss on masked tokens
 
@@ -197,6 +200,70 @@ def mask_tokens_short(
     if tokenizer._pad_token is not None:
         padding_mask = labels.eq(tokenizer.pad_token_id)
         probability_matrix.masked_fill_(padding_mask, value=0.0)
+        special_token_mask = mask_inputs.eq(tokenizer.amr_bos_token_id)         # don't mask AMR_bos_token
+        probability_matrix.masked_fill_(special_token_mask, value=0.0)
+
+    masked_indices = torch.bernoulli(probability_matrix).bool()                 # True/1 mask, False/0 dont mask
+    labels[~masked_indices] = -100                      # We only compute loss on masked tokens
+
+    mask_inputs[masked_indices] = tokenizer.convert_tokens_to_ids(tokenizer.mask_token)
+    res_labels = []
+    for inp_itm, label_itm in zip(mask_inputs, labels):
+        ith_label = []
+        cnt = 1
+        # for itm_idx, ith_label_idx in zip(inp_itm, label_itm):
+        #     if itm_idx == tokenizer.mask_token_id:
+        #         mask_id = tokenizer.convert_tokens_to_ids(f"{INIT}<mask{cnt}>")
+        #         inp_itm[itm_idx] = mask_id
+        #         ith_label.extend([mask_id, ith_label_idx])
+        for iidx in range(len(inp_itm)):
+            if inp_itm[iidx] == tokenizer.mask_token_id:
+                mask_id = tokenizer.convert_tokens_to_ids(f"{INIT}<mask{cnt}>")
+                inp_itm[iidx] = mask_id
+                ith_label.extend([mask_id, label_itm[iidx]])
+                cnt += 1
+
+        ith_label.append(tokenizer.eos_token_id)
+        res_labels.append(ith_label)
+    
+    labels = torch.tensor(tokenizer.pad({"input_ids": res_labels})["input_ids"])
+    labels.masked_fill_(labels == tokenizer.pad_token_id, -100)
+    # The rest of the time (10% of the time) we keep the masked input tokens unchanged
+    return mask_inputs, labels
+
+
+def mask_joint_tokens_short(
+    inputs: torch.Tensor, seg_ids: torch.Tensor, tokenizer: PreTrainedTokenizer, args, mask_txt=False
+) -> Tuple[torch.Tensor, torch.Tensor]:
+    """ Prepare masked tokens inputs/labels for masked language modeling: 80% MASK, 10% random, 10% original. """
+
+    if tokenizer.mask_token is None:
+        raise ValueError(
+            "This tokenizer does not have a mask token which is necessary for masked language modeling. Remove the --mlm flag if you want to use this tokenizer."
+        )
+    INIT = 'Ġ'
+    labels = inputs.clone()
+    mask_inputs = inputs.clone()
+    # We sample a few tokens in each sequence for masked-LM training (with probability args.mlm_probability defaults to 0.15 in Bert/RoBERTa)
+    probability_matrix = torch.full(labels.shape, args.mlm_probability)
+    special_tokens_mask = [
+        tokenizer.get_special_tokens_mask(val, already_has_special_tokens=True)
+        for val in labels.tolist()
+    ]
+    probability_matrix.masked_fill_(torch.tensor(special_tokens_mask, dtype=torch.bool), value=0.0)
+    if tokenizer._pad_token is not None:
+        padding_mask = labels.eq(tokenizer.pad_token_id)
+        probability_matrix.masked_fill_(padding_mask, value=0.0)
+        special_token_mask = mask_inputs.eq(tokenizer.amr_bos_token_id)     # don't mask AMR_bos_token
+        probability_matrix.masked_fill_(special_token_mask, value=0.0)
+
+    assert seg_ids.size() == inputs.size(), f"inconsistent size between input and seg_ids: {str(inputs.size())}, {str(seg_ids.size())}"
+    
+    if mask_txt:
+        probability_matrix.masked_fill_(seg_ids == 1, value=0.0)      # if mask text, set seg1 to 0
+    else:
+        probability_matrix.masked_fill_(seg_ids == 0, value=0.0)      # if mask AMR, set seg0 to 0
+
     masked_indices = torch.bernoulli(probability_matrix).bool()     # True/1 mask, False/0 dont mask
     labels[~masked_indices] = -100                      # We only compute loss on masked tokens
 
@@ -224,6 +291,133 @@ def mask_tokens_short(
     labels.masked_fill_(labels == tokenizer.pad_token_id, -100)
     # The rest of the time (10% of the time) we keep the masked input tokens unchanged
     return mask_inputs, labels
+
+
+def mask_joint_tokens_full(
+    inputs: torch.Tensor, seg_ids: torch.Tensor, tokenizer: PreTrainedTokenizer, args, mask_txt=False
+) -> Tuple[torch.Tensor, torch.Tensor]:
+    """ Prepare masked tokens inputs/labels for masked language modeling: 80% MASK, 10% random, 10% original. """
+
+    if tokenizer.mask_token is None:
+        raise ValueError(
+            "This tokenizer does not have a mask token which is necessary for masked language modeling. Remove the --mlm flag if you want to use this tokenizer."
+        )
+    labels = inputs.clone()
+    mask_inputs = inputs.clone()
+    # We sample a few tokens in each sequence for masked-LM training (with probability args.mlm_probability defaults to 0.15 in Bert/RoBERTa)
+    probability_matrix = torch.full(labels.shape, args.mlm_probability)
+    special_tokens_mask = [
+        tokenizer.get_special_tokens_mask(val, already_has_special_tokens=True)
+        for val in labels.tolist()
+    ]
+    probability_matrix.masked_fill_(torch.tensor(special_tokens_mask, dtype=torch.bool), value=0.0)
+    if tokenizer._pad_token is not None:
+        padding_mask = labels.eq(tokenizer.pad_token_id)
+        probability_matrix.masked_fill_(padding_mask, value=0.0)
+        special_token_mask = mask_inputs.eq(tokenizer.amr_bos_token_id)     # don't mask AMR_bos_token
+        probability_matrix.masked_fill_(special_token_mask, value=0.0)
+        
+    assert seg_ids.size() == inputs.size(), f"inconsistent size between input and seg_ids: {str(inputs.size())}, {str(seg_ids.size())}"
+    
+    if mask_txt:
+        probability_matrix.masked_fill_(seg_ids == 1, value=0.0)      # if mask text, set seg1 to 0
+    else:
+        probability_matrix.masked_fill_(seg_ids == 0, value=0.0)      # if mask AMR, set seg0 to 0
+
+    masked_indices = torch.bernoulli(probability_matrix).bool()       # True/1 mask, False/0 dont mask
+    mask_inputs[masked_indices] = tokenizer.convert_tokens_to_ids(tokenizer.mask_token)
+    # The rest of the time (10% of the time) we keep the masked input tokens unchanged
+
+    return mask_inputs, None
+
+
+def get_mlm_inputs(batch, tokenizer, args, inp='text'):
+    if inp == "text":
+        ori_input = batch["input_ids"]
+        masked_input, _ = mask_tokens(ori_input, tokenizer, args) if args.mlm else (batch, batch)
+        attention_mask = batch["attention_mask"]
+        labels = ori_input.clone()
+        labels.masked_fill_(labels == tokenizer.pad_token_id, -100)
+        labels = labels[:, 1:]                      # [w1 w2 w3 ...]
+        dec_input = ori_input[:, :-1]
+        # dec_input = dec_input.masked_fill_(dec_input == tokenizer.bos_token_id, tokenizer.text_bos_token_id)   # <ToText> w1, w2, ..., wn <\s>
+        return masked_input, attention_mask, dec_input, labels
+    
+    elif inp == "amr":
+        labels = batch["labels"]                                # [bsz, len+1]
+        shifted_input_ids = labels.new_zeros(labels.size(0), labels.size(1) + 1)
+        shifted_input_ids[:, 1:] = labels.clone()
+        # shifted_input_ids[:, 0] = tokenizer.bos_token_id                    # <s> w1, w2, ..., wn <\s>
+        shifted_input_ids[:, 0] = tokenizer.amr_bos_token_id                # <AMR> w1, w2, ..., wn <\s>
+        shifted_input_ids.masked_fill_(shifted_input_ids == -100, tokenizer.pad_token_id)   # replace -100 with pad_token_id
+        masked_input, _ = mask_tokens(shifted_input_ids, tokenizer, args)
+        attention_mask = shifted_input_ids.ne(tokenizer.pad_token_id).int()     # attention mask
+        dec_input = batch["decoder_input_ids"]
+        return masked_input, attention_mask, dec_input, labels
+
+
+def get_mlm_inputs_short(batch, tokenizer, args, inp='text'):
+    if inp == "text":
+        ori_input = batch["input_ids"]
+        masked_input, labels_new = mask_tokens_short(ori_input, tokenizer, args)
+        attention_mask = batch["attention_mask"]
+        dec_input = labels_new.new_zeros(labels_new.size(0), labels_new.size(1))
+        dec_input[:, 1:] = labels_new[:, :-1].clone()
+        dec_input[:, 0] = tokenizer.bos_token_id                                # short use <s> as start token
+        dec_input.masked_fill_(dec_input == -100, tokenizer.pad_token_id)
+        return masked_input, attention_mask, dec_input, labels_new
+    
+    elif inp == "amr":
+        amr = batch["labels"]                                # [bsz, len+1]
+        input_ids = amr.new_zeros(amr.size(0), amr.size(1) + 1)
+        input_ids[:, 1:] = amr.clone()
+        # input_ids[:, 0] = tokenizer.bos_token_id                    # <s> w1, w2, ..., wn <\s>
+        input_ids[:, 0] = tokenizer.amr_bos_token_id                # <AMR> w1, w2, ..., wn <\s>
+        input_ids.masked_fill_(input_ids == -100, tokenizer.pad_token_id)   # replace -100 with pad_token_id
+        masked_input, labels_new = mask_tokens_short(input_ids, tokenizer, args)
+        attention_mask = masked_input.ne(tokenizer.pad_token_id).int()     # attention mask
+        dec_input = labels_new.new_zeros(labels_new.size(0), labels_new.size(1))
+        dec_input[:, 1:] = labels_new[:, :-1].clone()
+        dec_input[:, 0] = tokenizer.bos_token_id                                # short use <s> as start token
+        dec_input.masked_fill_(dec_input == -100, tokenizer.pad_token_id)
+        return masked_input, attention_mask, dec_input, labels_new
+
+
+def get_mlm_joint_inputs_short(batch, tokenizer, args, inp='text'):
+    ori_input = batch["joint_ids"]
+    seg_ids = batch["seg_ids"]
+    if inp == 'text':
+        masked_input, labels_new = mask_joint_tokens_short(ori_input, seg_ids, tokenizer, args, mask_txt=True)
+    else:
+        masked_input, labels_new = mask_joint_tokens_short(ori_input, seg_ids, tokenizer, args, mask_txt=False)
+
+    attention_mask = masked_input.ne(tokenizer.pad_token_id).int()      # attention mask
+    dec_input = labels_new.new_zeros(labels_new.size(0), labels_new.size(1))
+    dec_input[:, 1:] = labels_new[:, :-1].clone()
+    dec_input[:, 0] = tokenizer.bos_token_id                            # short mlm use <s> as start token
+    dec_input.masked_fill_(dec_input == -100, tokenizer.pad_token_id)
+    return masked_input, attention_mask, dec_input, labels_new
+
+
+def get_mlm_joint_inputs_full(batch, tokenizer, args, inp='text'):
+    ori_input = batch["joint_ids"]
+    seg_ids = batch["seg_ids"]
+    if inp == 'text':
+        masked_input, _ = mask_joint_tokens_full(ori_input, seg_ids, tokenizer, args, mask_txt=True)
+        labels = batch["input_ids"].clone()
+        labels.masked_fill_(labels == tokenizer.pad_token_id, -100)
+        labels = labels[:, 1:]                                                  # w1, w2, .., wn <\s>
+        dec_input = labels.new_zeros(labels.size(0), labels.size(1))
+        dec_input[:, 1:] = labels[:, :-1].clone()
+        dec_input[:, 0] = tokenizer.bos_token_id                                # <s> w1 w2, ..., wn
+        dec_input.masked_fill_(dec_input == -100, tokenizer.pad_token_id)
+    else:
+        masked_input, _ = mask_joint_tokens_full(ori_input, seg_ids, tokenizer, args, mask_txt=False)
+        labels = batch["labels"]
+        dec_input = batch["decoder_input_ids"]                                  # <AMR> w1 w2, ..., wn
+
+    attention_mask = masked_input.ne(tokenizer.pad_token_id).int()              # attention mask
+    return masked_input, attention_mask, dec_input, labels
 
 
 def get_fisher(train_dataloader, args, tokenizer, model, config=None):
@@ -293,7 +487,59 @@ def get_fisher(train_dataloader, args, tokenizer, model, config=None):
         else:
             text_short_loss = 0
 
-        loss = amr_loss + text_loss + amr_short_loss + text_short_loss
+        if args.mlm_text_plus_amr_short:
+            masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_short(batch, tokenizer, args, inp='text')
+            masked_input = masked_input.to(args.device)
+            labels = labels.to(args.device)
+            dec_input = dec_input.to(args.device)
+            if step == 0:
+                save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_text_plus_amr_short')
+
+            outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+            text_joint_short_loss = outputs[0]
+        else:
+            text_joint_short_loss = 0
+
+        if args.mlm_amr_plus_text_short:
+            masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_short(batch, tokenizer, args, inp='amr')
+            masked_input = masked_input.to(args.device)
+            labels = labels.to(args.device)
+            dec_input = dec_input.to(args.device)
+            if step == 0:
+                save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_amr_plus_text_short')
+
+            outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+            amr_joint_short_loss = outputs[0]
+        else:
+            amr_joint_short_loss = 0
+
+        if args.mlm_text_plus_amr:
+            masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='text')
+            masked_input = masked_input.to(args.device)
+            labels = labels.to(args.device)
+            dec_input = dec_input.to(args.device)
+            if step == 0:
+                save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_text_plus_amr_full')
+
+            outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+            text_joint_loss = outputs[0]
+        else:
+            text_joint_loss = 0
+
+        if args.mlm_amr_plus_text:
+            masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='amr')
+            masked_input = masked_input.to(args.device)
+            labels = labels.to(args.device)
+            dec_input = dec_input.to(args.device)
+            if step == 0:
+                save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_amr_plus_text_full')
+
+            outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+            amr_joint_loss = outputs[0]
+        else:
+            amr_joint_loss = 0
+
+        loss = amr_loss + text_loss + amr_short_loss + text_short_loss + text_joint_loss + amr_joint_loss + text_joint_short_loss + amr_joint_short_loss
 
         if args.n_gpu > 1:
             loss = loss.mean()  # mean() to average on multi-gpu parallel training
@@ -311,57 +557,6 @@ def get_fisher(train_dataloader, args, tokenizer, model, config=None):
             fisher[name] /= len(train_dataloader)
 
     return fisher, opt_param
-
-
-def get_mlm_inputs(batch, tokenizer, args, inp='text'):
-    if inp == "text":
-        ori_input = batch["input_ids"]
-        masked_input, _ = mask_tokens(ori_input, tokenizer, args) if args.mlm else (batch, batch)
-        attention_mask = batch["attention_mask"]
-        labels = ori_input.clone()
-        labels.masked_fill_(labels == tokenizer.pad_token_id, -100)
-        labels = labels[:, 1:]                      # [w1 w2 w3 ...]
-        dec_input = ori_input[:, :-1]
-        dec_input = dec_input.masked_fill_(dec_input == tokenizer.bos_token_id, tokenizer.text_bos_token_id)   # <ToText> w1, w2, ..., wn <\s>
-        return masked_input, attention_mask, dec_input, labels
-    
-    elif inp == "amr":
-        labels = batch["labels"]                                # [bsz, len+1]
-        shifted_input_ids = labels.new_zeros(labels.size(0), labels.size(1) + 1)
-        shifted_input_ids[:, 1:] = labels.clone()
-        shifted_input_ids[:, 0] = tokenizer.bos_token_id                # <bos> w1, w2, ..., wn <\s>
-        # shifted_input_ids[:, 0] = tokenizer.amr_bos_token_id          # <ToAMR> w1, w2, ..., wn <\s>
-        shifted_input_ids.masked_fill_(shifted_input_ids == -100, tokenizer.pad_token_id)   # replace -100 with pad_token_id
-        masked_input, _ = mask_tokens(shifted_input_ids, tokenizer, args)
-        attention_mask = shifted_input_ids.ne(tokenizer.pad_token_id).int()     # attention mask
-        dec_input = batch["decoder_input_ids"]
-        return masked_input, attention_mask, dec_input, labels
-
-
-def get_mlm_inputs_short(batch, tokenizer, args, inp='text'):
-    if inp == "text":
-        ori_input = batch["input_ids"]
-        masked_input, labels_new = mask_tokens_short(ori_input, tokenizer, args) if args.mlm else (batch, batch)
-        attention_mask = batch["attention_mask"]
-        dec_input = labels_new.new_zeros(labels_new.size(0), labels_new.size(1))
-        dec_input[:, 1:] = labels_new[:, :-1].clone()
-        dec_input[:, 0] = tokenizer.bos_token_id
-        dec_input.masked_fill_(dec_input == -100, tokenizer.pad_token_id)
-        return masked_input, attention_mask, dec_input, labels_new
-    
-    elif inp == "amr":
-        amr = batch["labels"]                                # [bsz, len+1]
-        shifted_input_ids = amr.new_zeros(amr.size(0), amr.size(1) + 1)
-        shifted_input_ids[:, 1:] = amr.clone()
-        shifted_input_ids[:, 0] = tokenizer.bos_token_id                # <bos> w1, w2, ..., wn <\s>
-        shifted_input_ids.masked_fill_(shifted_input_ids == -100, tokenizer.pad_token_id)   # replace -100 with pad_token_id
-        masked_input, labels_new = mask_tokens_short(shifted_input_ids, tokenizer, args)
-        attention_mask = shifted_input_ids.ne(tokenizer.pad_token_id).int()     # attention mask
-        dec_input = labels_new.new_zeros(labels_new.size(0), labels_new.size(1))
-        dec_input[:, 1:] = labels_new[:, :-1].clone()
-        dec_input[:, 0] = tokenizer.bos_token_id
-        dec_input.masked_fill_(dec_input == -100, tokenizer.pad_token_id)
-        return masked_input, attention_mask, dec_input, labels_new
 
 
 def train(
@@ -554,7 +749,47 @@ def train(
             else:
                 text_short_loss = 0
 
-            loss = amr_loss + text_loss + amr_short_loss + text_short_loss
+            if args.mlm_text_plus_amr_short:
+                masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_short(batch, tokenizer, args, inp='text')
+                masked_input = masked_input.to(args.device)
+                labels = labels.to(args.device)
+                dec_input = dec_input.to(args.device)
+                outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+                text_joint_short_loss = outputs[0]
+            else:
+                text_joint_short_loss = 0
+
+            if args.mlm_amr_plus_text_short:
+                masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_short(batch, tokenizer, args, inp='amr')
+                masked_input = masked_input.to(args.device)
+                labels = labels.to(args.device)
+                dec_input = dec_input.to(args.device)
+                outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+                amr_joint_short_loss = outputs[0]
+            else:
+                amr_joint_short_loss = 0
+
+            if args.mlm_text_plus_amr:
+                masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='text')
+                masked_input = masked_input.to(args.device)
+                labels = labels.to(args.device)
+                dec_input = dec_input.to(args.device)
+                outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+                text_joint_loss = outputs[0]
+            else:
+                text_joint_loss = 0
+
+            if args.mlm_amr_plus_text:
+                masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='amr')
+                masked_input = masked_input.to(args.device)
+                labels = labels.to(args.device)
+                dec_input = dec_input.to(args.device)
+                outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+                amr_joint_loss = outputs[0]
+            else:
+                amr_joint_loss = 0
+
+            loss = amr_loss + text_loss + amr_short_loss + text_short_loss + text_joint_loss + amr_joint_loss + text_joint_short_loss + amr_joint_short_loss
 
             if args.n_gpu > 1:
                 loss = loss.mean()  # mean() to average on multi-gpu parallel training
@@ -745,7 +980,47 @@ def evaluate(
             else:
                 text_short_loss = 0
 
-            loss = amr_loss + text_loss + amr_short_loss + text_short_loss
+            if args.mlm_text_plus_amr_short:
+                masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_short(batch, tokenizer, args, inp='text')
+                masked_input = masked_input.to(args.device)
+                labels = labels.to(args.device)
+                dec_input = dec_input.to(args.device)
+                outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+                text_joint_short_loss = outputs[0]
+            else:
+                text_joint_short_loss = 0
+
+            if args.mlm_amr_plus_text_short:
+                masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_short(batch, tokenizer, args, inp='amr')
+                masked_input = masked_input.to(args.device)
+                labels = labels.to(args.device)
+                dec_input = dec_input.to(args.device)
+                outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+                amr_joint_short_loss = outputs[0]
+            else:
+                amr_joint_short_loss = 0
+
+            if args.mlm_text_plus_amr:
+                masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='text')
+                masked_input = masked_input.to(args.device)
+                labels = labels.to(args.device)
+                dec_input = dec_input.to(args.device)
+                outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+                text_joint_loss = outputs[0]
+            else:
+                text_joint_loss = 0
+
+            if args.mlm_amr_plus_text:
+                masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='amr')
+                masked_input = masked_input.to(args.device)
+                labels = labels.to(args.device)
+                dec_input = dec_input.to(args.device)
+                outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+                amr_joint_loss = outputs[0]
+            else:
+                amr_joint_loss = 0
+
+            loss = amr_loss + text_loss + amr_short_loss + text_short_loss + text_joint_loss + amr_joint_loss + text_joint_short_loss + amr_joint_short_loss
 
             pbar.set_postfix(lm_loss=loss.item())
 
@@ -770,7 +1045,7 @@ def evaluate(
 def ids_to_clean_text(tokenizer, generated_ids: List[int]):
     generated_ids.masked_fill_(generated_ids == -100, tokenizer.pad_token_id)
     gen_text = tokenizer.batch_decode(generated_ids, clean_up_tokenization_spaces=False)
-    return gen_text
+    return " ".join(gen_text)
 
 
 def save_dummy_batch(args, batch, tokenizer):
@@ -895,13 +1170,6 @@ def main():
         type=str,
         required=True,
         help="The model architecture to be trained or fine-tuned.",
-    )
-    parser.add_argument(
-        "--add_tokens",
-        default=None,
-        type=str,
-        required=False,
-        help="The added tokens to BART model.",
     )
     # Other parameters
     parser.add_argument(
@@ -1104,6 +1372,16 @@ def main():
     )
     parser.add_argument(
         "--mlm_text_plus_amr",
+        action="store_true",
+        help="Whether to apply mask text, plus amr, short dec sequence",
+    )
+    parser.add_argument(
+        "--mlm_amr_plus_text_short",
+        action="store_true",
+        help="Whether to apply mask amr, plus text, short dec sequence",
+    )
+    parser.add_argument(
+        "--mlm_text_plus_amr_short",
         action="store_true",
         help="Whether to apply mask text, plus amr, short dec sequence",
     )

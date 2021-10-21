@@ -228,6 +228,12 @@ class AMRDataSetFast(torch.nn.Module):
             #     labels = self.tokenizer(tgt, max_length=self.max_tgt_length, padding=False, truncation=True)
             tgt_ids = self.amr_batch_encode(tgt, max_length=self.max_tgt_length, pad_to_max_length=False)
             model_inputs["labels"] = tgt_ids
+            joint_ids = [srci + [self.tokenizer.amr_bos_token_id] + tgti for srci, tgti in zip(model_inputs["input_ids"], model_inputs["labels"])]                                                      # [<s> x1,x2...,xn <\s> y1,y2,...ym <\s>]
+            joint_ids = [itm[:self.max_src_length - 1] + [self.tokenizer.eos_token_id] if len(itm) > self.max_src_length else itm for itm in joint_ids]
+            seg_ids = [[0 for _ in range(len(srci))] + [1 for _ in range(len(tgti) + 1)] for srci, tgti in zip(model_inputs["input_ids"], model_inputs["labels"])]      # [<s> x1,x2...,xn <\s> y1,y2,...ym <\s>]
+            seg_ids = [itm[:self.max_src_length] for itm in seg_ids]
+            model_inputs["joint_ids"] = joint_ids
+            model_inputs["seg_ids"] = seg_ids
             return model_inputs
 
         self.train_dataset = datasets["train"].map(
@@ -251,6 +257,17 @@ class AMRDataSetFast(torch.nn.Module):
         print(f'ALL {len(self.test_dataset)} test instances')
 
         print('Dataset Instance Example:', self.train_dataset[0])
+
+
+def padding_func(features, padding_side="right", pad_token_id=1, key="label"):
+    assert key in features[0].keys(), f"{key} not in {features[0].keys()}"
+    max_label_length = max(len(feature[key]) for feature in features)
+    for feature in features:
+        remainder = [pad_token_id] * (max_label_length - len(feature[key]))
+        feature[key] = (
+            feature[key] + remainder if padding_side == "right" else remainder + feature[key]
+        )
+    return
 
 
 @dataclass
@@ -296,18 +313,22 @@ class DataCollatorForSeq2Seq:
 
     def __call__(self, features):
         # print("Features:", features)
-        labels = [feature["labels"] for feature in features] if "labels" in features[0].keys() else None
-        # We have to pad the labels before calling `tokenizer.pad` as this method won't pad them and needs them of the
-        # same length to return tensors.
-        if labels is not None:
-            max_label_length = max(len(l) for l in labels)
-            padding_side = self.tokenizer.padding_side
-            for feature in features:
-                remainder = [self.label_pad_token_id] * (max_label_length - len(feature["labels"]))
-                feature["labels"] = (
-                    feature["labels"] + remainder if padding_side == "right" else remainder + feature["labels"]
-                )
-
+        # labels = [feature["labels"] for feature in features] if "labels" in features[0].keys() else None
+        # # We have to pad the labels before calling `tokenizer.pad` as this method won't pad them and needs them of the
+        # # same length to return tensors.
+        # if labels is not None:
+        #     max_label_length = max(len(l) for l in labels)
+        #     padding_side = self.tokenizer.padding_side
+        #     for feature in features:
+        #         remainder = [self.label_pad_token_id] * (max_label_length - len(feature["labels"]))
+        #         feature["labels"] = (
+        #             feature["labels"] + remainder if padding_side == "right" else remainder + feature["labels"]
+        #         )
+        # print("Features:", features)
+        padding_func(features, padding_side=self.tokenizer.padding_side, pad_token_id=self.label_pad_token_id, key="labels")
+        padding_func(features, padding_side=self.tokenizer.padding_side, pad_token_id=self.tokenizer.pad_token_id, key="joint_ids")
+        padding_func(features, padding_side=self.tokenizer.padding_side, pad_token_id=self.tokenizer.pad_token_id, key="seg_ids")
+        
         features = self.tokenizer.pad(
             features,
             padding=self.padding,
@@ -323,6 +344,8 @@ class DataCollatorForSeq2Seq:
             "input_ids": features["input_ids"],
             "attention_mask": features["attention_mask"],
             "labels": features["labels"],
+            "joint_ids": features["joint_ids"],
+            "seg_ids": features["seg_ids"],
             "decoder_input_ids": decoder_input_ids,
         }
 
