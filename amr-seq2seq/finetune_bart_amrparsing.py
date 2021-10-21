@@ -336,7 +336,7 @@ class SummarizationModule(BaseTransformer):
                 p_writer.write("\n\n".join(pieces))
             try:
                 smatch_score = calculate_smatch(
-                    self.hparams.data_dir + f"/{prefix}.amr", output_test_predictions_file
+                    self.hparams.data_dir + f"/{prefix}-gold.amr", output_test_predictions_file
                 )
             except AttributeError:
                 smatch_score = {"smatch": 0.0}
