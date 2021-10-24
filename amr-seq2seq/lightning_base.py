@@ -146,7 +146,9 @@ class BaseTransformer(pl.LightningModule):
                 config=self.config,
                 cache_dir=cache_dir,
             )
+            print("Ori EMbeddings: ", self.model.model.shared.num_embeddings)
             self.model.resize_token_embeddings(len(self.tokenizer))
+            print("Resized EMbeddings: ", self.model.model.shared.num_embeddings)
             if self.hparams.smart_init:
                 # self.model = self.smart_emb_init()
                 self.model = self.smart_emb_init_new()
@@ -390,6 +392,13 @@ class BaseTransformer(pl.LightningModule):
             type=str,
             required=True,
             help="Path to pretrained model or model identifier from huggingface.co/models",
+        )
+        parser.add_argument(
+            "--tokenizer_name_or_path",
+            default=None,
+            type=str,
+            required=False,
+            help="Path to pretrained tokenizer or tokenizer identifier from huggingface.co/models",
         )
         parser.add_argument(
             "--config_name", default="", type=str, help="Pretrained config name or path if not the same as model_name"

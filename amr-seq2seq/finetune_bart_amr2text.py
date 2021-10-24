@@ -528,6 +528,7 @@ class SummarizationModule(BaseTransformer):
         parser.add_argument("--recon_structure", action="store_true", default=False)
         parser.add_argument("--recon_weight", default=1.0, type=float, help="recon loss weight.")
         parser.add_argument("--smart_init", action="store_true", default=False, help="smart init new embeddings.")
+        parser.add_argument("--amr_plm", action="store_true", default=False, help="using pretrained AMR models")
         return parser
 
 
@@ -554,15 +555,16 @@ class Graph2TextModule(SummarizationModule):
 
     def __init__(self, hparams, **kwargs):
         config = AutoConfig.from_pretrained(hparams.model_name_or_path)
+        hparams.tokenizer_name_or_path = hparams.tokenizer_name_or_path if hparams.tokenizer_name_or_path is not None else hparams.model_name_or_path
         amr_tokenizer = PENMANBartTokenizer.from_pretrained(
-            hparams.model_name_or_path,
+            hparams.tokenizer_name_or_path,
             collapse_name_ops=False,
             use_pointer_tokens=True,
             raw_graph=False,
         )
         super().__init__(hparams, config=config, tokenizer=amr_tokenizer, **kwargs)
         rank_zero_info("parameters %s", hparams)
-        self.decoder_start_token_id = amr_tokenizer.text_bos_token_id
+        self.decoder_start_token_id = amr_tokenizer.bos_token_id
 
     def calc_generative_metrics(self, preds, target) -> dict:
         return calculate_bleu(preds, target)

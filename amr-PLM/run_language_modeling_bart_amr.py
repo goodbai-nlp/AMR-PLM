@@ -445,6 +445,7 @@ def get_fisher(train_dataloader, args, tokenizer, model, config=None):
             dec_input = dec_input.to(args.device)
             if step == 0:
                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_amr')
+            assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
             amr_loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
         else:
@@ -457,6 +458,7 @@ def get_fisher(train_dataloader, args, tokenizer, model, config=None):
             dec_input = dec_input.to(args.device)
             if step == 0:
                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_text')
+            assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
             text_loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
         else:
@@ -469,7 +471,7 @@ def get_fisher(train_dataloader, args, tokenizer, model, config=None):
             dec_input = dec_input.to(args.device)
             if step == 0:
                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_amr_short')
-            
+            assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
             amr_short_loss = outputs[0]
         else:
@@ -482,6 +484,7 @@ def get_fisher(train_dataloader, args, tokenizer, model, config=None):
             dec_input = dec_input.to(args.device)
             if step == 0:
                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_text_short')
+            assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
             text_short_loss = outputs[0]
         else:
@@ -494,7 +497,7 @@ def get_fisher(train_dataloader, args, tokenizer, model, config=None):
             dec_input = dec_input.to(args.device)
             if step == 0:
                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_text_plus_amr_short')
-
+            assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
             text_joint_short_loss = outputs[0]
         else:
@@ -507,7 +510,7 @@ def get_fisher(train_dataloader, args, tokenizer, model, config=None):
             dec_input = dec_input.to(args.device)
             if step == 0:
                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_amr_plus_text_short')
-
+            assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
             amr_joint_short_loss = outputs[0]
         else:
@@ -520,7 +523,7 @@ def get_fisher(train_dataloader, args, tokenizer, model, config=None):
             dec_input = dec_input.to(args.device)
             if step == 0:
                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_text_plus_amr_full')
-
+            assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
             text_joint_loss = outputs[0]
         else:
@@ -533,7 +536,7 @@ def get_fisher(train_dataloader, args, tokenizer, model, config=None):
             dec_input = dec_input.to(args.device)
             if step == 0:
                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_amr_plus_text_full')
-
+            assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
             amr_joint_loss = outputs[0]
         else:
@@ -572,7 +575,7 @@ def train(
         RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     )
     train_dataloader = DataLoader(
-        train_dataset, sampler=train_sampler, batch_size=args.train_batch_size, collate_fn=collate_fn, num_workers=8
+        train_dataset, sampler=train_sampler, batch_size=args.train_batch_size, collate_fn=collate_fn, num_workers=2
     )
 
     if args.max_steps > 0:
@@ -714,6 +717,7 @@ def train(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 amr_loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
             else:
@@ -724,6 +728,7 @@ def train(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 text_loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
             else:
@@ -734,6 +739,7 @@ def train(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 amr_short_loss = outputs[0]
             else:
@@ -744,6 +750,7 @@ def train(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 text_short_loss = outputs[0]
             else:
@@ -754,6 +761,7 @@ def train(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 text_joint_short_loss = outputs[0]
             else:
@@ -764,6 +772,7 @@ def train(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 amr_joint_short_loss = outputs[0]
             else:
@@ -774,6 +783,7 @@ def train(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 text_joint_loss = outputs[0]
             else:
@@ -784,6 +794,7 @@ def train(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 amr_joint_loss = outputs[0]
             else:
@@ -945,6 +956,7 @@ def evaluate(
                 masked_input = masked_input.to("cuda:0")
                 labels = labels.to("cuda:0")
                 dec_input = dec_input.to("cuda:0")
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 amr_loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
             else:
@@ -955,6 +967,7 @@ def evaluate(
                 masked_input = masked_input.to("cuda:0")
                 labels = labels.to("cuda:0")
                 dec_input = dec_input.to("cuda:0")
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 text_loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
             else:
@@ -965,6 +978,7 @@ def evaluate(
                 masked_input = masked_input.to("cuda:0")
                 labels = labels.to("cuda:0")
                 dec_input = dec_input.to("cuda:0")
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 amr_short_loss = outputs[0]
             else:
@@ -975,6 +989,7 @@ def evaluate(
                 masked_input = masked_input.to("cuda:0")
                 labels = labels.to("cuda:0")
                 dec_input = dec_input.to("cuda:0")
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 text_short_loss = outputs[0]
             else:
@@ -985,6 +1000,7 @@ def evaluate(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 text_joint_short_loss = outputs[0]
             else:
@@ -995,6 +1011,7 @@ def evaluate(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 amr_joint_short_loss = outputs[0]
             else:
@@ -1005,6 +1022,7 @@ def evaluate(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 text_joint_loss = outputs[0]
             else:
@@ -1015,6 +1033,7 @@ def evaluate(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
+                assert dec_input.size() == labels.size(), f"inconsistant size between {dec_input.size()} and {labels.size()}."
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 amr_joint_loss = outputs[0]
             else:
@@ -1472,7 +1491,7 @@ def main():
         )
 
     tokenizer = PENMANBartTokenizer.from_pretrained(
-        "facebook/bart-large",
+        args.model_name_or_path,
         collapse_name_ops=False,
         use_pointer_tokens=True,
         raw_graph=False,
@@ -1492,10 +1511,11 @@ def main():
             cache_dir=args.cache_dir,
         )
     else:
-        logger.info("Training new model from scratch")
+        logger.info("Training new model from scratch ...")
         model = AutoModelForMaskedLM.from_config(config)
 
     model.resize_token_embeddings(len(tokenizer))
+    # model.config.vocab_size = len(tokenizer)
     model.to(args.device)
     print(model)
     if args.local_rank == 0:

@@ -1,4 +1,4 @@
-export CUDA_VISIBLE_DEVICES=0,1,3,4,5,6,7,8
+export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 dataset=AMR17-new
 datapath=data/$dataset
 MODEL=$1
@@ -6,7 +6,7 @@ lr=0.00005
 outpath=${dataset}-bart-base-mlm4task-${lr}
 mkdir -p $outpath
 
-python -m torch.distributed.launch --nproc_per_node=2 -u run_language_modeling_bart_amr.py \
+python -m torch.distributed.launch --nproc_per_node=8 run_language_modeling_bart_amr.py \
   --train_file $datapath/train.jsonl \
   --val_file $datapath/dev.jsonl \
   --test_file $datapath/test.jsonl \
