@@ -7,10 +7,19 @@ MODEL=$1
 eval_beam=5
 num_ins=128
 lr=1e-5
-lr=2e-5
+# lr=2e-5
 # lr=5e-5
 
 export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr-new
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr-new2
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr-AMRnoise-full
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr-AMRnoise-freeze_encoder
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr-AMRnoise-freeze_Model
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr-JointDenoise-full
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr-JointDenoise-128-${lr}
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr-JointDenoise-128-new-${lr}
+
 Tokenizer=../../../data/pretrained-model/bart-base
 
 export CURRENT_DIR=${ROOT_DIR}

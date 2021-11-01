@@ -8,6 +8,7 @@ eval_beam=5
 lr=5e-5
 Tokenizer=../../../data/pretrained-model/bart-base
 export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amrparsing-lr${lr}-PLM
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amrparsing-lr${lr}-AMRdenoising
 
 export CURRENT_DIR=${ROOT_DIR}
 export OUTPUT_DIR=${CURRENT_DIR}/${OUTPUT_DIR_NAME}

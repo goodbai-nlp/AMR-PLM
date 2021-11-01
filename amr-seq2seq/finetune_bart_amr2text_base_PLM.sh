@@ -7,6 +7,7 @@ MODEL=$1
 eval_beam=5
 Tokenizer=../../../data/pretrained-model/bart-base
 lr=1e-5
+lr=2e-5
 
 export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amr2text-PLM-lr${lr}
 
