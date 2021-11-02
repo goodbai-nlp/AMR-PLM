@@ -1,12 +1,12 @@
-export CUDA_VISIBLE_DEVICES=1,2,3,5
+export CUDA_VISIBLE_DEVICES=0,1,2,3
 dataset=AMR20-full
 datapath=../data/$dataset
 few_path=../data/AMR17-128ins
 MODEL=$1
 interval=1
 lr=3e-5
-outpath=${dataset}-bart-base-textinf-JointDenoise-4task-${lr}-full_Model-fewshot128-rerun
-outpath=${dataset}-bart-base-textinf-JointDenoise-4task-${lr}-full_Model-fewshot128-truefewshot
+outpath=output/${dataset}-bart-base-textinf-JointDenoise-4task-${lr}-full_Model-fewshot128
+
 mkdir -p $outpath
 
 python -u -m torch.distributed.launch --nproc_per_node=4 run_textinfilling_bart_denoising_4task_fewshot.py \

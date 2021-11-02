@@ -195,10 +195,10 @@ def sentence_infilling(tokenizer, inp, mlm_prob=0.35):
     return torch.tensor(masked_inputs)
 
 
-def text_infilling(inp, tokenizer):
+def text_infilling(inp, tokenizer, mlm_prob=0.35):
     res = []
     for sents in inp:
-        res.append(sentence_infilling(tokenizer, sents))
+        res.append(sentence_infilling(tokenizer, sents, mlm_prob=mlm_prob))
     return pad_sequence(res, batch_first=True, padding_value=tokenizer.pad_token_id)
 
 
@@ -511,11 +511,11 @@ def get_mlm_joint_inputs_full(batch, tokenizer, args, inp='text'):
     return masked_input, attention_mask, dec_input, labels
 
 
-def get_textinf_joint_inputs_full(batch, tokenizer, args, inp='text'):
+def get_textinf_joint_inputs_full(batch, tokenizer, args, inp='text', mlm_prob=0.35):
     ori_input = batch["joint_ids"]
     seg_ids = batch["seg_ids"]
     if inp == 'text':
-        masked_input = textinf_joint_tokens_full(ori_input, seg_ids, tokenizer, args, mask_txt=True)
+        masked_input = textinf_joint_tokens_full(ori_input, seg_ids, tokenizer, args, mask_txt=True, mlm_prob=mlm_prob)
         labels = batch["input_ids"].clone()
         labels.masked_fill_(labels == tokenizer.pad_token_id, -100)
         labels = labels[:, 1:]                                                  # w1, w2, .., wn <\s>
@@ -524,7 +524,7 @@ def get_textinf_joint_inputs_full(batch, tokenizer, args, inp='text'):
         dec_input[:, 0] = tokenizer.bos_token_id                                # <s> w1 w2, ..., wn
         dec_input.masked_fill_(dec_input == -100, tokenizer.pad_token_id)
     else:
-        masked_input = textinf_joint_tokens_full(ori_input, seg_ids, tokenizer, args, mask_txt=False)
+        masked_input = textinf_joint_tokens_full(ori_input, seg_ids, tokenizer, args, mask_txt=False, mlm_prob=mlm_prob)
         labels = batch["labels"]
         dec_input = batch["decoder_input_ids"]                                  # <AMR> w1 w2, ..., wn
 
@@ -533,7 +533,7 @@ def get_textinf_joint_inputs_full(batch, tokenizer, args, inp='text'):
 
 
 def textinf_joint_tokens_full(
-    inputs: torch.Tensor, seg_ids: torch.Tensor, tokenizer: PreTrainedTokenizer, args, mask_txt=False
+    inputs: torch.Tensor, seg_ids: torch.Tensor, tokenizer: PreTrainedTokenizer, args, mask_txt=False, mlm_prob=0.35
 ) -> Tuple[torch.Tensor, torch.Tensor]:
     """ Prepare masked tokens inputs/labels for masked language modeling: 80% MASK, 10% random, 10% original. """
 
@@ -541,18 +541,18 @@ def textinf_joint_tokens_full(
         raise ValueError(
             "This tokenizer does not have a mask token which is necessary for masked language modeling. Remove the --mlm flag if you want to use this tokenizer."
         )
-    mask_inputs = joint_infilling(inp=inputs, seg_id=seg_ids, tokenizer=tokenizer, mask_txt=mask_txt)
+    mask_inputs = joint_infilling(inp=inputs, seg_id=seg_ids, tokenizer=tokenizer, mask_txt=mask_txt, mlm_prob=mlm_prob)
     return mask_inputs
 
-def joint_infilling(inp, seg_id, tokenizer, mask_txt=True):
+def joint_infilling(inp, seg_id, tokenizer, mask_txt=True, mlm_prob=0.35):
     res = []
     for inp_ids, seg_iid in zip(inp, seg_id):
         inp_ids = torch.tensor([iid for iid in inp_ids if iid != tokenizer.pad_token_id])
         text_ids = torch.tensor([inp_ids[idx] for idx in range(len(inp_ids)) if seg_iid[idx] == 0])
         amr_ids = torch.tensor([inp_ids[idx] for idx in range(len(inp_ids)) if seg_iid[idx] == 1])
         if mask_txt:
-            res.append(torch.cat([sentence_infilling(tokenizer, text_ids), amr_ids], dim=0))
+            res.append(torch.cat([sentence_infilling(tokenizer, text_ids, mlm_prob=mlm_prob), amr_ids], dim=0))
         else:
-            res.append(torch.cat([text_ids, sentence_infilling(tokenizer, amr_ids)], dim=0))
+            res.append(torch.cat([text_ids, sentence_infilling(tokenizer, amr_ids, mlm_prob=mlm_prob)], dim=0))
 
     return pad_sequence(res, batch_first=True, padding_value=tokenizer.pad_token_id)

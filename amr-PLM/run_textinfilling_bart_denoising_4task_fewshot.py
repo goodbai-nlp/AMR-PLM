@@ -139,149 +139,6 @@ def _rotate_checkpoints(args, checkpoint_prefix="checkpoint", use_mtime=False) -
         shutil.rmtree(checkpoint)
 
 
-# def get_fisher(train_dataloader, args, tokenizer, model, config=None):
-#     epoch_iterator = tqdm(
-#         train_dataloader, desc="Computing Fisher matrix", disable=args.local_rank not in [-1, 0]
-#     )
-
-#     fisher = {}
-#     opt_param = {}
-
-#     for n, p in model.named_parameters():
-#         opt_param[n] = p.clone().detach()               # 原始参数值
-#         fisher[n] = torch.zeros_like(opt_param[n])
-
-#     for step, batch in enumerate(epoch_iterator):
-#         if step == 0:
-#             save_dummy_batch(args, batch, tokenizer)
-#             # exit()
-        
-#         model.train()
-#         if args.mlm_amr:
-#             # masked_input, attention_mask, dec_input, labels = get_mlm_inputs(batch, tokenizer, args, inp='amr')
-#             masked_input, attention_mask, dec_input, labels = get_text_infilling_inputs(batch, tokenizer, args, inp='amr')
-#             masked_input = masked_input.to(args.device)
-#             labels = labels.to(args.device)
-#             dec_input = dec_input.to(args.device)
-#             if step == 0:
-#                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_amr')
-#             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
-#             amr_loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
-#         else:
-#             amr_loss = 0
-
-#         if args.mlm_text:
-#             # masked_input, attention_mask, dec_input, labels = get_mlm_inputs(batch, tokenizer, args, inp='text') 
-#             masked_input, attention_mask, dec_input, labels = get_text_infilling_inputs(batch, tokenizer, args, inp='text') 
-#             masked_input = masked_input.to(args.device)
-#             labels = labels.to(args.device)
-#             dec_input = dec_input.to(args.device)
-#             if step == 0:
-#                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_text')
-#             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
-#             text_loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
-#         else:
-#             text_loss = 0
-
-#         if args.mlm_amr_short:
-#             masked_input, attention_mask, dec_input, labels = get_mlm_inputs_short(batch, tokenizer, args, inp='amr')
-#             masked_input = masked_input.to(args.device)
-#             labels = labels.to(args.device)
-#             dec_input = dec_input.to(args.device)
-#             if step == 0:
-#                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_amr_short')
-            
-#             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
-#             amr_short_loss = outputs[0]
-#         else:
-#             amr_short_loss = 0
-        
-#         if args.mlm_text_short:
-#             masked_input, attention_mask, dec_input, labels = get_mlm_inputs_short(batch, tokenizer, args, inp='text')
-#             masked_input = masked_input.to(args.device)
-#             labels = labels.to(args.device)
-#             dec_input = dec_input.to(args.device)
-#             if step == 0:
-#                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_text_short')
-#             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
-#             text_short_loss = outputs[0]
-#         else:
-#             text_short_loss = 0
-
-#         if args.mlm_text_plus_amr_short:
-#             masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_short(batch, tokenizer, args, inp='text')
-#             masked_input = masked_input.to(args.device)
-#             labels = labels.to(args.device)
-#             dec_input = dec_input.to(args.device)
-#             if step == 0:
-#                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_text_plus_amr_short')
-
-#             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
-#             text_joint_short_loss = outputs[0]
-#         else:
-#             text_joint_short_loss = 0
-
-#         if args.mlm_amr_plus_text_short:
-#             masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_short(batch, tokenizer, args, inp='amr')
-#             masked_input = masked_input.to(args.device)
-#             labels = labels.to(args.device)
-#             dec_input = dec_input.to(args.device)
-#             if step == 0:
-#                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_amr_plus_text_short')
-
-#             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
-#             amr_joint_short_loss = outputs[0]
-#         else:
-#             amr_joint_short_loss = 0
-
-#         if args.mlm_text_plus_amr:
-#             # masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='text')
-#             masked_input, attention_mask, dec_input, labels = get_textinf_joint_inputs_full(batch, tokenizer, args, inp='text')
-#             masked_input = masked_input.to(args.device)
-#             labels = labels.to(args.device)
-#             dec_input = dec_input.to(args.device)
-#             if step == 0:
-#                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_text_plus_amr_full')
-
-#             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
-#             text_joint_loss = outputs[0]
-#         else:
-#             text_joint_loss = 0
-
-#         if args.mlm_amr_plus_text:
-#             # masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='amr')
-#             masked_input, attention_mask, dec_input, labels = get_textinf_joint_inputs_full(batch, tokenizer, args, inp='amr')
-#             masked_input = masked_input.to(args.device)
-#             labels = labels.to(args.device)
-#             dec_input = dec_input.to(args.device)
-#             if step == 0:
-#                 save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_amr_plus_text_full')
-
-#             outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
-#             amr_joint_loss = outputs[0]
-#         else:
-#             amr_joint_loss = 0
-
-#         loss = amr_loss + text_loss + amr_short_loss + text_short_loss + text_joint_loss + amr_joint_loss + text_joint_short_loss + amr_joint_short_loss
-
-#         if args.n_gpu > 1:
-#             loss = loss.mean()  # mean() to average on multi-gpu parallel training
-#         if args.gradient_accumulation_steps > 1:
-#             loss = loss / args.gradient_accumulation_steps
-
-#         loss.backward()
-#         for n, p in model.named_parameters():
-#             if p.grad is not None:
-#                 fisher[n].data.add_(p.grad.data ** 2)
-
-#         model.zero_grad()
-
-#         for name, _ in fisher.items():
-#             fisher[name] /= len(train_dataloader)
-
-#     return fisher, opt_param
-
-
 def train(
     args, train_dataset, train_dataset_few, eval_dataset, collate_fn, model: PreTrainedModel, tokenizer: PreTrainedTokenizer, config
 ) -> Tuple[int, float]:
@@ -473,8 +330,8 @@ def train(
 
             if args.mlm_text_plus_amr:
                 if step % args.joint_train_interval == 0:
-                    # masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='text')
-                    masked_input, attention_mask, dec_input, labels = get_textinf_joint_inputs_full(batch_few, tokenizer, args, inp='text')
+                    mlm_prob = 0.1 + global_step/args.max_steps * 0.75
+                    masked_input, attention_mask, dec_input, labels = get_textinf_joint_inputs_full(batch_few, tokenizer, args, inp='text', mlm_prob=mlm_prob)
                     masked_input = masked_input.to(args.device)
                     labels = labels.to(args.device)
                     dec_input = dec_input.to(args.device)
@@ -489,8 +346,8 @@ def train(
 
             if args.mlm_amr_plus_text:
                 if step % args.joint_train_interval == 0:
-                    # masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='amr')
-                    masked_input, attention_mask, dec_input, labels = get_textinf_joint_inputs_full(batch_few, tokenizer, args, inp='amr')
+                    mlm_prob = 0.1 + global_step/args.max_steps * 0.75
+                    masked_input, attention_mask, dec_input, labels = get_textinf_joint_inputs_full(batch_few, tokenizer, args, inp='amr', mlm_prob=mlm_prob)
                     masked_input = masked_input.to(args.device)
                     labels = labels.to(args.device)
                     dec_input = dec_input.to(args.device)
@@ -504,12 +361,16 @@ def train(
             else:
                 amr_joint_loss = 0
 
+            joint_loss = text_joint_loss + amr_joint_loss
             loss = amr_loss + text_loss + text_joint_loss + amr_joint_loss
 
             if args.n_gpu > 1:
                 loss = loss.mean()  # mean() to average on multi-gpu parallel training
+                joint_loss = joint_loss.mean()
+
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
+                joint_loss = joint_loss / args.gradient_accumulation_steps
             
             # fisher_loss = torch.tensor(0.0, device=masked_input.device)
             # for name, param in model.named_parameters():
@@ -520,7 +381,7 @@ def train(
             #         fisher_loss += fisher_loss_p.sum()
             # epoch_iterator.set_postfix(lm_loss=loss.item(), fisher_loss=fisher_loss.item(), lr=scheduler.get_lr()[0])
             # loss += fisher_loss
-            epoch_iterator.set_postfix(lm_loss=loss.item(), lr=scheduler.get_lr()[0])
+            epoch_iterator.set_postfix(lm_loss=loss.item(), joint_loss=joint_loss.item(), lr=scheduler.get_lr()[0])
 
             if args.fp16:
                 with amp.scale_loss(loss, optimizer) as scaled_loss:
@@ -553,7 +414,7 @@ def train(
                         # args.local_rank == -1 and args.evaluate_during_training
                         args.evaluate_during_training
                     ):  # Only evaluate when single GPU otherwise metrics may not average well
-                        results = evaluate(args, eval_dataset, collate_fn, model, tokenizer, config=config)
+                        results = evaluate(args, eval_dataset, collate_fn, model, tokenizer, config=config, step=global_step)
                         cur_score = results["perplexity"].item()
                         if cur_score < best_score:
                             best_score = cur_score
@@ -613,7 +474,7 @@ def train(
 
 
 def evaluate(
-    args, eval_dataset, collate_fn, model: PreTrainedModel, tokenizer: PreTrainedTokenizer, config=None, prefix=""
+    args, eval_dataset, collate_fn, model: PreTrainedModel, tokenizer: PreTrainedTokenizer, config=None, prefix="", step = 0,
 ) -> Dict:
     # Loop to handle MNLI double evaluation (matched, mis-matched)
     eval_output_dir = args.output_dir
@@ -644,6 +505,7 @@ def evaluate(
     logger.info("  Num examples = %d", len(eval_dataset))
     logger.info("  Batch size = %d", args.eval_batch_size)
     eval_loss = 0.0
+    eval_joint_loss = 0.0
     nb_eval_steps = 0
     model.eval()
     
@@ -742,25 +604,29 @@ def evaluate(
             else:
                 amr_joint_loss = 0
 
+            joint_loss = text_joint_loss + amr_joint_loss
             loss = amr_loss + text_loss + amr_short_loss + text_short_loss + text_joint_loss + amr_joint_loss + text_joint_short_loss + amr_joint_short_loss
 
-            pbar.set_postfix(lm_loss=loss.mean().item())
+            pbar.set_postfix(lm_loss=loss.mean().item(), joint_loss=joint_loss.mean().item())
 
             eval_loss += loss.mean().item()
+            eval_joint_loss += joint_loss.mean().item()
         nb_eval_steps += 1
 
     eval_loss = eval_loss / nb_eval_steps
+    eval_joint_loss /= nb_eval_steps
+
     perplexity = torch.exp(torch.tensor(eval_loss))
 
-    result = {"perplexity": perplexity, "eval_loss": eval_loss}
-
+    result = {"perplexity": perplexity, "eval_loss": eval_loss, "eval_joint_loss": eval_joint_loss}
+    print("Eval Result:\n", result)
     output_eval_file = os.path.join(eval_output_dir, prefix, "eval_results.txt")
-    with open(output_eval_file, "w") as writer:
-        logger.info("\n***** Eval results {} *****".format(prefix))
+    with open(output_eval_file, "a") as writer:
+        logger.info("\n***** Eval results {} {} *****".format(prefix, step))
         for key in sorted(result.keys()):
             logger.info("  %s = %s", key, str(result[key]))
             writer.write("%s = %s\n" % (key, str(result[key])))
-
+        writer.write("\n")
     return result
 
 
@@ -1147,7 +1013,12 @@ def main():
     parser.add_argument(
         "--freeze_decoder",
         action="store_true",
-        help="Whether to freeze decoder of the modele",
+        help="Whether to freeze decoder of the model",
+    )
+    parser.add_argument(
+        "--joint_start",
+        type=int, default=10000,
+        help="Global step when starting joint optimization",
     )
 
     args = parser.parse_args()

@@ -20,7 +20,8 @@ from pytorch_lightning.utilities import rank_zero_info
 
 from callbacks import Seq2SeqLoggingCallback, get_checkpoint_callback, get_early_stopping_callback
 from transformers import MBartTokenizer, AutoConfig
-from dataset_amr2text import AMR2TextDataModule
+# from dataset_amr2text import AMR2TextDataModule
+from dataset_amr2text_new import AMR2TextDataModule
 from spring_amr.tokenization_bart import PENMANBartTokenizer
 
 
@@ -707,20 +708,20 @@ def main(args, model=None) -> SummarizationModule:
         checkpoints = [args.checkpoint]
 
     print("checkpoints:", checkpoints)
-    if checkpoints:
-        model.hparams.test_checkpoint = checkpoints[-1]
-        # trainer.resume_from_checkpoint = checkpoints[-1]
+    # if checkpoints:
+    # model.hparams.test_checkpoint = checkpoints[-1]
+    # trainer.resume_from_checkpoint = checkpoints[-1]
 
-        if args.do_predict and not args.do_train:
+    if args.do_predict and not args.do_train:
 
-            checkpoint = checkpoints[-1]
-            # print('Evaluation on checkpint', checkpoint)
-            # trainer.test(ckpt_path=checkpoints[-1])
-            print("Valid Set ...")
-            trainer.validate(model, datamodule=datamodule)
-            print("Test Set ...")
-            trainer.test(model, datamodule=datamodule)
-            return model
+        # checkpoint = checkpoints[-1]
+        # print('Evaluation on checkpint', checkpoint)
+        # trainer.test(ckpt_path=checkpoints[-1])
+        print("Valid Set ...")
+        trainer.validate(model, datamodule=datamodule)
+        print("Test Set ...")
+        trainer.test(model, datamodule=datamodule)
+        return model
 
     trainer.logger.log_hyperparams(model.hparams)
 

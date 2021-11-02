@@ -502,8 +502,8 @@ def train(
 
             if args.mlm_text_plus_amr:
                 if step % args.joint_train_interval == 0:
-                    # masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='text')
-                    masked_input, attention_mask, dec_input, labels = get_textinf_joint_inputs_full(batch, tokenizer, args, inp='text')
+                    mlm_prob = 0.1 + global_step/args.max_steps * 0.75
+                    masked_input, attention_mask, dec_input, labels = get_textinf_joint_inputs_full(batch, tokenizer, args, inp='text', mlm_prob=mlm_prob)
                     masked_input = masked_input.to(args.device)
                     labels = labels.to(args.device)
                     dec_input = dec_input.to(args.device)
@@ -518,8 +518,8 @@ def train(
 
             if args.mlm_amr_plus_text:
                 if step % args.joint_train_interval == 0:
-                    # masked_input, attention_mask, dec_input, labels = get_mlm_joint_inputs_full(batch, tokenizer, args, inp='amr')
-                    masked_input, attention_mask, dec_input, labels = get_textinf_joint_inputs_full(batch, tokenizer, args, inp='amr')
+                    mlm_prob = 0.1 + global_step/args.max_steps * 0.75
+                    masked_input, attention_mask, dec_input, labels = get_textinf_joint_inputs_full(batch, tokenizer, args, inp='amr', mlm_prob=mlm_prob)
                     masked_input = masked_input.to(args.device)
                     labels = labels.to(args.device)
                     dec_input = dec_input.to(args.device)
@@ -629,9 +629,26 @@ def train(
             if args.max_steps > 0 and global_step > args.max_steps:
                 epoch_iterator.close()
                 break
+
         if args.max_steps > 0 and global_step > args.max_steps:
+            results = evaluate(args, eval_dataset, collate_fn, model, tokenizer, config=config)
+            cur_score = results["perplexity"].item()
+            checkpoint_prefix = "checkpoint"
+            # Save model checkpoint
+            output_dir = os.path.join(
+                args.output_dir,
+                "{}-{}-{:.3f}".format(checkpoint_prefix, global_step, cur_score),
+            )
+            os.makedirs(output_dir, exist_ok=True)
+            model_to_save = (
+                model.module if hasattr(model, "module") else model
+            )  # Take care of distributed/parallel training
+            model_to_save.save_pretrained(output_dir)
+            tokenizer.save_pretrained(output_dir)
+            logger.info("Saving model checkpoint to %s", output_dir)
             train_iterator.close()
             break
+
         avg_epoch_loss = epoch_loss / epoch_step
         logger.info("\nEpoch End... \navg_train_loss = %s", str(avg_epoch_loss))
 

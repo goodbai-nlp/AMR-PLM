@@ -625,19 +625,19 @@ def main(args, model=None) -> SummarizationModule:
         checkpoints = [args.checkpoint]
 
     print("checkpoints:", checkpoints)
-    if checkpoints:
-        model.hparams.test_checkpoint = checkpoints[-1]
-        # trainer.resume_from_checkpoint = checkpoints[-1]
-        if args.do_predict and not args.do_train:
+    # if checkpoints:
+    # model.hparams.test_checkpoint = checkpoints[-1]
+    # trainer.resume_from_checkpoint = checkpoints[-1]
+    if args.do_predict and not args.do_train:
 
-            checkpoint = checkpoints[-1]
-            print('Evaluation on checkpint', checkpoint)
-            # trainer.test(model, ckpt_path=checkpoints[-1], datamodule=datamodule)
-            print("Valid Set ...")
-            trainer.validate(model, datamodule=datamodule)
-            print("Test Set ...")
-            trainer.test(model, datamodule=datamodule)
-            return model
+        # checkpoint = checkpoints[-1]
+        # print('Evaluation on checkpint', checkpoint)
+        # trainer.test(model, ckpt_path=checkpoints[-1], datamodule=datamodule)
+        print("Valid Set ...")
+        trainer.validate(model, datamodule=datamodule)
+        print("Test Set ...")
+        trainer.test(model, datamodule=datamodule)
+        return model
 
     trainer.logger.log_hyperparams(model.hparams)
 
@@ -653,4 +653,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
     setup_seed(args.seed)
     main(args)
-
