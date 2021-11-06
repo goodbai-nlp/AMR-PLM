@@ -146,6 +146,8 @@ class SummarizationModule(BaseTransformer):
             if self.hparams.eval_beams is None
             else self.hparams.eval_beams
         )
+        self.eval_lenpen = self.hparams.eval_lenpen
+
         if self.hparams.eval_max_gen_length is not None:
             self.eval_max_length = self.hparams.eval_max_gen_length
         else:
@@ -368,7 +370,7 @@ class SummarizationModule(BaseTransformer):
             no_repeat_ngram_size=0,
             min_length=0,
             max_length=self.eval_max_length,
-            length_penalty=1.0,
+            length_penalty=self.eval_lenpen,
         )
 
         gen_time = (time.time() - t0) / batch["input_ids"].shape[0]
@@ -462,7 +464,8 @@ class SummarizationModule(BaseTransformer):
         parser.add_argument("--label_smoothing", type=float, default=0.0, required=False)
         parser.add_argument("--src_lang", type=str, default="", required=False)
         parser.add_argument("--tgt_lang", type=str, default="", required=False)
-        parser.add_argument("--eval_beams", type=int, default=None, required=False)
+        parser.add_argument("--eval_beams", type=int, default=5, required=False)
+        parser.add_argument("--eval_lenpen", type=float, default=1.0, required=False)
         parser.add_argument("--checkpoint", type=str, default=None, required=False)
         parser.add_argument(
             "--val_metric",
@@ -612,7 +615,7 @@ def main(args, model=None) -> SummarizationModule:
 
     pickle_save(model.hparams, model.output_dir / "hparams.pkl")
 
-    if not args.do_predict:
+    if not (args.do_predict or args.do_eval):
         return model
 
     model.hparams.test_checkpoint = ""
@@ -628,15 +631,15 @@ def main(args, model=None) -> SummarizationModule:
     # if checkpoints:
     # model.hparams.test_checkpoint = checkpoints[-1]
     # trainer.resume_from_checkpoint = checkpoints[-1]
-    if args.do_predict and not args.do_train:
-
-        # checkpoint = checkpoints[-1]
-        # print('Evaluation on checkpint', checkpoint)
-        # trainer.test(model, ckpt_path=checkpoints[-1], datamodule=datamodule)
-        print("Valid Set ...")
-        trainer.validate(model, datamodule=datamodule)
-        print("Test Set ...")
-        trainer.test(model, datamodule=datamodule)
+    if not args.do_train:
+        if args.do_predict:
+            print("Valid Set ...")
+            trainer.validate(model, datamodule=datamodule)
+            print("Test Set ...")
+            trainer.test(model, datamodule=datamodule)
+        if args.do_eval:
+            print("Test Set ...")
+            trainer.test(model, datamodule=datamodule)
         return model
 
     trainer.logger.log_hyperparams(model.hparams)

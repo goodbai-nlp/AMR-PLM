@@ -47,7 +47,7 @@ from tqdm import tqdm, trange
 from spring_amr.tokenization_bart import PENMANBartTokenizer
 from model_utils import freeze_params, freeze_embeds, assert_all_frozen, get_inverse_sqrt_schedule_with_warmup, activate_embeds
 from model_utils import get_mlm_inputs, get_mlm_inputs_short, get_mlm_joint_inputs_full
-from model_utils import get_mlm_joint_inputs_short, get_text_infilling_inputs, get_partial_textinf_joint_inputs, get_full_textinf_joint_inputs_partial_output
+from model_utils import get_mlm_joint_inputs_short, get_text_infilling_inputs, get_partial_textinf_joint_inputs, get_full_textinf_joint_inputs_partial_output, get_full_textinf_joint_inputs_joint_output
 os.environ["TOKENIZERS_PARALLELISM"] = "true"
 from transformers import (
     WEIGHTS_NAME,
@@ -402,6 +402,7 @@ def train(
                 text_joint_loss2 = outputs[0]
             else:
                 text_joint_loss2 = 0
+
             if args.mlm_joint_to_amr:
                 mlm_prob = 0.35
                 masked_input, attention_mask, dec_input, labels = get_full_textinf_joint_inputs_partial_output(batch, tokenizer, args, inp='amr', mlm_prob=mlm_prob)
@@ -415,7 +416,22 @@ def train(
                 amr_joint_loss2 = outputs[0]
             else:
                 amr_joint_loss2 = 0
-            loss = amr_loss + text_loss + amr_short_loss + text_short_loss + text_joint_loss + amr_joint_loss + text_joint_loss2 + amr_joint_loss2 + text_joint_short_loss + amr_joint_short_loss
+
+            if args.mlm_joint_to_joint:
+                mlm_prob = 0.35
+                masked_input, attention_mask, dec_input, labels = get_full_textinf_joint_inputs_joint_output(batch, tokenizer, mlm_prob=mlm_prob)
+                masked_input = masked_input.to(args.device)
+                labels = labels.to(args.device)
+                dec_input = dec_input.to(args.device)
+                if step == 0 and epoch == 0:
+                    save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_MtextMamr2textamr')
+
+                outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+                joint2joint_loss = outputs[0]
+            else:
+                joint2joint_loss = 0
+
+            loss = amr_loss + text_loss + amr_short_loss + text_short_loss + text_joint_loss + amr_joint_loss + text_joint_loss2 + amr_joint_loss2 + text_joint_short_loss + amr_joint_short_loss + joint2joint_loss
 
             if args.n_gpu > 1:
                 loss = loss.mean()  # mean() to average on multi-gpu parallel training
@@ -519,7 +535,7 @@ def train(
             # Save model checkpoint
             output_dir = os.path.join(
                 args.output_dir,
-                "{}-{}-{:.3f}".format(checkpoint_prefix, global_step, cur_score),
+                "{}-last-{:.3f}".format(checkpoint_prefix, cur_score),
             )
             os.makedirs(output_dir, exist_ok=True)
             model_to_save = (
@@ -692,7 +708,21 @@ def evaluate(
             else:
                 amr_joint_loss2 = 0
 
-            loss = amr_loss + text_loss + amr_short_loss + text_short_loss + text_joint_loss + amr_joint_loss + text_joint_loss2 + amr_joint_loss2 + text_joint_short_loss + amr_joint_short_loss
+            if args.mlm_joint_to_joint:
+                mlm_prob = 0.35
+                masked_input, attention_mask, dec_input, labels = get_full_textinf_joint_inputs_joint_output(batch, tokenizer, mlm_prob=mlm_prob)
+                masked_input = masked_input.to(args.device)
+                labels = labels.to(args.device)
+                dec_input = dec_input.to(args.device)
+                if step == 0 and epoch == 0:
+                    save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_MtextMamr2textamr')
+
+                outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
+                joint2joint_loss = outputs[0]
+            else:
+                joint2joint_loss = 0
+
+            loss = amr_loss + text_loss + amr_short_loss + text_short_loss + text_joint_loss + amr_joint_loss + text_joint_loss2 + amr_joint_loss2 + text_joint_short_loss + amr_joint_short_loss + joint2joint_loss
 
             pbar.set_postfix(lm_loss=loss.mean().item())
 
@@ -1072,6 +1102,11 @@ def main():
         "--mlm_joint_to_text",
         action="store_true",
         help="Whether to apply mask text, amr, to text",
+    )
+    parser.add_argument(
+        "--mlm_joint_to_joint",
+        action="store_true",
+        help="Whether to apply mask text, amr, to text amr",
     )
     parser.add_argument(
         "--freeze_embeds",

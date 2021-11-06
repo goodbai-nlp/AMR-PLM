@@ -6,9 +6,13 @@ GPUID=$2
 MODEL=$1
 eval_beam=5
 lr=5e-5
+lr=3e-5
 
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-lr${lr}-beam${eval_beam}-py38torch1.8
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amrparsing-lr${lr}-baseline2
+Tokenizer=../../data/pretrained-model/bart-base
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amrparsing-lr${lr}-PLM
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amrparsing-lr${lr}-AMRdenoising
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amrparsing-lr${lr}-GigaPLM
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amrparsing-lr${lr}-GigaPLM-3task
 
 export CURRENT_DIR=${ROOT_DIR}
 export OUTPUT_DIR=${CURRENT_DIR}/${OUTPUT_DIR_NAME}
@@ -29,6 +33,7 @@ python -u ${ROOT_DIR}/finetune_bart_amrparsing.py \
     --num_train_epochs 20 \
     --task amrparsing \
     --model_name_or_path=${MODEL} \
+    --tokenizer_name_or_path=${Tokenizer} \
     --train_batch_size=8 \
     --eval_batch_size=8 \
     --accumulate_grad_batches 1 \
@@ -42,6 +47,5 @@ python -u ${ROOT_DIR}/finetune_bart_amrparsing.py \
     --eval_max_gen_length=1024 \
     --do_train --do_predict \
     --seed 42 \
-    --smart_init \
     --fp16 \
     --eval_beams ${eval_beam} 2>&1 | tee $OUTPUT_DIR/run.log

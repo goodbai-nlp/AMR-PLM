@@ -6,21 +6,27 @@ GPUID=$2
 MODEL=$1
 eval_beam=5
 lr=5e-5
-Tokenizer=../../../data/pretrained-model/bart-base
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amrparsing-lr${lr}-PLM
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amrparsing-lr${lr}-AMRdenoising
+lr=3e-5
+
+Tokenizer=../../data/pretrained-model/bart-large
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amrparsing-lr${lr}-GigaPLM-3task
+export OUTPUT_DIR_NAME=outputs/AMR17-AMRBart-large-amrparsing-4taskbsz32Giga3e-5-finetuneLr-${lr}
 
 export CURRENT_DIR=${ROOT_DIR}
 export OUTPUT_DIR=${CURRENT_DIR}/${OUTPUT_DIR_NAME}
 
-rm -rf $OUTPUT_DIR
-mkdir -p $OUTPUT_DIR
+if [ ! -d $OUTPUT_DIR ];then
+  mkdir -p $OUTPUT_DIR
+else
+  echo "${OUTPUT_DIR} already exists, change a new one or delete origin one"
+  exit 0
+fi
 
 export OMP_NUM_THREADS=10
 
 export CUDA_VISIBLE_DEVICES=${GPUID}
 python -u ${ROOT_DIR}/finetune_bart_amrparsing.py \
-    --data_dir=../data/AMR2.0 \
+    --data_dir=../data/AMR17-full \
     --learning_rate=$lr \
     --num_train_epochs 20 \
     --task amrparsing \

@@ -5,30 +5,25 @@ ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 GPUID=$2
 MODEL=$1
 eval_beam=5
-num_ins=8192
-num_ins=128
-lr=1e-5
-# lr=2e-5
-# lr=5e-5
-
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr-JointDenoise-128-new-${lr}
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr-JointDenoise-128-new-${lr}
-export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-ours-amr2text-fewshot-$num_ins-$lr-JointDenoise-128-prefix-${lr}
-
-Tokenizer=../../data/pretrained-model/bart-base
+Tokenizer=../../data/pretrained-model/bart-large
 
 export CURRENT_DIR=${ROOT_DIR}
-export OUTPUT_DIR=${CURRENT_DIR}/${OUTPUT_DIR_NAME}
-
-rm -rf $OUTPUT_DIR
-mkdir -p $OUTPUT_DIR
-
 export OMP_NUM_THREADS=10
 
+lr=2e-5
+export OUTPUT_DIR_NAME=outputs/AMR17-AMRBart-large-amr2text-4taskbsz32Giga3e-5-finetuneLr-${lr}
+export OUTPUT_DIR=${CURRENT_DIR}/${OUTPUT_DIR_NAME}
+
+if [ ! -d $OUTPUT_DIR ];then
+  mkdir -p $OUTPUT_DIR
+else
+  echo "${OUTPUT_DIR} already exists, change a new one or delete origin one"
+  exit 0
+fi
 
 export CUDA_VISIBLE_DEVICES=${GPUID}
 python ${ROOT_DIR}/finetune_bart_amr2text.py \
-    --data_dir=../data/AMR17-${num_ins}ins \
+    --data_dir=../data/AMR17-full \
     --learning_rate=$lr \
     --num_train_epochs 20 \
     --task graph2text \
@@ -37,7 +32,7 @@ python ${ROOT_DIR}/finetune_bart_amr2text.py \
     --train_batch_size=8 \
     --eval_batch_size=4 \
     --accumulate_grad_batches 1 \
-    --early_stopping_patience 10 \
+    --early_stopping_patience 5 \
     --gpus 1 \
     --output_dir=$OUTPUT_DIR \
     --max_source_length=1024 \

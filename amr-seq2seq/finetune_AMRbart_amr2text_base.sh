@@ -5,24 +5,29 @@ ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 GPUID=$2
 MODEL=$1
 eval_beam=5
-Tokenizer=../../../data/pretrained-model/bart-base
+Tokenizer=../../data/pretrained-model/bart-base
 lr=1e-5
-lr=2e-5
+#lr=2e-5
 
 export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amr2text-PLM-lr${lr}
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amr2text-PLM-lr${lr}-IncreasingDrop
+export OUTPUT_DIR_NAME=outputs/AMR17-bart-base-amr2text-PLM-3e-5-finetune-lr${lr}
+export OUTPUT_DIR_NAME=outputs/Giga-bart-base-amr2text-PLM-5e-5-finetune-lr${lr}
 
 export CURRENT_DIR=${ROOT_DIR}
 export OUTPUT_DIR=${CURRENT_DIR}/${OUTPUT_DIR_NAME}
 
-rm -rf $OUTPUT_DIR
-mkdir -p $OUTPUT_DIR
+if [ ! -d $OUTPUT_DIR ];then
+  mkdir -p $OUTPUT_DIR
+else
+  echo "${OUTPUT_DIR} already exists, change a new one or delete origin one"
+  exit 0
+fi
 
 export OMP_NUM_THREADS=10
-
-
 export CUDA_VISIBLE_DEVICES=${GPUID}
 python ${ROOT_DIR}/finetune_bart_amr2text.py \
-    --data_dir=../data/AMR2.0 \
+    --data_dir=../data/AMR17-full \
     --learning_rate=$lr \
     --num_train_epochs 20 \
     --task graph2text \

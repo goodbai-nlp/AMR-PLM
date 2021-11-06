@@ -11,11 +11,14 @@ export OUTPUT_DIR_NAME=outputs/AMR17-bart-large-amr2text-baseline
 export CURRENT_DIR=${ROOT_DIR}
 export OUTPUT_DIR=${CURRENT_DIR}/${OUTPUT_DIR_NAME}
 
-rm -rf $OUTPUT_DIR
-mkdir -p $OUTPUT_DIR
+if [ ! -d $OUTPUT_DIR ];then
+  mkdir -p $OUTPUT_DIR
+else
+  echo "${OUTPUT_DIR} already exists, change a new one or delete origin one"
+  exit 0
+fi
 
 export OMP_NUM_THREADS=10
-
 
 export CUDA_VISIBLE_DEVICES=${GPUID}
 python ${ROOT_DIR}/finetune_bart_amr2text.py \

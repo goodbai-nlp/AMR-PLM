@@ -188,7 +188,7 @@ def sentence_infilling(tokenizer, inp, mlm_prob=0.35):
     masked_inputs = inp.clone().tolist()
     while masked_length < masking_length:
         span_length = min(math.floor(np.random.poisson(3, 1)), token_length - 1)
-        start_index = math.floor(np.random.uniform(0, token_length - span_length, 1))
+        start_index = math.floor(np.random.uniform(1, token_length - span_length, 1))
         masked_inputs = masked_inputs[:start_index] + [tokenizer.mask_token_id] + masked_inputs[start_index + span_length:]
         token_length -= span_length - 1
         masked_length += span_length
@@ -511,11 +511,11 @@ def get_mlm_joint_inputs_full(batch, tokenizer, args, inp='text'):
     return masked_input, attention_mask, dec_input, labels
 
 
-def get_textinf_joint_inputs_full(batch, tokenizer, args, inp='text', mlm_prob=0.35):
+def get_partial_textinf_joint_inputs(batch, tokenizer, args, inp='text', mlm_prob=0.35):
     ori_input = batch["joint_ids"]
     seg_ids = batch["seg_ids"]
     if inp == 'text':
-        masked_input = textinf_joint_tokens_full(ori_input, seg_ids, tokenizer, args, mask_txt=True, mlm_prob=mlm_prob)
+        masked_input = joint_infilling_partial(ori_input, seg_ids, tokenizer, mask_txt=True, mlm_prob=mlm_prob)
         labels = batch["input_ids"].clone()
         labels.masked_fill_(labels == tokenizer.pad_token_id, -100)
         labels = labels[:, 1:]                                                  # w1, w2, .., wn <\s>
@@ -524,7 +524,7 @@ def get_textinf_joint_inputs_full(batch, tokenizer, args, inp='text', mlm_prob=0
         dec_input[:, 0] = tokenizer.bos_token_id                                # <s> w1 w2, ..., wn
         dec_input.masked_fill_(dec_input == -100, tokenizer.pad_token_id)
     else:
-        masked_input = textinf_joint_tokens_full(ori_input, seg_ids, tokenizer, args, mask_txt=False, mlm_prob=mlm_prob)
+        masked_input = joint_infilling_partial(ori_input, seg_ids, tokenizer, mask_txt=False, mlm_prob=mlm_prob)
         labels = batch["labels"]
         dec_input = batch["decoder_input_ids"]                                  # <AMR> w1 w2, ..., wn
 
@@ -532,19 +532,7 @@ def get_textinf_joint_inputs_full(batch, tokenizer, args, inp='text', mlm_prob=0
     return masked_input, attention_mask, dec_input, labels
 
 
-def textinf_joint_tokens_full(
-    inputs: torch.Tensor, seg_ids: torch.Tensor, tokenizer: PreTrainedTokenizer, args, mask_txt=False, mlm_prob=0.35
-) -> Tuple[torch.Tensor, torch.Tensor]:
-    """ Prepare masked tokens inputs/labels for masked language modeling: 80% MASK, 10% random, 10% original. """
-
-    if tokenizer.mask_token is None:
-        raise ValueError(
-            "This tokenizer does not have a mask token which is necessary for masked language modeling. Remove the --mlm flag if you want to use this tokenizer."
-        )
-    mask_inputs = joint_infilling(inp=inputs, seg_id=seg_ids, tokenizer=tokenizer, mask_txt=mask_txt, mlm_prob=mlm_prob)
-    return mask_inputs
-
-def joint_infilling(inp, seg_id, tokenizer, mask_txt=True, mlm_prob=0.35):
+def joint_infilling_partial(inp, seg_id, tokenizer, mask_txt=True, mlm_prob=0.35):
     res = []
     for inp_ids, seg_iid in zip(inp, seg_id):
         inp_ids = torch.tensor([iid for iid in inp_ids if iid != tokenizer.pad_token_id])
@@ -556,3 +544,53 @@ def joint_infilling(inp, seg_id, tokenizer, mask_txt=True, mlm_prob=0.35):
             res.append(torch.cat([text_ids, sentence_infilling(tokenizer, amr_ids, mlm_prob=mlm_prob)], dim=0))
 
     return pad_sequence(res, batch_first=True, padding_value=tokenizer.pad_token_id)
+
+def joint_infilling_full(inp, seg_id, tokenizer, mlm_prob=0.35):
+    res = []
+    for inp_ids, seg_iid in zip(inp, seg_id):
+        inp_ids = torch.tensor([iid for iid in inp_ids if iid != tokenizer.pad_token_id])
+        text_ids = torch.tensor([inp_ids[idx] for idx in range(len(inp_ids)) if seg_iid[idx] == 0])
+        amr_ids = torch.tensor([inp_ids[idx] for idx in range(len(inp_ids)) if seg_iid[idx] == 1])
+        masked_txt = sentence_infilling(tokenizer, text_ids, mlm_prob=mlm_prob)
+        masked_amr = sentence_infilling(tokenizer, amr_ids, mlm_prob=mlm_prob)
+        res.append(torch.cat([masked_txt, masked_amr], dim=0))
+
+    return pad_sequence(res, batch_first=True, padding_value=tokenizer.pad_token_id)
+
+    return pad_sequence(res, batch_first=True, padding_value=tokenizer.pad_token_id)
+
+def get_full_textinf_joint_inputs_partial_output(batch, tokenizer, args, inp='text', mlm_prob=0.35):
+    ori_input = batch["joint_ids"]
+    seg_ids = batch["seg_ids"]
+    masked_input = joint_infilling_full(ori_input, seg_ids, tokenizer, mlm_prob=mlm_prob)
+    if inp == 'text':
+        labels = batch["input_ids"].clone()
+        labels.masked_fill_(labels == tokenizer.pad_token_id, -100)
+        labels = labels[:, 1:]                                                  # w1, w2, .., wn <\s>
+        dec_input = labels.new_zeros(labels.size(0), labels.size(1))
+        dec_input[:, 1:] = labels[:, :-1].clone()
+        dec_input[:, 0] = tokenizer.bos_token_id                                # <s> w1 w2, ..., wn
+        dec_input.masked_fill_(dec_input == -100, tokenizer.pad_token_id)
+    else:
+        labels = batch["labels"]
+        dec_input = batch["decoder_input_ids"]                                  # <AMR> w1 w2, ..., wn
+
+    attention_mask = masked_input.ne(tokenizer.pad_token_id).int()              # attention mask
+    return masked_input, attention_mask, dec_input, labels
+
+
+def get_full_textinf_joint_inputs_joint_output(batch, tokenizer, mlm_prob=0.35):
+    ori_input = batch["joint_ids"]
+    seg_ids = batch["seg_ids"]
+    masked_input = joint_infilling_full(ori_input, seg_ids, tokenizer, mlm_prob=mlm_prob)
+    
+    labels = batch["joint_ids"].clone()
+    labels.masked_fill_(labels == tokenizer.pad_token_id, -100)
+    labels = labels[:, 1:]                                                  # w1, w2, .., wn <\s>
+    dec_input = labels.new_zeros(labels.size(0), labels.size(1))
+    dec_input[:, 1:] = labels[:, :-1].clone()
+    dec_input[:, 0] = tokenizer.bos_token_id                                # <s> w1 w2, ..., wn
+    dec_input.masked_fill_(dec_input == -100, tokenizer.pad_token_id)
+
+    attention_mask = masked_input.ne(tokenizer.pad_token_id).int()             # attention mask
+    return masked_input, attention_mask, dec_input, labels
