@@ -26,7 +26,7 @@ python -u -m torch.distributed.launch --nproc_per_node=8 run_textinfilling_bart_
   --gradient_accumulation_steps 1  \
   --model_type "facebook/bart-base" \
   --model_name_or_path $MODEL \
-  --save_total_limit 3 \
+  --save_total_limit 2 \
   --do_train \
   --do_eval \
   --evaluate_during_training  \
