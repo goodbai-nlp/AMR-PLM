@@ -416,8 +416,8 @@ def train(
             train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0]
         )
 
-        if args.local_rank != -1:
-            train_sampler.set_epoch(epoch)
+        #if args.local_rank != -1:
+        #    train_sampler.set_epoch(epoch)
 
         for step, batch in enumerate(epoch_iterator):
 
@@ -765,13 +765,6 @@ def main():
         help="The input training data file (a text file).",
     )
     parser.add_argument(
-        "--test_file",
-        default=None,
-        type=str,
-        required=True,
-        help="The input training data file (a text file).",
-    )
-    parser.add_argument(
         "--line_by_line",
         action="store_true",
         help="Whether distinct lines of text in the dataset are to be handled as distinct sequences.",
@@ -783,6 +776,12 @@ def main():
     )
     parser.add_argument(
         "--model_name_or_path",
+        default=None,
+        type=str,
+        help="The model checkpoint for weights initialization. Leave None if you want to train a model from scratch.",
+    )
+    parser.add_argument(
+        "--tokenizer_name_or_path",
         default=None,
         type=str,
         help="The model checkpoint for weights initialization. Leave None if you want to train a model from scratch.",
@@ -1044,7 +1043,7 @@ def main():
         )
 
     tokenizer = PENMANBartTokenizer.from_pretrained(
-        args.model_name_or_path,
+        args.tokenizer_name_or_path,
         collapse_name_ops=False,
         use_pointer_tokens=True,
         raw_graph=False,

@@ -714,9 +714,6 @@ def evaluate(
                 masked_input = masked_input.to(args.device)
                 labels = labels.to(args.device)
                 dec_input = dec_input.to(args.device)
-                if step == 0 and epoch == 0:
-                    save_dummy_batch2(args, masked_input, dec_input, labels, tokenizer, prefix='val_MtextMamr2textamr')
-
                 outputs = model(input_ids=masked_input, attention_mask=attention_mask, decoder_input_ids=dec_input, labels=labels)
                 joint2joint_loss = outputs[0]
             else:

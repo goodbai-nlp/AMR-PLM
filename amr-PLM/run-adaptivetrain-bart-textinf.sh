@@ -1,17 +1,21 @@
 export CUDA_VISIBLE_DEVICES=0,1,2,3
-dataset=AMR20
+export CUDA_VISIBLE_DEVICES=0,3
+dataset=Taskdata
 
 datapath=../data/$dataset
+tokpath=../../data/pretrained-model/bart-base
 MODEL=$1
 interval=1
 
 lr=1e-5
 
 outpath=output/${dataset}-bart-base-textinf-${lr}-TaskAdaptivePLM
+outpath=output/${dataset}-bart-base-textinf-${lr}-TaskAdaptivePLM-AMRbart4task
 
 mkdir -p $outpath
 
-python -u -m torch.distributed.launch --nproc_per_node=4 run_textinfilling_taskAdaptive.py \
+#python -u -m torch.distributed.launch --nproc_per_node=4 run_textinfilling_taskAdaptive.py \
+python -u -m torch.distributed.launch --nproc_per_node=2 --master_port 86886 run_textinfilling_taskAdaptive.py \
   --train_file $datapath/train.txt \
   --val_file $datapath/val.txt \
   --output_dir $outpath \
@@ -21,6 +25,7 @@ python -u -m torch.distributed.launch --nproc_per_node=4 run_textinfilling_taskA
   --gradient_accumulation_steps 1  \
   --model_type "facebook/bart-base" \
   --model_name_or_path $MODEL \
+  --tokenizer_name_or_path $tokpath \
   --save_total_limit 3 \
   --do_train \
   --do_eval \

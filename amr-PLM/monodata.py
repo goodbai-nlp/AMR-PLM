@@ -12,7 +12,7 @@ from transformers import (
 
 class LMDataSet(torch.nn.Module):
     def __init__(self, tokenizer, train_file, validation_file, line_by_line, pad_to_max_length=True,
-                 preprocessing_num_workers=32, overwrite_cache=False, cache_dir="", max_seq_length=512, mlm_probability=0.15, train_batch_size=8, val_batch_size=4, dataloader_num_workers=2):
+                 preprocessing_num_workers=4, overwrite_cache=False, cache_dir="", max_seq_length=512, mlm_probability=0.15, train_batch_size=8, val_batch_size=4, dataloader_num_workers=2):
         super().__init__()
         self.train_file = train_file
         self.validation_file = validation_file

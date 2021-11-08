@@ -1,17 +1,17 @@
-export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
-dataset=AMR20-full
+export CUDA_VISIBLE_DEVICES=0,1,2,3
 dataset=Giga
 datapath=../data/$dataset
 MODEL=$1
 interval=1
-lr=3e-5
 lr=5e-5
 
-outpath=output/${dataset}-bart-base-textinf-JointDenoise-4taskv2-${lr}
+model_size="large"
+
+outpath=output/${dataset}-bart-${model_size}-textinf-JointDenoise-6task-${lr}
 
 mkdir -p $outpath
 
-python -u -m torch.distributed.launch --nproc_per_node=8 run_textinfilling_bart_denoising_multitask.py \
+python -u -m torch.distributed.launch --nproc_per_node=4 run_textinfilling_bart_denoising_multitask.py \
   --train_file $datapath/train.jsonl \
   --val_file $datapath/val.jsonl \
   --test_file $datapath/test.jsonl \
@@ -19,14 +19,16 @@ python -u -m torch.distributed.launch --nproc_per_node=8 run_textinfilling_bart_
   --mlm \
   --mlm_amr \
   --mlm_text \
+  --mlm_amr_plus_text \
+  --mlm_text_plus_amr \
   --mlm_joint_to_amr \
   --mlm_joint_to_text \
   --block_size 512 \
-  --per_gpu_train_batch_size 4 \
-  --gradient_accumulation_steps 1  \
-  --model_type "facebook/bart-base" \
+  --per_gpu_train_batch_size 2 \
+  --gradient_accumulation_steps 4  \
+  --model_type "facebook/bart-${model_size}" \
   --model_name_or_path $MODEL \
-  --save_total_limit 2 \
+  --save_total_limit 3 \
   --do_train \
   --do_eval \
   --evaluate_during_training  \
