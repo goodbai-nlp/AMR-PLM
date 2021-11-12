@@ -150,7 +150,7 @@ def train(
         RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     )
     train_dataloader = DataLoader(
-        train_dataset, sampler=train_sampler, batch_size=args.train_batch_size, collate_fn=collate_fn, num_workers=4
+        train_dataset, sampler=train_sampler, batch_size=args.train_batch_size, collate_fn=collate_fn, num_workers=2
     )
 
     if args.max_steps > 0:
@@ -502,13 +502,13 @@ def train(
 
                             _rotate_checkpoints(args, checkpoint_prefix)
 
-                            # torch.save(
-                            #     optimizer.state_dict(), os.path.join(output_dir, "optimizer.pt")
-                            # )
-                            # torch.save(
-                            #     scheduler.state_dict(), os.path.join(output_dir, "scheduler.pt")
-                            # )
-                            # logger.info("Saving optimizer and scheduler states to %s", output_dir)
+                            torch.save(
+                                optimizer.state_dict(), os.path.join(output_dir, "optimizer.pt")
+                            )
+                            torch.save(
+                                scheduler.state_dict(), os.path.join(output_dir, "scheduler.pt")
+                            )
+                            logger.info("Saving optimizer and scheduler states to %s", output_dir)
 
                         for key, value in results.items():
                             tb_writer.add_scalar("eval_{}".format(key), value, global_step)
@@ -576,7 +576,7 @@ def evaluate(
 
     eval_sampler = SequentialSampler(eval_dataset)
     eval_dataloader = DataLoader(
-        eval_dataset, sampler=eval_sampler, batch_size=args.eval_batch_size, collate_fn=collate_fn, num_workers=4
+        eval_dataset, sampler=eval_sampler, batch_size=args.eval_batch_size, collate_fn=collate_fn, num_workers=2
     )
 
     # multi-gpu evaluate
